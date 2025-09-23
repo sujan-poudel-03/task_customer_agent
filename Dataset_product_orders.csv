@@ -1,0 +1,1001 @@
+Date,Customer_ID,Customer,Pricelist,Order_Lines_Product_ID,Product_Display_Name,Product_Sub_Category,Product_Category,Broad_Category,Order_Lines_Unit_Price,Order_Quantity,Subtotal,Total_OrderQuantity,Total_Subtotal
+2025-07-03,CUST_031,Heather Gray,Retail,PROD_078,Product 78,Vegetables,Food,Home Essentials,72.09,10,720.9,10,720.9
+2025-04-19,CUST_029,Diana Rojas,Wholesale,PROD_019,Product 19,Dairy,Beverage,Grocery,65.82,7,460.74,7,460.74
+2025-04-15,CUST_026,Adam Johnson,Wholesale,PROD_023,Product 23,Vegetables,Food,Home Essentials,36.56,4,146.24,4,146.24
+2025-07-13,CUST_025,John Guerra,Retail,PROD_052,Product 52,Dairy,Food,Grocery,86.25,10,862.5,10,862.5
+2025-07-17,CUST_028,Patrick Robinson,Wholesale,PROD_087,Product 87,Bakery,Food,Home Essentials,40.29,1,40.29,1,40.29
+2025-07-08,CUST_004,Bonnie Garrett,Wholesale,PROD_057,Product 57,Vegetables,Beverage,Home Essentials,45.53,3,136.59,3,136.59
+2025-08-15,CUST_021,Grace Wright,Retail,PROD_081,Product 81,Vegetables,Beverage,Home Essentials,55.24,6,331.44,6,331.44
+2025-04-02,CUST_007,David Collins,Wholesale,PROD_001,Product 1,Fruits,Household,Home Essentials,1.08,1,1.08,1,1.08
+2025-03-13,CUST_015,Lindsey Glass,Wholesale,PROD_050,Product 50,Fruits,Beverage,Home Essentials,44.16,1,44.16,1,44.16
+2025-04-28,CUST_017,Kimberly Rose,Retail,PROD_002,Product 2,Fruits,Household,Home Essentials,73.24,7,512.68,7,512.68
+2025-02-18,CUST_021,Grace Wright,Retail,PROD_096,Product 96,Bakery,Household,Grocery,28.18,3,84.54,3,84.54
+2025-07-30,CUST_028,Patrick Robinson,Wholesale,PROD_066,Product 66,Beverages,Household,Grocery,49.5,8,396.0,10,422.42
+2025-05-09,CUST_035,Kelsey Shaw,Wholesale,PROD_015,Product 15,Dairy,Beverage,Home Essentials,24.98,1,24.98,1,24.98
+2025-03-18,CUST_049,Elizabeth Bailey,Retail,PROD_042,Product 42,Bakery,Food,Home Essentials,57.78,8,462.24,8,462.24
+2025-07-15,CUST_004,Bonnie Garrett,Retail,PROD_043,Product 43,Bakery,Household,Grocery,19.26,5,96.3,5,96.3
+2025-07-26,CUST_048,William Fritz,Retail,PROD_027,Product 27,Vegetables,Food,Grocery,11.79,6,70.74,6,70.74
+2025-06-11,CUST_044,Thomas Johnson,Retail,PROD_008,Product 8,Vegetables,Beverage,Grocery,97.48,4,389.92,4,389.92
+2025-04-25,CUST_046,Jennifer Glass,Retail,PROD_044,Product 44,Beverages,Food,Grocery,13.71,6,82.26,6,82.26
+2025-06-24,CUST_044,Thomas Johnson,Retail,PROD_093,Product 93,Vegetables,Food,Grocery,56.34,2,112.68,2,112.68
+2025-08-05,CUST_042,Jorge Morris,Retail,PROD_029,Product 29,Bakery,Household,Home Essentials,43.01,2,86.02,2,86.02
+2025-08-17,CUST_050,James Steele,Wholesale,PROD_003,Product 3,Beverages,Food,Grocery,48.25,4,193.0,4,193.0
+2025-06-13,CUST_043,William Rios,Wholesale,PROD_014,Product 14,Dairy,Household,Grocery,44.49,10,444.9,10,444.9
+2025-03-19,CUST_018,Kevin Ward,Retail,PROD_089,Product 89,Vegetables,Household,Home Essentials,93.12,10,931.2,10,931.2
+2025-04-02,CUST_042,Jorge Morris,Retail,PROD_040,Product 40,Beverages,Household,Grocery,50.69,7,354.83,9,510.96999999999997
+2025-03-09,CUST_004,Bonnie Garrett,Retail,PROD_009,Product 9,Dairy,Beverage,Home Essentials,41.54,6,249.24,6,249.24
+2025-03-31,CUST_020,Katrina Smith,Retail,PROD_086,Product 86,Vegetables,Food,Home Essentials,60.87,5,304.35,5,304.35
+2025-03-02,CUST_005,Anthony Brown,Wholesale,PROD_032,Product 32,Beverages,Household,Home Essentials,54.34,3,163.02,3,163.02
+2025-06-06,CUST_040,Taylor Moore,Wholesale,PROD_039,Product 39,Beverages,Food,Home Essentials,79.35,5,396.75,5,396.75
+2025-05-05,CUST_048,William Fritz,Retail,PROD_063,Product 63,Bakery,Food,Grocery,47.2,5,236.0,5,236.0
+2025-03-27,CUST_037,Jack Williamson,Retail,PROD_041,Product 41,Fruits,Beverage,Grocery,99.95,1,99.95,1,99.95
+2025-06-12,CUST_008,Stacy Robles,Retail,PROD_055,Product 55,Dairy,Household,Home Essentials,32.54,8,260.32,8,260.32
+2025-05-02,CUST_016,Jason Vazquez,Wholesale,PROD_018,Product 18,Vegetables,Beverage,Home Essentials,85.19,10,851.9,10,851.9
+2025-06-05,CUST_037,Jack Williamson,Retail,PROD_100,Product 100,Vegetables,Food,Grocery,53.0,8,424.0,8,424.0
+2025-05-18,CUST_030,Daniel Taylor,Retail,PROD_041,Product 41,Bakery,Household,Grocery,53.29,10,532.9,10,532.9
+2025-07-23,CUST_013,Joseph Noble,Wholesale,PROD_038,Product 38,Bakery,Household,Grocery,4.96,1,4.96,1,4.96
+2025-06-12,CUST_024,Katelyn Burke,Retail,PROD_042,Product 42,Bakery,Food,Home Essentials,74.8,5,374.0,5,374.0
+2025-05-24,CUST_044,Thomas Johnson,Retail,PROD_004,Product 4,Bakery,Household,Home Essentials,15.7,3,47.1,3,47.1
+2025-05-04,CUST_043,William Rios,Retail,PROD_032,Product 32,Fruits,Household,Home Essentials,5.49,3,16.47,3,16.47
+2025-05-31,CUST_012,Melissa Montgomery,Wholesale,PROD_081,Product 81,Vegetables,Household,Home Essentials,25.18,10,251.8,10,251.8
+2025-08-04,CUST_033,Thomas Williams,Retail,PROD_070,Product 70,Fruits,Food,Grocery,36.89,10,368.9,10,368.9
+2025-04-11,CUST_032,Kyle Rogers,Wholesale,PROD_044,Product 44,Bakery,Food,Home Essentials,79.23,4,316.92,4,316.92
+2025-07-23,CUST_043,William Rios,Retail,PROD_075,Product 75,Bakery,Household,Home Essentials,65.03,8,520.24,8,520.24
+2025-03-27,CUST_004,Bonnie Garrett,Retail,PROD_091,Product 91,Bakery,Beverage,Grocery,90.4,8,723.2,8,723.2
+2025-04-26,CUST_035,Kelsey Shaw,Retail,PROD_037,Product 37,Fruits,Household,Home Essentials,30.48,2,60.96,2,60.96
+2025-08-08,CUST_005,Anthony Brown,Retail,PROD_066,Product 66,Vegetables,Beverage,Home Essentials,4.47,7,31.29,7,31.29
+2025-02-27,CUST_023,Miss Patricia Huff,Retail,PROD_021,Product 21,Vegetables,Food,Home Essentials,75.58,5,377.9,5,377.9
+2025-04-25,CUST_045,Sheila Williamson,Retail,PROD_056,Product 56,Beverages,Beverage,Grocery,45.41,7,317.87,7,317.87
+2025-03-15,CUST_026,Adam Johnson,Wholesale,PROD_018,Product 18,Fruits,Household,Home Essentials,7.53,9,67.77,9,67.77
+2025-03-01,CUST_001,Pamela Tran,Wholesale,PROD_094,Product 94,Fruits,Beverage,Home Essentials,30.45,8,243.6,21,1010.48
+2025-05-11,CUST_001,Pamela Tran,Wholesale,PROD_026,Product 26,Dairy,Household,Home Essentials,1.65,3,4.95,3,4.95
+2025-03-27,CUST_018,Kevin Ward,Retail,PROD_100,Product 100,Dairy,Household,Home Essentials,33.85,6,203.1,11,431.9
+2025-07-30,CUST_001,Pamela Tran,Retail,PROD_075,Product 75,Vegetables,Food,Home Essentials,81.71,10,817.1,10,817.1
+2025-08-01,CUST_043,William Rios,Wholesale,PROD_031,Product 31,Vegetables,Beverage,Grocery,43.64,1,43.64,1,43.64
+2025-07-10,CUST_016,Jason Vazquez,Wholesale,PROD_085,Product 85,Beverages,Beverage,Home Essentials,76.14,6,456.84,6,456.84
+2025-04-30,CUST_009,Tina Sullivan,Wholesale,PROD_083,Product 83,Vegetables,Household,Grocery,1.17,5,5.85,5,5.85
+2025-05-26,CUST_042,Jorge Morris,Wholesale,PROD_026,Product 26,Bakery,Beverage,Home Essentials,51.83,9,466.47,9,466.47
+2025-03-22,CUST_043,William Rios,Retail,PROD_028,Product 28,Beverages,Beverage,Grocery,74.78,9,673.02,18,769.95
+2025-05-21,CUST_003,Katherine Washington,Wholesale,PROD_086,Product 86,Bakery,Beverage,Home Essentials,77.1,8,616.8,8,616.8
+2025-08-09,CUST_015,Lindsey Glass,Retail,PROD_093,Product 93,Fruits,Food,Grocery,50.06,10,500.6,10,500.6
+2025-04-02,CUST_022,Ashley Wyatt,Wholesale,PROD_067,Product 67,Vegetables,Food,Grocery,51.84,5,259.2,5,259.2
+2025-06-25,CUST_009,Tina Sullivan,Wholesale,PROD_083,Product 83,Bakery,Household,Home Essentials,53.36,5,266.8,5,266.8
+2025-03-14,CUST_041,Alan Williams,Retail,PROD_029,Product 29,Vegetables,Household,Home Essentials,41.28,7,288.96,17,450.65999999999997
+2025-05-25,CUST_033,Thomas Williams,Wholesale,PROD_095,Product 95,Bakery,Household,Home Essentials,40.69,4,162.76,4,162.76
+2025-06-10,CUST_007,David Collins,Wholesale,PROD_033,Product 33,Dairy,Food,Grocery,11.03,9,99.27,9,99.27
+2025-03-22,CUST_015,Lindsey Glass,Retail,PROD_021,Product 21,Beverages,Household,Home Essentials,71.87,10,718.7,11,814.6
+2025-03-24,CUST_038,Edward Moreno,Wholesale,PROD_069,Product 69,Vegetables,Household,Home Essentials,92.47,6,554.82,6,554.82
+2025-05-23,CUST_023,Miss Patricia Huff,Wholesale,PROD_032,Product 32,Bakery,Household,Home Essentials,75.24,8,601.92,8,601.92
+2025-04-28,CUST_050,James Steele,Wholesale,PROD_061,Product 61,Vegetables,Beverage,Home Essentials,33.84,6,203.04,6,203.04
+2025-07-30,CUST_004,Bonnie Garrett,Wholesale,PROD_027,Product 27,Dairy,Household,Grocery,92.51,10,925.1,10,925.1
+2025-06-13,CUST_026,Adam Johnson,Wholesale,PROD_070,Product 70,Beverages,Household,Grocery,64.06,7,448.42,7,448.42
+2025-05-09,CUST_036,Leslie Murray,Wholesale,PROD_027,Product 27,Fruits,Beverage,Grocery,44.38,3,133.14,3,133.14
+2025-03-14,CUST_010,Steven Richardson,Retail,PROD_041,Product 41,Fruits,Beverage,Grocery,83.18,3,249.54,3,249.54
+2025-05-11,CUST_003,Katherine Washington,Retail,PROD_029,Product 29,Fruits,Household,Home Essentials,65.2,6,391.2,6,391.2
+2025-03-04,CUST_011,Brandon White,Retail,PROD_064,Product 64,Bakery,Food,Grocery,62.86,4,251.44,4,251.44
+2025-07-06,CUST_042,Jorge Morris,Retail,PROD_031,Product 31,Vegetables,Food,Grocery,10.78,10,107.8,10,107.8
+2025-04-11,CUST_005,Anthony Brown,Wholesale,PROD_068,Product 68,Bakery,Household,Home Essentials,2.9,2,5.8,2,5.8
+2025-06-13,CUST_030,Daniel Taylor,Wholesale,PROD_083,Product 83,Dairy,Beverage,Home Essentials,25.07,8,200.56,8,200.56
+2025-06-04,CUST_035,Kelsey Shaw,Wholesale,PROD_021,Product 21,Fruits,Food,Home Essentials,57.47,9,517.23,9,517.23
+2025-02-21,CUST_019,Brian Turner,Wholesale,PROD_097,Product 97,Vegetables,Household,Home Essentials,47.95,6,287.7,6,287.7
+2025-04-29,CUST_001,Pamela Tran,Wholesale,PROD_022,Product 22,Dairy,Beverage,Grocery,99.6,7,697.2,7,697.2
+2025-03-22,CUST_015,Lindsey Glass,Wholesale,PROD_060,Product 60,Dairy,Beverage,Grocery,95.9,1,95.9,11,814.6
+2025-06-02,CUST_019,Brian Turner,Retail,PROD_022,Product 22,Bakery,Household,Home Essentials,55.55,10,555.5,10,555.5
+2025-05-09,CUST_040,Taylor Moore,Retail,PROD_005,Product 5,Dairy,Household,Grocery,14.6,6,87.6,6,87.6
+2025-04-15,CUST_050,James Steele,Retail,PROD_027,Product 27,Dairy,Beverage,Home Essentials,86.7,5,433.5,5,433.5
+2025-04-01,CUST_031,Heather Gray,Wholesale,PROD_024,Product 24,Beverages,Beverage,Home Essentials,13.59,1,13.59,1,13.59
+2025-04-09,CUST_046,Jennifer Glass,Wholesale,PROD_053,Product 53,Dairy,Beverage,Grocery,95.6,7,669.2,7,669.2
+2025-03-04,CUST_017,Kimberly Rose,Retail,PROD_022,Product 22,Bakery,Household,Home Essentials,15.3,8,122.4,8,122.4
+2025-04-28,CUST_047,Mr. Marc Dalton,Wholesale,PROD_068,Product 68,Vegetables,Household,Grocery,43.53,3,130.59,3,130.59
+2025-04-16,CUST_020,Katrina Smith,Retail,PROD_080,Product 80,Dairy,Household,Home Essentials,18.83,7,131.81,16,526.1
+2025-07-08,CUST_034,Robert Miller,Wholesale,PROD_064,Product 64,Vegetables,Beverage,Grocery,52.98,3,158.94,3,158.94
+2025-06-24,CUST_010,Steven Richardson,Retail,PROD_073,Product 73,Beverages,Beverage,Home Essentials,13.6,7,95.2,7,95.2
+2025-08-19,CUST_013,Joseph Noble,Wholesale,PROD_081,Product 81,Dairy,Beverage,Home Essentials,59.29,6,355.74,6,355.74
+2025-07-24,CUST_024,Katelyn Burke,Wholesale,PROD_052,Product 52,Fruits,Household,Grocery,64.15,8,513.2,8,513.2
+2025-05-20,CUST_042,Jorge Morris,Retail,PROD_040,Product 40,Beverages,Household,Home Essentials,22.65,7,158.55,7,158.55
+2025-02-26,CUST_006,Richard Wilson,Retail,PROD_007,Product 7,Bakery,Household,Home Essentials,97.92,5,489.6,6,517.16
+2025-03-19,CUST_029,Diana Rojas,Wholesale,PROD_047,Product 47,Dairy,Beverage,Home Essentials,30.86,7,216.02,16,457.58000000000004
+2025-04-19,CUST_045,Sheila Williamson,Retail,PROD_042,Product 42,Beverages,Beverage,Grocery,3.05,8,24.4,8,24.4
+2025-04-17,CUST_036,Leslie Murray,Retail,PROD_027,Product 27,Beverages,Beverage,Grocery,53.22,9,478.98,9,478.98
+2025-05-17,CUST_010,Steven Richardson,Retail,PROD_036,Product 36,Fruits,Beverage,Grocery,50.3,8,402.4,8,402.4
+2025-07-18,CUST_044,Thomas Johnson,Wholesale,PROD_019,Product 19,Fruits,Household,Grocery,95.98,7,671.86,7,671.86
+2025-08-07,CUST_045,Sheila Williamson,Wholesale,PROD_059,Product 59,Bakery,Household,Home Essentials,95.92,7,671.44,7,671.44
+2025-02-20,CUST_012,Melissa Montgomery,Retail,PROD_001,Product 1,Dairy,Beverage,Home Essentials,43.79,8,350.32,8,350.32
+2025-05-03,CUST_018,Kevin Ward,Wholesale,PROD_023,Product 23,Fruits,Household,Grocery,54.69,2,109.38,2,109.38
+2025-04-21,CUST_049,Elizabeth Bailey,Retail,PROD_054,Product 54,Dairy,Food,Home Essentials,55.17,1,55.17,4,68.49000000000001
+2025-02-28,CUST_040,Taylor Moore,Wholesale,PROD_082,Product 82,Fruits,Beverage,Home Essentials,89.02,9,801.18,9,801.18
+2025-07-27,CUST_007,David Collins,Retail,PROD_075,Product 75,Dairy,Beverage,Home Essentials,10.48,2,20.96,2,20.96
+2025-05-01,CUST_009,Tina Sullivan,Wholesale,PROD_078,Product 78,Dairy,Food,Home Essentials,60.16,4,240.64,4,240.64
+2025-08-17,CUST_004,Bonnie Garrett,Retail,PROD_011,Product 11,Dairy,Food,Home Essentials,76.73,1,76.73,1,76.73
+2025-02-23,CUST_045,Sheila Williamson,Retail,PROD_071,Product 71,Vegetables,Beverage,Grocery,96.26,1,96.26,1,96.26
+2025-03-21,CUST_043,William Rios,Retail,PROD_043,Product 43,Dairy,Household,Home Essentials,67.38,7,471.66,7,471.66
+2025-06-25,CUST_001,Pamela Tran,Retail,PROD_092,Product 92,Beverages,Food,Grocery,76.36,3,229.08,3,229.08
+2025-07-19,CUST_001,Pamela Tran,Wholesale,PROD_087,Product 87,Fruits,Food,Home Essentials,93.66,3,280.98,3,280.98
+2025-07-20,CUST_029,Diana Rojas,Wholesale,PROD_093,Product 93,Beverages,Food,Grocery,49.09,9,441.81,9,441.81
+2025-07-11,CUST_036,Leslie Murray,Wholesale,PROD_084,Product 84,Fruits,Household,Grocery,79.27,10,792.7,10,792.7
+2025-03-05,CUST_021,Grace Wright,Wholesale,PROD_076,Product 76,Bakery,Beverage,Grocery,66.94,8,535.52,8,535.52
+2025-05-10,CUST_028,Patrick Robinson,Wholesale,PROD_051,Product 51,Beverages,Beverage,Grocery,15.02,4,60.08,4,60.08
+2025-03-19,CUST_026,Adam Johnson,Wholesale,PROD_031,Product 31,Beverages,Food,Home Essentials,1.41,7,9.87,7,9.87
+2025-07-27,CUST_050,James Steele,Wholesale,PROD_051,Product 51,Vegetables,Food,Grocery,19.85,1,19.85,1,19.85
+2025-06-17,CUST_010,Steven Richardson,Wholesale,PROD_002,Product 2,Vegetables,Food,Grocery,52.34,5,261.7,5,261.7
+2025-03-25,CUST_026,Adam Johnson,Retail,PROD_019,Product 19,Vegetables,Food,Home Essentials,68.14,2,136.28,2,136.28
+2025-07-19,CUST_042,Jorge Morris,Wholesale,PROD_018,Product 18,Bakery,Beverage,Home Essentials,93.81,3,281.43,3,281.43
+2025-06-02,CUST_044,Thomas Johnson,Retail,PROD_042,Product 42,Fruits,Beverage,Grocery,43.34,1,43.34,1,43.34
+2025-04-27,CUST_035,Kelsey Shaw,Retail,PROD_056,Product 56,Dairy,Household,Grocery,23.56,6,141.36,6,141.36
+2025-05-24,CUST_002,Jonathon Thomas,Wholesale,PROD_025,Product 25,Bakery,Beverage,Grocery,44.15,8,353.2,8,353.2
+2025-02-23,CUST_036,Leslie Murray,Wholesale,PROD_039,Product 39,Beverages,Food,Grocery,6.91,3,20.73,3,20.73
+2025-05-01,CUST_028,Patrick Robinson,Wholesale,PROD_061,Product 61,Bakery,Beverage,Home Essentials,31.61,9,284.49,9,284.49
+2025-05-28,CUST_036,Leslie Murray,Wholesale,PROD_061,Product 61,Vegetables,Household,Grocery,44.69,7,312.83,7,312.83
+2025-07-15,CUST_022,Ashley Wyatt,Retail,PROD_069,Product 69,Vegetables,Beverage,Home Essentials,39.93,8,319.44,8,319.44
+2025-05-01,CUST_014,Carla Bush,Wholesale,PROD_078,Product 78,Dairy,Household,Home Essentials,19.17,7,134.19,7,134.19
+2025-06-27,CUST_040,Taylor Moore,Wholesale,PROD_076,Product 76,Beverages,Food,Grocery,90.72,3,272.16,3,272.16
+2025-04-25,CUST_038,Edward Moreno,Wholesale,PROD_066,Product 66,Bakery,Household,Grocery,44.03,10,440.3,10,440.3
+2025-04-26,CUST_009,Tina Sullivan,Wholesale,PROD_057,Product 57,Fruits,Food,Home Essentials,20.44,7,143.08,7,143.08
+2025-08-01,CUST_002,Jonathon Thomas,Retail,PROD_100,Product 100,Beverages,Food,Home Essentials,80.97,1,80.97,1,80.97
+2025-04-20,CUST_021,Grace Wright,Wholesale,PROD_037,Product 37,Bakery,Beverage,Home Essentials,42.64,3,127.92,3,127.92
+2025-07-15,CUST_006,Richard Wilson,Wholesale,PROD_023,Product 23,Vegetables,Household,Grocery,73.59,2,147.18,2,147.18
+2025-04-07,CUST_002,Jonathon Thomas,Retail,PROD_062,Product 62,Beverages,Household,Home Essentials,32.5,1,32.5,1,32.5
+2025-05-04,CUST_001,Pamela Tran,Wholesale,PROD_022,Product 22,Dairy,Beverage,Home Essentials,31.93,8,255.44,8,255.44
+2025-04-21,CUST_046,Jennifer Glass,Retail,PROD_043,Product 43,Beverages,Household,Grocery,10.32,8,82.56,8,82.56
+2025-02-23,CUST_038,Edward Moreno,Retail,PROD_095,Product 95,Beverages,Beverage,Grocery,82.71,4,330.84,4,330.84
+2025-03-15,CUST_018,Kevin Ward,Retail,PROD_099,Product 99,Bakery,Household,Home Essentials,34.83,4,139.32,4,139.32
+2025-08-11,CUST_050,James Steele,Retail,PROD_034,Product 34,Beverages,Beverage,Home Essentials,63.05,3,189.15,3,189.15
+2025-03-01,CUST_011,Brandon White,Retail,PROD_079,Product 79,Beverages,Beverage,Home Essentials,68.91,1,68.91,1,68.91
+2025-07-24,CUST_040,Taylor Moore,Wholesale,PROD_076,Product 76,Bakery,Food,Grocery,28.67,6,172.02,10,456.86
+2025-07-14,CUST_049,Elizabeth Bailey,Retail,PROD_075,Product 75,Beverages,Household,Home Essentials,8.72,3,26.16,3,26.16
+2025-03-08,CUST_017,Kimberly Rose,Wholesale,PROD_088,Product 88,Vegetables,Food,Grocery,72.11,1,72.11,1,72.11
+2025-02-18,CUST_025,John Guerra,Wholesale,PROD_006,Product 6,Bakery,Food,Grocery,14.53,10,145.3,10,145.3
+2025-05-08,CUST_003,Katherine Washington,Wholesale,PROD_066,Product 66,Dairy,Food,Home Essentials,15.56,7,108.92,7,108.92
+2025-04-05,CUST_001,Pamela Tran,Retail,PROD_020,Product 20,Beverages,Food,Grocery,93.38,10,933.8,19,1655.33
+2025-06-05,CUST_038,Edward Moreno,Wholesale,PROD_032,Product 32,Beverages,Food,Grocery,96.91,1,96.91,1,96.91
+2025-07-31,CUST_040,Taylor Moore,Retail,PROD_061,Product 61,Dairy,Beverage,Home Essentials,68.86,5,344.3,5,344.3
+2025-04-29,CUST_026,Adam Johnson,Retail,PROD_074,Product 74,Fruits,Beverage,Home Essentials,4.38,10,43.8,10,43.8
+2025-07-25,CUST_019,Brian Turner,Wholesale,PROD_022,Product 22,Beverages,Household,Home Essentials,2.05,9,18.45,9,18.45
+2025-02-18,CUST_012,Melissa Montgomery,Retail,PROD_013,Product 13,Fruits,Food,Grocery,83.14,7,581.98,7,581.98
+2025-04-30,CUST_026,Adam Johnson,Wholesale,PROD_062,Product 62,Beverages,Beverage,Grocery,56.9,4,227.6,4,227.6
+2025-06-03,CUST_010,Steven Richardson,Wholesale,PROD_003,Product 3,Dairy,Beverage,Home Essentials,18.47,8,147.76,8,147.76
+2025-06-10,CUST_003,Katherine Washington,Wholesale,PROD_100,Product 100,Bakery,Household,Home Essentials,83.7,4,334.8,8,425.68
+2025-08-10,CUST_042,Jorge Morris,Retail,PROD_003,Product 3,Vegetables,Beverage,Grocery,66.0,4,264.0,4,264.0
+2025-07-24,CUST_040,Taylor Moore,Retail,PROD_066,Product 66,Dairy,Food,Grocery,71.21,4,284.84,10,456.86
+2025-06-27,CUST_001,Pamela Tran,Wholesale,PROD_077,Product 77,Dairy,Beverage,Grocery,60.98,7,426.86,7,426.86
+2025-07-19,CUST_038,Edward Moreno,Retail,PROD_093,Product 93,Beverages,Food,Grocery,62.35,4,249.4,14,1206.7
+2025-07-02,CUST_009,Tina Sullivan,Wholesale,PROD_010,Product 10,Beverages,Household,Home Essentials,61.9,2,123.8,2,123.8
+2025-06-17,CUST_011,Brandon White,Retail,PROD_045,Product 45,Fruits,Household,Grocery,10.19,10,101.9,10,101.9
+2025-07-16,CUST_047,Mr. Marc Dalton,Retail,PROD_032,Product 32,Dairy,Beverage,Grocery,86.24,4,344.96,4,344.96
+2025-06-21,CUST_012,Melissa Montgomery,Retail,PROD_077,Product 77,Vegetables,Household,Home Essentials,75.16,9,676.44,9,676.44
+2025-07-14,CUST_017,Kimberly Rose,Wholesale,PROD_012,Product 12,Vegetables,Household,Home Essentials,54.7,5,273.5,5,273.5
+2025-03-07,CUST_003,Katherine Washington,Wholesale,PROD_006,Product 6,Bakery,Food,Home Essentials,81.11,4,324.44,4,324.44
+2025-06-21,CUST_016,Jason Vazquez,Retail,PROD_040,Product 40,Dairy,Household,Grocery,12.44,1,12.44,1,12.44
+2025-05-18,CUST_044,Thomas Johnson,Wholesale,PROD_010,Product 10,Dairy,Beverage,Home Essentials,87.76,10,877.6,10,877.6
+2025-08-12,CUST_034,Robert Miller,Wholesale,PROD_063,Product 63,Fruits,Household,Grocery,66.49,3,199.47,3,199.47
+2025-08-13,CUST_015,Lindsey Glass,Wholesale,PROD_040,Product 40,Bakery,Beverage,Home Essentials,50.18,4,200.72,4,200.72
+2025-04-20,CUST_038,Edward Moreno,Wholesale,PROD_082,Product 82,Beverages,Household,Home Essentials,95.44,1,95.44,1,95.44
+2025-04-12,CUST_019,Brian Turner,Retail,PROD_035,Product 35,Vegetables,Food,Home Essentials,36.34,4,145.36,4,145.36
+2025-04-18,CUST_038,Edward Moreno,Retail,PROD_048,Product 48,Beverages,Food,Home Essentials,43.57,4,174.28,4,174.28
+2025-03-29,CUST_027,Wesley Hart,Retail,PROD_022,Product 22,Bakery,Household,Home Essentials,71.67,4,286.68,4,286.68
+2025-05-17,CUST_013,Joseph Noble,Wholesale,PROD_086,Product 86,Vegetables,Household,Home Essentials,59.29,4,237.16,4,237.16
+2025-05-03,CUST_010,Steven Richardson,Retail,PROD_037,Product 37,Beverages,Food,Grocery,34.17,3,102.51,3,102.51
+2025-06-06,CUST_049,Elizabeth Bailey,Wholesale,PROD_030,Product 30,Vegetables,Household,Home Essentials,95.65,6,573.9,6,573.9
+2025-07-19,CUST_035,Kelsey Shaw,Retail,PROD_016,Product 16,Vegetables,Food,Grocery,60.4,5,302.0,5,302.0
+2025-08-09,CUST_037,Jack Williamson,Retail,PROD_096,Product 96,Dairy,Beverage,Grocery,87.89,5,439.45,5,439.45
+2025-05-04,CUST_030,Daniel Taylor,Wholesale,PROD_072,Product 72,Beverages,Food,Home Essentials,3.01,1,3.01,1,3.01
+2025-03-06,CUST_027,Wesley Hart,Retail,PROD_021,Product 21,Bakery,Food,Home Essentials,26.04,10,260.4,10,260.4
+2025-02-21,CUST_039,Shannon Green,Wholesale,PROD_034,Product 34,Beverages,Food,Grocery,71.03,6,426.18,6,426.18
+2025-03-08,CUST_015,Lindsey Glass,Retail,PROD_095,Product 95,Vegetables,Beverage,Grocery,91.91,8,735.28,8,735.28
+2025-05-16,CUST_041,Alan Williams,Wholesale,PROD_054,Product 54,Fruits,Food,Grocery,80.41,5,402.05,5,402.05
+2025-03-15,CUST_027,Wesley Hart,Retail,PROD_052,Product 52,Dairy,Beverage,Home Essentials,4.08,3,12.24,3,12.24
+2025-04-05,CUST_047,Mr. Marc Dalton,Wholesale,PROD_083,Product 83,Vegetables,Food,Grocery,57.62,7,403.34,7,403.34
+2025-04-11,CUST_043,William Rios,Wholesale,PROD_078,Product 78,Dairy,Household,Home Essentials,66.95,4,267.8,4,267.8
+2025-03-26,CUST_035,Kelsey Shaw,Wholesale,PROD_063,Product 63,Vegetables,Household,Home Essentials,50.94,1,50.94,1,50.94
+2025-06-20,CUST_007,David Collins,Wholesale,PROD_084,Product 84,Bakery,Food,Home Essentials,65.2,3,195.6,3,195.6
+2025-04-12,CUST_017,Kimberly Rose,Wholesale,PROD_097,Product 97,Dairy,Beverage,Home Essentials,23.04,9,207.36,9,207.36
+2025-06-18,CUST_011,Brandon White,Wholesale,PROD_083,Product 83,Vegetables,Food,Grocery,73.65,5,368.25,5,368.25
+2025-06-01,CUST_036,Leslie Murray,Wholesale,PROD_064,Product 64,Dairy,Beverage,Home Essentials,95.41,10,954.1,10,954.1
+2025-07-10,CUST_024,Katelyn Burke,Wholesale,PROD_093,Product 93,Bakery,Food,Grocery,7.85,4,31.4,4,31.4
+2025-04-13,CUST_036,Leslie Murray,Retail,PROD_001,Product 1,Dairy,Beverage,Home Essentials,52.88,8,423.04,14,533.38
+2025-06-14,CUST_004,Bonnie Garrett,Wholesale,PROD_064,Product 64,Dairy,Food,Home Essentials,33.41,2,66.82,2,66.82
+2025-05-13,CUST_041,Alan Williams,Retail,PROD_099,Product 99,Fruits,Beverage,Grocery,20.64,5,103.2,5,103.2
+2025-02-19,CUST_029,Diana Rojas,Wholesale,PROD_039,Product 39,Bakery,Beverage,Home Essentials,77.85,10,778.5,10,778.5
+2025-02-27,CUST_027,Wesley Hart,Wholesale,PROD_078,Product 78,Fruits,Household,Home Essentials,57.85,9,520.65,9,520.65
+2025-06-01,CUST_042,Jorge Morris,Retail,PROD_075,Product 75,Fruits,Food,Home Essentials,47.38,1,47.38,1,47.38
+2025-03-02,CUST_037,Jack Williamson,Wholesale,PROD_060,Product 60,Fruits,Household,Grocery,1.48,1,1.48,1,1.48
+2025-07-09,CUST_003,Katherine Washington,Wholesale,PROD_080,Product 80,Bakery,Food,Home Essentials,1.96,6,11.76,6,11.76
+2025-04-22,CUST_047,Mr. Marc Dalton,Retail,PROD_084,Product 84,Bakery,Food,Home Essentials,71.13,4,284.52,12,870.9
+2025-03-31,CUST_011,Brandon White,Wholesale,PROD_086,Product 86,Fruits,Food,Grocery,69.03,1,69.03,1,69.03
+2025-07-05,CUST_021,Grace Wright,Wholesale,PROD_071,Product 71,Beverages,Beverage,Grocery,16.79,5,83.95,5,83.95
+2025-07-19,CUST_038,Edward Moreno,Retail,PROD_085,Product 85,Vegetables,Beverage,Grocery,95.73,10,957.3,14,1206.7
+2025-02-25,CUST_025,John Guerra,Wholesale,PROD_058,Product 58,Beverages,Household,Home Essentials,43.58,3,130.74,3,130.74
+2025-06-07,CUST_024,Katelyn Burke,Retail,PROD_048,Product 48,Beverages,Beverage,Grocery,43.9,6,263.4,6,263.4
+2025-06-03,CUST_036,Leslie Murray,Wholesale,PROD_097,Product 97,Fruits,Household,Grocery,47.44,1,47.44,1,47.44
+2025-07-09,CUST_014,Carla Bush,Wholesale,PROD_067,Product 67,Fruits,Household,Home Essentials,85.27,8,682.16,13,1077.31
+2025-05-04,CUST_038,Edward Moreno,Wholesale,PROD_061,Product 61,Fruits,Food,Grocery,82.97,1,82.97,1,82.97
+2025-07-10,CUST_009,Tina Sullivan,Retail,PROD_055,Product 55,Dairy,Food,Grocery,66.74,8,533.92,8,533.92
+2025-06-17,CUST_007,David Collins,Retail,PROD_084,Product 84,Vegetables,Food,Home Essentials,15.75,3,47.25,3,47.25
+2025-03-26,CUST_030,Daniel Taylor,Wholesale,PROD_076,Product 76,Fruits,Beverage,Home Essentials,46.05,6,276.3,6,276.3
+2025-07-07,CUST_043,William Rios,Retail,PROD_006,Product 6,Beverages,Household,Grocery,47.18,7,330.26,7,330.26
+2025-08-04,CUST_016,Jason Vazquez,Retail,PROD_085,Product 85,Fruits,Beverage,Grocery,93.01,2,186.02,2,186.02
+2025-04-16,CUST_024,Katelyn Burke,Retail,PROD_065,Product 65,Dairy,Household,Home Essentials,56.93,4,227.72,4,227.72
+2025-07-11,CUST_025,John Guerra,Retail,PROD_007,Product 7,Fruits,Food,Grocery,95.33,4,381.32,4,381.32
+2025-07-29,CUST_036,Leslie Murray,Retail,PROD_031,Product 31,Vegetables,Household,Home Essentials,16.38,8,131.04,8,131.04
+2025-04-08,CUST_043,William Rios,Wholesale,PROD_074,Product 74,Bakery,Household,Home Essentials,66.11,3,198.33,3,198.33
+2025-06-30,CUST_028,Patrick Robinson,Wholesale,PROD_097,Product 97,Fruits,Food,Grocery,16.15,3,48.45,5,133.75
+2025-06-02,CUST_016,Jason Vazquez,Wholesale,PROD_078,Product 78,Bakery,Beverage,Grocery,61.32,7,429.24,7,429.24
+2025-07-15,CUST_050,James Steele,Wholesale,PROD_069,Product 69,Vegetables,Food,Grocery,60.42,1,60.42,1,60.42
+2025-04-27,CUST_028,Patrick Robinson,Wholesale,PROD_021,Product 21,Fruits,Household,Home Essentials,7.13,7,49.91,12,202.71
+2025-06-29,CUST_048,William Fritz,Retail,PROD_094,Product 94,Vegetables,Household,Home Essentials,80.24,4,320.96,4,320.96
+2025-06-04,CUST_009,Tina Sullivan,Wholesale,PROD_051,Product 51,Dairy,Food,Home Essentials,27.74,9,249.66,9,249.66
+2025-05-07,CUST_021,Grace Wright,Wholesale,PROD_086,Product 86,Vegetables,Food,Grocery,65.86,6,395.16,6,395.16
+2025-03-12,CUST_034,Robert Miller,Wholesale,PROD_030,Product 30,Beverages,Food,Home Essentials,90.06,9,810.54,9,810.54
+2025-08-14,CUST_049,Elizabeth Bailey,Retail,PROD_055,Product 55,Vegetables,Household,Grocery,62.0,7,434.0,7,434.0
+2025-03-31,CUST_034,Robert Miller,Wholesale,PROD_061,Product 61,Fruits,Food,Home Essentials,29.04,4,116.16,4,116.16
+2025-04-11,CUST_021,Grace Wright,Wholesale,PROD_069,Product 69,Fruits,Beverage,Home Essentials,10.73,6,64.38,12,567.12
+2025-03-25,CUST_023,Miss Patricia Huff,Wholesale,PROD_054,Product 54,Dairy,Food,Grocery,48.27,1,48.27,5,444.46999999999997
+2025-05-26,CUST_010,Steven Richardson,Wholesale,PROD_051,Product 51,Fruits,Food,Grocery,11.17,2,22.34,2,22.34
+2025-05-01,CUST_022,Ashley Wyatt,Wholesale,PROD_022,Product 22,Beverages,Food,Grocery,90.64,5,453.2,5,453.2
+2025-08-14,CUST_037,Jack Williamson,Retail,PROD_033,Product 33,Fruits,Household,Grocery,79.33,10,793.3,10,793.3
+2025-05-19,CUST_019,Brian Turner,Retail,PROD_091,Product 91,Fruits,Food,Grocery,97.29,1,97.29,11,820.49
+2025-03-22,CUST_043,William Rios,Wholesale,PROD_002,Product 2,Fruits,Household,Home Essentials,10.77,9,96.93,18,769.95
+2025-07-24,CUST_049,Elizabeth Bailey,Wholesale,PROD_047,Product 47,Dairy,Household,Home Essentials,8.66,1,8.66,1,8.66
+2025-06-08,CUST_012,Melissa Montgomery,Wholesale,PROD_097,Product 97,Bakery,Beverage,Home Essentials,57.69,7,403.83,7,403.83
+2025-06-28,CUST_044,Thomas Johnson,Retail,PROD_095,Product 95,Vegetables,Household,Home Essentials,17.25,8,138.0,8,138.0
+2025-07-09,CUST_041,Alan Williams,Retail,PROD_001,Product 1,Vegetables,Food,Grocery,27.16,5,135.8,10,518.1
+2025-04-04,CUST_040,Taylor Moore,Wholesale,PROD_044,Product 44,Fruits,Food,Grocery,10.93,2,21.86,2,21.86
+2025-08-12,CUST_030,Daniel Taylor,Retail,PROD_039,Product 39,Fruits,Household,Grocery,49.37,8,394.96,8,394.96
+2025-05-09,CUST_044,Thomas Johnson,Wholesale,PROD_062,Product 62,Bakery,Household,Home Essentials,80.57,5,402.85,5,402.85
+2025-06-07,CUST_009,Tina Sullivan,Retail,PROD_003,Product 3,Fruits,Household,Home Essentials,8.53,1,8.53,7,390.07
+2025-03-06,CUST_019,Brian Turner,Wholesale,PROD_100,Product 100,Dairy,Household,Grocery,34.34,8,274.72,8,274.72
+2025-05-21,CUST_010,Steven Richardson,Wholesale,PROD_092,Product 92,Fruits,Beverage,Grocery,42.54,5,212.7,5,212.7
+2025-07-26,CUST_040,Taylor Moore,Wholesale,PROD_045,Product 45,Fruits,Household,Home Essentials,36.18,7,253.26,7,253.26
+2025-06-16,CUST_039,Shannon Green,Wholesale,PROD_023,Product 23,Dairy,Beverage,Home Essentials,56.68,4,226.72,4,226.72
+2025-05-12,CUST_027,Wesley Hart,Retail,PROD_040,Product 40,Dairy,Household,Grocery,3.45,8,27.6,8,27.6
+2025-06-22,CUST_001,Pamela Tran,Wholesale,PROD_091,Product 91,Fruits,Household,Home Essentials,24.32,2,48.64,2,48.64
+2025-05-30,CUST_008,Stacy Robles,Wholesale,PROD_038,Product 38,Fruits,Beverage,Grocery,4.6,2,9.2,2,9.2
+2025-03-01,CUST_047,Mr. Marc Dalton,Wholesale,PROD_051,Product 51,Vegetables,Household,Grocery,42.89,7,300.23,7,300.23
+2025-07-17,CUST_037,Jack Williamson,Retail,PROD_008,Product 8,Bakery,Beverage,Grocery,69.26,10,692.6,10,692.6
+2025-02-26,CUST_035,Kelsey Shaw,Wholesale,PROD_051,Product 51,Beverages,Beverage,Home Essentials,15.43,5,77.15,5,77.15
+2025-07-02,CUST_038,Edward Moreno,Wholesale,PROD_072,Product 72,Vegetables,Beverage,Grocery,87.12,8,696.96,8,696.96
+2025-05-21,CUST_006,Richard Wilson,Wholesale,PROD_006,Product 6,Bakery,Beverage,Grocery,45.3,3,135.9,3,135.9
+2025-07-20,CUST_036,Leslie Murray,Wholesale,PROD_085,Product 85,Beverages,Food,Home Essentials,78.02,2,156.04,2,156.04
+2025-04-16,CUST_011,Brandon White,Wholesale,PROD_059,Product 59,Beverages,Household,Home Essentials,52.99,3,158.97,3,158.97
+2025-07-05,CUST_041,Alan Williams,Wholesale,PROD_096,Product 96,Vegetables,Beverage,Home Essentials,18.65,9,167.85,23,1356.43
+2025-02-24,CUST_005,Anthony Brown,Wholesale,PROD_100,Product 100,Beverages,Household,Home Essentials,10.39,7,72.73,7,72.73
+2025-04-23,CUST_033,Thomas Williams,Wholesale,PROD_052,Product 52,Dairy,Beverage,Grocery,16.26,4,65.04,4,65.04
+2025-03-04,CUST_033,Thomas Williams,Retail,PROD_013,Product 13,Bakery,Food,Home Essentials,54.78,3,164.34,3,164.34
+2025-06-07,CUST_009,Tina Sullivan,Wholesale,PROD_010,Product 10,Beverages,Household,Home Essentials,63.59,6,381.54,7,390.07
+2025-03-18,CUST_047,Mr. Marc Dalton,Retail,PROD_083,Product 83,Beverages,Household,Home Essentials,8.54,1,8.54,1,8.54
+2025-07-02,CUST_026,Adam Johnson,Retail,PROD_053,Product 53,Bakery,Beverage,Grocery,62.7,1,62.7,1,62.7
+2025-07-24,CUST_025,John Guerra,Wholesale,PROD_001,Product 1,Fruits,Household,Home Essentials,20.21,7,141.47,7,141.47
+2025-03-30,CUST_008,Stacy Robles,Wholesale,PROD_062,Product 62,Fruits,Food,Home Essentials,37.59,2,75.18,2,75.18
+2025-02-24,CUST_032,Kyle Rogers,Retail,PROD_049,Product 49,Beverages,Household,Grocery,45.07,1,45.07,1,45.07
+2025-03-04,CUST_050,James Steele,Retail,PROD_012,Product 12,Bakery,Beverage,Home Essentials,62.97,4,251.88,4,251.88
+2025-04-17,CUST_016,Jason Vazquez,Retail,PROD_076,Product 76,Bakery,Beverage,Grocery,17.81,9,160.29,9,160.29
+2025-06-07,CUST_016,Jason Vazquez,Retail,PROD_046,Product 46,Fruits,Household,Grocery,35.14,1,35.14,1,35.14
+2025-05-23,CUST_027,Wesley Hart,Retail,PROD_049,Product 49,Bakery,Household,Grocery,40.71,2,81.42,2,81.42
+2025-02-23,CUST_041,Alan Williams,Wholesale,PROD_018,Product 18,Bakery,Beverage,Home Essentials,90.76,4,363.04,4,363.04
+2025-05-22,CUST_020,Katrina Smith,Wholesale,PROD_036,Product 36,Dairy,Household,Grocery,10.96,9,98.64,9,98.64
+2025-05-01,CUST_033,Thomas Williams,Wholesale,PROD_046,Product 46,Beverages,Household,Grocery,12.9,10,129.0,10,129.0
+2025-06-21,CUST_036,Leslie Murray,Retail,PROD_015,Product 15,Dairy,Food,Grocery,16.62,8,132.96,8,132.96
+2025-03-24,CUST_040,Taylor Moore,Wholesale,PROD_044,Product 44,Fruits,Food,Home Essentials,28.18,6,169.08,6,169.08
+2025-07-07,CUST_044,Thomas Johnson,Wholesale,PROD_033,Product 33,Bakery,Food,Grocery,46.15,9,415.35,9,415.35
+2025-06-30,CUST_023,Miss Patricia Huff,Wholesale,PROD_063,Product 63,Bakery,Household,Home Essentials,18.63,5,93.15,12,577.2
+2025-06-14,CUST_018,Kevin Ward,Wholesale,PROD_088,Product 88,Bakery,Food,Home Essentials,85.46,8,683.68,8,683.68
+2025-07-10,CUST_032,Kyle Rogers,Wholesale,PROD_040,Product 40,Beverages,Household,Home Essentials,97.05,2,194.1,2,194.1
+2025-05-07,CUST_038,Edward Moreno,Wholesale,PROD_088,Product 88,Dairy,Household,Home Essentials,56.86,4,227.44,4,227.44
+2025-07-15,CUST_039,Shannon Green,Retail,PROD_090,Product 90,Bakery,Beverage,Home Essentials,45.41,10,454.1,10,454.1
+2025-03-24,CUST_008,Stacy Robles,Retail,PROD_084,Product 84,Beverages,Household,Home Essentials,95.97,3,287.91,3,287.91
+2025-03-08,CUST_044,Thomas Johnson,Retail,PROD_097,Product 97,Vegetables,Beverage,Grocery,35.44,1,35.44,1,35.44
+2025-05-29,CUST_047,Mr. Marc Dalton,Retail,PROD_021,Product 21,Beverages,Food,Home Essentials,85.35,8,682.8,8,682.8
+2025-04-01,CUST_027,Wesley Hart,Retail,PROD_076,Product 76,Vegetables,Household,Grocery,45.76,4,183.04,4,183.04
+2025-06-09,CUST_022,Ashley Wyatt,Retail,PROD_086,Product 86,Bakery,Beverage,Home Essentials,15.27,3,45.81,3,45.81
+2025-07-07,CUST_047,Mr. Marc Dalton,Retail,PROD_073,Product 73,Fruits,Food,Grocery,66.42,2,132.84,2,132.84
+2025-03-08,CUST_049,Elizabeth Bailey,Retail,PROD_027,Product 27,Bakery,Beverage,Home Essentials,39.65,9,356.85,9,356.85
+2025-03-16,CUST_035,Kelsey Shaw,Retail,PROD_007,Product 7,Dairy,Beverage,Home Essentials,24.89,9,224.01,9,224.01
+2025-05-12,CUST_032,Kyle Rogers,Wholesale,PROD_094,Product 94,Fruits,Food,Grocery,44.01,6,264.06,6,264.06
+2025-03-29,CUST_028,Patrick Robinson,Retail,PROD_036,Product 36,Bakery,Food,Grocery,8.89,2,17.78,2,17.78
+2025-08-18,CUST_033,Thomas Williams,Wholesale,PROD_048,Product 48,Dairy,Food,Home Essentials,39.99,7,279.93,7,279.93
+2025-07-24,CUST_009,Tina Sullivan,Retail,PROD_066,Product 66,Vegetables,Food,Grocery,31.95,4,127.8,4,127.8
+2025-03-14,CUST_042,Jorge Morris,Wholesale,PROD_017,Product 17,Vegetables,Beverage,Home Essentials,1.25,7,8.75,7,8.75
+2025-03-23,CUST_039,Shannon Green,Wholesale,PROD_004,Product 4,Fruits,Household,Grocery,49.12,8,392.96,8,392.96
+2025-06-01,CUST_018,Kevin Ward,Wholesale,PROD_006,Product 6,Vegetables,Household,Grocery,1.82,7,12.74,11,409.38
+2025-05-05,CUST_043,William Rios,Retail,PROD_007,Product 7,Fruits,Beverage,Grocery,30.65,8,245.2,8,245.2
+2025-04-08,CUST_044,Thomas Johnson,Retail,PROD_075,Product 75,Vegetables,Household,Grocery,13.91,10,139.1,10,139.1
+2025-07-27,CUST_005,Anthony Brown,Retail,PROD_049,Product 49,Fruits,Beverage,Grocery,66.71,8,533.68,8,533.68
+2025-03-09,CUST_029,Diana Rojas,Wholesale,PROD_009,Product 9,Fruits,Food,Home Essentials,37.87,7,265.09,14,624.05
+2025-03-22,CUST_017,Kimberly Rose,Retail,PROD_034,Product 34,Dairy,Beverage,Home Essentials,95.64,10,956.4,10,956.4
+2025-06-08,CUST_011,Brandon White,Retail,PROD_059,Product 59,Fruits,Food,Home Essentials,50.03,7,350.21,7,350.21
+2025-03-23,CUST_049,Elizabeth Bailey,Retail,PROD_039,Product 39,Bakery,Food,Grocery,90.99,8,727.92,8,727.92
+2025-05-17,CUST_035,Kelsey Shaw,Retail,PROD_047,Product 47,Dairy,Food,Grocery,37.34,1,37.34,1,37.34
+2025-03-31,CUST_002,Jonathon Thomas,Wholesale,PROD_009,Product 9,Vegetables,Beverage,Home Essentials,18.68,1,18.68,1,18.68
+2025-03-18,CUST_015,Lindsey Glass,Retail,PROD_020,Product 20,Beverages,Household,Grocery,98.13,5,490.65,5,490.65
+2025-03-09,CUST_044,Thomas Johnson,Retail,PROD_027,Product 27,Beverages,Food,Home Essentials,53.95,7,377.65,7,377.65
+2025-02-24,CUST_036,Leslie Murray,Wholesale,PROD_027,Product 27,Dairy,Household,Grocery,81.27,5,406.35,5,406.35
+2025-04-22,CUST_007,David Collins,Wholesale,PROD_035,Product 35,Bakery,Beverage,Home Essentials,17.1,8,136.8,8,136.8
+2025-05-08,CUST_030,Daniel Taylor,Retail,PROD_087,Product 87,Fruits,Household,Grocery,58.79,9,529.11,9,529.11
+2025-04-11,CUST_020,Katrina Smith,Retail,PROD_036,Product 36,Beverages,Household,Home Essentials,94.45,7,661.15,7,661.15
+2025-02-22,CUST_014,Carla Bush,Wholesale,PROD_045,Product 45,Fruits,Beverage,Home Essentials,30.37,10,303.7,10,303.7
+2025-07-05,CUST_037,Jack Williamson,Wholesale,PROD_068,Product 68,Vegetables,Food,Home Essentials,53.55,4,214.2,4,214.2
+2025-07-16,CUST_032,Kyle Rogers,Wholesale,PROD_098,Product 98,Vegetables,Beverage,Home Essentials,79.13,8,633.04,8,633.04
+2025-08-17,CUST_026,Adam Johnson,Wholesale,PROD_070,Product 70,Dairy,Household,Home Essentials,99.35,7,695.45,7,695.45
+2025-07-15,CUST_047,Mr. Marc Dalton,Retail,PROD_090,Product 90,Bakery,Household,Grocery,37.73,4,150.92,4,150.92
+2025-04-08,CUST_028,Patrick Robinson,Wholesale,PROD_030,Product 30,Bakery,Food,Home Essentials,79.72,1,79.72,1,79.72
+2025-04-03,CUST_026,Adam Johnson,Wholesale,PROD_091,Product 91,Bakery,Beverage,Grocery,78.23,2,156.46,2,156.46
+2025-07-05,CUST_041,Alan Williams,Retail,PROD_024,Product 24,Dairy,Household,Home Essentials,83.87,6,503.22,23,1356.43
+2025-04-10,CUST_044,Thomas Johnson,Wholesale,PROD_002,Product 2,Dairy,Food,Home Essentials,5.53,3,16.59,3,16.59
+2025-04-07,CUST_025,John Guerra,Retail,PROD_052,Product 52,Beverages,Household,Grocery,92.5,2,185.0,2,185.0
+2025-05-11,CUST_044,Thomas Johnson,Retail,PROD_094,Product 94,Dairy,Beverage,Home Essentials,36.98,10,369.8,10,369.8
+2025-05-14,CUST_024,Katelyn Burke,Wholesale,PROD_008,Product 8,Dairy,Beverage,Home Essentials,59.64,10,596.4,10,596.4
+2025-04-13,CUST_038,Edward Moreno,Retail,PROD_043,Product 43,Vegetables,Beverage,Grocery,69.56,7,486.92,7,486.92
+2025-06-09,CUST_011,Brandon White,Wholesale,PROD_079,Product 79,Beverages,Beverage,Grocery,25.87,1,25.87,1,25.87
+2025-03-14,CUST_016,Jason Vazquez,Wholesale,PROD_082,Product 82,Fruits,Household,Home Essentials,41.62,4,166.48,4,166.48
+2025-03-28,CUST_041,Alan Williams,Wholesale,PROD_076,Product 76,Vegetables,Household,Home Essentials,49.17,5,245.85,13,377.37
+2025-05-11,CUST_041,Alan Williams,Wholesale,PROD_086,Product 86,Beverages,Beverage,Grocery,91.78,1,91.78,1,91.78
+2025-08-11,CUST_004,Bonnie Garrett,Wholesale,PROD_045,Product 45,Beverages,Household,Grocery,65.56,2,131.12,2,131.12
+2025-03-07,CUST_046,Jennifer Glass,Retail,PROD_036,Product 36,Fruits,Beverage,Grocery,5.26,8,42.08,8,42.08
+2025-06-29,CUST_019,Brian Turner,Retail,PROD_057,Product 57,Bakery,Beverage,Home Essentials,20.81,3,62.43,3,62.43
+2025-05-03,CUST_049,Elizabeth Bailey,Wholesale,PROD_044,Product 44,Bakery,Household,Grocery,91.47,3,274.41,3,274.41
+2025-02-24,CUST_033,Thomas Williams,Retail,PROD_011,Product 11,Bakery,Food,Grocery,99.25,10,992.5,10,992.5
+2025-07-22,CUST_035,Kelsey Shaw,Retail,PROD_064,Product 64,Beverages,Household,Grocery,8.79,9,79.11,9,79.11
+2025-03-29,CUST_008,Stacy Robles,Wholesale,PROD_030,Product 30,Fruits,Household,Home Essentials,66.24,6,397.44,13,744.29
+2025-03-17,CUST_027,Wesley Hart,Wholesale,PROD_081,Product 81,Vegetables,Food,Home Essentials,59.03,10,590.3,10,590.3
+2025-03-19,CUST_044,Thomas Johnson,Retail,PROD_021,Product 21,Fruits,Food,Grocery,19.11,5,95.55,5,95.55
+2025-04-09,CUST_039,Shannon Green,Retail,PROD_089,Product 89,Fruits,Beverage,Grocery,84.27,8,674.16,8,674.16
+2025-07-30,CUST_027,Wesley Hart,Retail,PROD_016,Product 16,Dairy,Food,Home Essentials,39.84,9,358.56,9,358.56
+2025-03-09,CUST_029,Diana Rojas,Wholesale,PROD_094,Product 94,Vegetables,Household,Grocery,51.28,7,358.96,14,624.05
+2025-07-06,CUST_027,Wesley Hart,Wholesale,PROD_068,Product 68,Vegetables,Food,Home Essentials,37.55,4,150.2,4,150.2
+2025-08-11,CUST_017,Kimberly Rose,Retail,PROD_027,Product 27,Beverages,Household,Grocery,76.73,5,383.65,5,383.65
+2025-07-18,CUST_001,Pamela Tran,Wholesale,PROD_066,Product 66,Bakery,Beverage,Grocery,40.96,6,245.76,6,245.76
+2025-07-13,CUST_039,Shannon Green,Wholesale,PROD_044,Product 44,Fruits,Food,Home Essentials,16.53,4,66.12,4,66.12
+2025-06-20,CUST_012,Melissa Montgomery,Retail,PROD_064,Product 64,Vegetables,Beverage,Home Essentials,91.14,8,729.12,8,729.12
+2025-07-24,CUST_038,Edward Moreno,Retail,PROD_024,Product 24,Beverages,Food,Home Essentials,4.24,8,33.92,8,33.92
+2025-05-23,CUST_026,Adam Johnson,Wholesale,PROD_055,Product 55,Beverages,Household,Home Essentials,18.77,3,56.31,13,918.81
+2025-03-10,CUST_046,Jennifer Glass,Wholesale,PROD_046,Product 46,Dairy,Food,Home Essentials,79.44,4,317.76,9,481.96
+2025-08-12,CUST_047,Mr. Marc Dalton,Wholesale,PROD_055,Product 55,Beverages,Household,Grocery,88.48,5,442.4,5,442.4
+2025-05-19,CUST_019,Brian Turner,Retail,PROD_012,Product 12,Dairy,Household,Grocery,72.32,10,723.2,11,820.49
+2025-02-19,CUST_038,Edward Moreno,Retail,PROD_071,Product 71,Dairy,Household,Home Essentials,36.69,1,36.69,1,36.69
+2025-04-14,CUST_011,Brandon White,Wholesale,PROD_061,Product 61,Bakery,Food,Home Essentials,1.78,10,17.8,10,17.8
+2025-05-29,CUST_007,David Collins,Retail,PROD_002,Product 2,Beverages,Beverage,Grocery,14.71,5,73.55,5,73.55
+2025-04-21,CUST_030,Daniel Taylor,Wholesale,PROD_029,Product 29,Beverages,Household,Home Essentials,27.61,4,110.44,4,110.44
+2025-07-29,CUST_020,Katrina Smith,Wholesale,PROD_064,Product 64,Fruits,Household,Grocery,62.63,9,563.67,9,563.67
+2025-05-06,CUST_041,Alan Williams,Wholesale,PROD_066,Product 66,Dairy,Food,Grocery,91.46,3,274.38,3,274.38
+2025-07-03,CUST_039,Shannon Green,Retail,PROD_065,Product 65,Beverages,Food,Home Essentials,11.28,3,33.84,8,416.84000000000003
+2025-02-19,CUST_021,Grace Wright,Retail,PROD_091,Product 91,Dairy,Food,Grocery,15.09,2,30.18,2,30.18
+2025-08-03,CUST_006,Richard Wilson,Retail,PROD_089,Product 89,Dairy,Household,Grocery,34.1,7,238.7,12,534.5
+2025-05-21,CUST_014,Carla Bush,Wholesale,PROD_047,Product 47,Beverages,Household,Home Essentials,25.84,2,51.68,2,51.68
+2025-05-04,CUST_035,Kelsey Shaw,Retail,PROD_061,Product 61,Vegetables,Household,Home Essentials,97.15,2,194.3,12,1065.2
+2025-02-24,CUST_027,Wesley Hart,Wholesale,PROD_038,Product 38,Vegetables,Beverage,Home Essentials,78.24,4,312.96,4,312.96
+2025-05-07,CUST_035,Kelsey Shaw,Retail,PROD_073,Product 73,Vegetables,Food,Home Essentials,65.24,6,391.44,6,391.44
+2025-05-14,CUST_008,Stacy Robles,Retail,PROD_096,Product 96,Beverages,Beverage,Home Essentials,78.68,3,236.04,3,236.04
+2025-06-30,CUST_029,Diana Rojas,Retail,PROD_098,Product 98,Vegetables,Household,Grocery,2.82,8,22.56,8,22.56
+2025-04-15,CUST_039,Shannon Green,Retail,PROD_006,Product 6,Vegetables,Food,Grocery,21.83,2,43.66,2,43.66
+2025-07-16,CUST_040,Taylor Moore,Retail,PROD_071,Product 71,Beverages,Beverage,Home Essentials,54.27,2,108.54,5,142.8
+2025-08-04,CUST_017,Kimberly Rose,Retail,PROD_017,Product 17,Bakery,Household,Grocery,50.16,9,451.44,9,451.44
+2025-03-09,CUST_003,Katherine Washington,Wholesale,PROD_009,Product 9,Vegetables,Beverage,Grocery,19.97,2,39.94,2,39.94
+2025-03-07,CUST_005,Anthony Brown,Wholesale,PROD_058,Product 58,Beverages,Beverage,Grocery,26.9,1,26.9,1,26.9
+2025-06-19,CUST_035,Kelsey Shaw,Wholesale,PROD_005,Product 5,Dairy,Beverage,Grocery,9.76,7,68.32,7,68.32
+2025-05-03,CUST_046,Jennifer Glass,Retail,PROD_087,Product 87,Beverages,Household,Home Essentials,6.47,10,64.7,10,64.7
+2025-05-04,CUST_024,Katelyn Burke,Retail,PROD_038,Product 38,Bakery,Food,Grocery,90.22,1,90.22,1,90.22
+2025-03-03,CUST_042,Jorge Morris,Retail,PROD_069,Product 69,Beverages,Food,Grocery,3.9,2,7.8,2,7.8
+2025-06-28,CUST_022,Ashley Wyatt,Wholesale,PROD_038,Product 38,Bakery,Food,Home Essentials,18.22,1,18.22,5,391.22
+2025-05-12,CUST_048,William Fritz,Wholesale,PROD_052,Product 52,Vegetables,Beverage,Grocery,27.45,6,164.7,13,636.99
+2025-03-17,CUST_040,Taylor Moore,Retail,PROD_023,Product 23,Beverages,Household,Home Essentials,12.92,4,51.68,4,51.68
+2025-05-10,CUST_009,Tina Sullivan,Retail,PROD_013,Product 13,Beverages,Household,Grocery,10.61,2,21.22,2,21.22
+2025-04-30,CUST_004,Bonnie Garrett,Wholesale,PROD_093,Product 93,Beverages,Household,Home Essentials,98.03,8,784.24,8,784.24
+2025-07-05,CUST_001,Pamela Tran,Retail,PROD_082,Product 82,Beverages,Household,Grocery,85.54,5,427.7,5,427.7
+2025-03-03,CUST_039,Shannon Green,Retail,PROD_074,Product 74,Dairy,Beverage,Home Essentials,88.62,3,265.86,3,265.86
+2025-04-06,CUST_041,Alan Williams,Wholesale,PROD_085,Product 85,Fruits,Food,Grocery,47.54,10,475.4,10,475.4
+2025-05-09,CUST_050,James Steele,Retail,PROD_051,Product 51,Beverages,Household,Home Essentials,82.04,3,246.12,3,246.12
+2025-07-12,CUST_026,Adam Johnson,Wholesale,PROD_057,Product 57,Dairy,Food,Grocery,76.32,2,152.64,2,152.64
+2025-06-07,CUST_002,Jonathon Thomas,Wholesale,PROD_013,Product 13,Bakery,Household,Home Essentials,72.88,6,437.28,6,437.28
+2025-05-30,CUST_039,Shannon Green,Retail,PROD_008,Product 8,Fruits,Beverage,Home Essentials,27.7,3,83.1,12,599.25
+2025-05-24,CUST_050,James Steele,Retail,PROD_093,Product 93,Beverages,Food,Home Essentials,46.6,3,139.8,3,139.8
+2025-03-07,CUST_042,Jorge Morris,Wholesale,PROD_027,Product 27,Fruits,Beverage,Grocery,30.8,5,154.0,5,154.0
+2025-03-15,CUST_032,Kyle Rogers,Wholesale,PROD_070,Product 70,Bakery,Household,Home Essentials,97.81,9,880.29,13,1102.1299999999999
+2025-05-01,CUST_023,Miss Patricia Huff,Wholesale,PROD_099,Product 99,Bakery,Beverage,Grocery,61.08,6,366.48,6,366.48
+2025-03-06,CUST_029,Diana Rojas,Retail,PROD_083,Product 83,Bakery,Household,Home Essentials,43.98,2,87.96,2,87.96
+2025-05-14,CUST_027,Wesley Hart,Wholesale,PROD_068,Product 68,Vegetables,Beverage,Home Essentials,59.94,6,359.64,6,359.64
+2025-04-22,CUST_047,Mr. Marc Dalton,Wholesale,PROD_005,Product 5,Vegetables,Household,Grocery,89.25,5,446.25,12,870.9
+2025-03-25,CUST_044,Thomas Johnson,Wholesale,PROD_043,Product 43,Bakery,Household,Grocery,56.94,7,398.58,7,398.58
+2025-03-19,CUST_022,Ashley Wyatt,Wholesale,PROD_015,Product 15,Bakery,Food,Grocery,54.02,8,432.16,8,432.16
+2025-05-25,CUST_036,Leslie Murray,Wholesale,PROD_011,Product 11,Fruits,Beverage,Home Essentials,95.1,1,95.1,1,95.1
+2025-08-11,CUST_018,Kevin Ward,Retail,PROD_098,Product 98,Dairy,Household,Grocery,88.97,6,533.82,6,533.82
+2025-05-31,CUST_043,William Rios,Wholesale,PROD_003,Product 3,Beverages,Beverage,Home Essentials,31.61,2,63.22,3,114.02
+2025-07-28,CUST_026,Adam Johnson,Retail,PROD_005,Product 5,Beverages,Beverage,Home Essentials,68.78,5,343.9,5,343.9
+2025-05-16,CUST_020,Katrina Smith,Retail,PROD_026,Product 26,Dairy,Food,Home Essentials,11.57,1,11.57,1,11.57
+2025-03-05,CUST_015,Lindsey Glass,Retail,PROD_100,Product 100,Dairy,Food,Home Essentials,74.58,3,223.74,3,223.74
+2025-05-22,CUST_016,Jason Vazquez,Retail,PROD_024,Product 24,Fruits,Food,Grocery,28.09,8,224.72,8,224.72
+2025-08-03,CUST_040,Taylor Moore,Wholesale,PROD_023,Product 23,Beverages,Household,Home Essentials,89.6,2,179.2,2,179.2
+2025-07-23,CUST_048,William Fritz,Retail,PROD_010,Product 10,Vegetables,Household,Grocery,70.75,9,636.75,9,636.75
+2025-03-27,CUST_027,Wesley Hart,Wholesale,PROD_082,Product 82,Beverages,Household,Grocery,95.92,5,479.6,5,479.6
+2025-07-25,CUST_036,Leslie Murray,Retail,PROD_091,Product 91,Fruits,Household,Home Essentials,5.37,3,16.11,3,16.11
+2025-08-12,CUST_050,James Steele,Retail,PROD_009,Product 9,Vegetables,Beverage,Grocery,74.53,2,149.06,2,149.06
+2025-06-28,CUST_022,Ashley Wyatt,Wholesale,PROD_071,Product 71,Beverages,Household,Home Essentials,93.25,4,373.0,5,391.22
+2025-07-31,CUST_020,Katrina Smith,Wholesale,PROD_080,Product 80,Vegetables,Beverage,Grocery,42.59,1,42.59,1,42.59
+2025-05-13,CUST_035,Kelsey Shaw,Wholesale,PROD_042,Product 42,Dairy,Food,Grocery,75.18,1,75.18,1,75.18
+2025-06-02,CUST_005,Anthony Brown,Retail,PROD_075,Product 75,Fruits,Food,Grocery,88.5,4,354.0,4,354.0
+2025-04-23,CUST_037,Jack Williamson,Wholesale,PROD_079,Product 79,Bakery,Beverage,Grocery,39.01,5,195.05,5,195.05
+2025-03-06,CUST_020,Katrina Smith,Wholesale,PROD_032,Product 32,Beverages,Household,Home Essentials,69.53,3,208.59,3,208.59
+2025-05-24,CUST_043,William Rios,Wholesale,PROD_050,Product 50,Beverages,Beverage,Grocery,14.21,7,99.47,24,737.54
+2025-03-23,CUST_047,Mr. Marc Dalton,Retail,PROD_085,Product 85,Vegetables,Household,Home Essentials,89.22,1,89.22,1,89.22
+2025-08-06,CUST_027,Wesley Hart,Wholesale,PROD_099,Product 99,Bakery,Food,Home Essentials,26.87,2,53.74,2,53.74
+2025-04-22,CUST_028,Patrick Robinson,Retail,PROD_037,Product 37,Beverages,Food,Grocery,66.33,7,464.31,7,464.31
+2025-05-20,CUST_035,Kelsey Shaw,Retail,PROD_098,Product 98,Vegetables,Food,Grocery,87.67,7,613.69,7,613.69
+2025-07-21,CUST_008,Stacy Robles,Retail,PROD_043,Product 43,Fruits,Beverage,Grocery,57.0,2,114.0,2,114.0
+2025-06-04,CUST_022,Ashley Wyatt,Retail,PROD_001,Product 1,Fruits,Household,Grocery,45.49,6,272.94,6,272.94
+2025-05-12,CUST_050,James Steele,Wholesale,PROD_046,Product 46,Fruits,Household,Home Essentials,75.92,6,455.52,6,455.52
+2025-08-18,CUST_018,Kevin Ward,Retail,PROD_050,Product 50,Dairy,Beverage,Home Essentials,20.88,7,146.16,7,146.16
+2025-04-27,CUST_037,Jack Williamson,Retail,PROD_086,Product 86,Fruits,Beverage,Home Essentials,44.5,3,133.5,3,133.5
+2025-03-24,CUST_021,Grace Wright,Wholesale,PROD_011,Product 11,Dairy,Beverage,Grocery,83.01,5,415.05,5,415.05
+2025-04-15,CUST_032,Kyle Rogers,Wholesale,PROD_037,Product 37,Bakery,Household,Grocery,30.33,1,30.33,1,30.33
+2025-03-14,CUST_041,Alan Williams,Retail,PROD_020,Product 20,Dairy,Household,Home Essentials,16.17,10,161.7,17,450.65999999999997
+2025-05-17,CUST_002,Jonathon Thomas,Wholesale,PROD_018,Product 18,Fruits,Household,Home Essentials,2.7,8,21.6,15,656.15
+2025-06-19,CUST_001,Pamela Tran,Wholesale,PROD_099,Product 99,Dairy,Beverage,Home Essentials,5.07,9,45.63,9,45.63
+2025-08-11,CUST_032,Kyle Rogers,Wholesale,PROD_090,Product 90,Beverages,Beverage,Grocery,4.64,8,37.12,8,37.12
+2025-06-17,CUST_040,Taylor Moore,Retail,PROD_020,Product 20,Fruits,Household,Grocery,65.41,10,654.1,10,654.1
+2025-03-31,CUST_026,Adam Johnson,Wholesale,PROD_091,Product 91,Fruits,Beverage,Grocery,44.33,10,443.3,10,443.3
+2025-05-14,CUST_047,Mr. Marc Dalton,Wholesale,PROD_020,Product 20,Bakery,Beverage,Home Essentials,29.18,5,145.9,5,145.9
+2025-06-10,CUST_013,Joseph Noble,Wholesale,PROD_070,Product 70,Dairy,Household,Grocery,97.3,5,486.5,5,486.5
+2025-07-09,CUST_049,Elizabeth Bailey,Wholesale,PROD_032,Product 32,Bakery,Household,Home Essentials,25.06,4,100.24,4,100.24
+2025-03-09,CUST_024,Katelyn Burke,Retail,PROD_045,Product 45,Beverages,Food,Home Essentials,54.54,6,327.24,6,327.24
+2025-04-01,CUST_017,Kimberly Rose,Wholesale,PROD_088,Product 88,Fruits,Beverage,Home Essentials,69.76,5,348.8,5,348.8
+2025-08-16,CUST_003,Katherine Washington,Retail,PROD_004,Product 4,Fruits,Household,Grocery,13.37,4,53.48,6,176.38
+2025-06-01,CUST_022,Ashley Wyatt,Wholesale,PROD_085,Product 85,Fruits,Food,Grocery,4.64,2,9.28,2,9.28
+2025-06-02,CUST_046,Jennifer Glass,Wholesale,PROD_025,Product 25,Dairy,Household,Grocery,14.73,8,117.84,8,117.84
+2025-07-09,CUST_041,Alan Williams,Wholesale,PROD_027,Product 27,Fruits,Beverage,Home Essentials,76.46,5,382.3,10,518.1
+2025-06-24,CUST_007,David Collins,Wholesale,PROD_031,Product 31,Dairy,Beverage,Home Essentials,52.2,10,522.0,10,522.0
+2025-07-02,CUST_032,Kyle Rogers,Wholesale,PROD_017,Product 17,Fruits,Food,Home Essentials,65.62,6,393.72,6,393.72
+2025-05-09,CUST_012,Melissa Montgomery,Wholesale,PROD_019,Product 19,Dairy,Beverage,Home Essentials,63.75,4,255.0,4,255.0
+2025-04-10,CUST_003,Katherine Washington,Retail,PROD_081,Product 81,Vegetables,Food,Home Essentials,90.65,10,906.5,10,906.5
+2025-05-03,CUST_021,Grace Wright,Retail,PROD_042,Product 42,Vegetables,Beverage,Grocery,46.98,4,187.92,4,187.92
+2025-05-08,CUST_029,Diana Rojas,Retail,PROD_088,Product 88,Bakery,Household,Home Essentials,80.66,3,241.98,6,443.90999999999997
+2025-03-26,CUST_007,David Collins,Wholesale,PROD_034,Product 34,Dairy,Household,Grocery,59.01,9,531.09,9,531.09
+2025-07-21,CUST_023,Miss Patricia Huff,Retail,PROD_035,Product 35,Fruits,Beverage,Home Essentials,24.38,6,146.28,6,146.28
+2025-06-17,CUST_039,Shannon Green,Retail,PROD_040,Product 40,Fruits,Household,Grocery,56.86,7,398.02,7,398.02
+2025-04-22,CUST_047,Mr. Marc Dalton,Retail,PROD_064,Product 64,Beverages,Household,Grocery,46.71,3,140.13,12,870.9
+2025-04-12,CUST_047,Mr. Marc Dalton,Wholesale,PROD_023,Product 23,Vegetables,Beverage,Grocery,72.74,3,218.22,3,218.22
+2025-05-15,CUST_036,Leslie Murray,Wholesale,PROD_052,Product 52,Beverages,Beverage,Home Essentials,96.79,5,483.95,5,483.95
+2025-05-31,CUST_015,Lindsey Glass,Retail,PROD_053,Product 53,Fruits,Food,Grocery,83.11,2,166.22,2,166.22
+2025-03-15,CUST_031,Heather Gray,Retail,PROD_031,Product 31,Vegetables,Food,Grocery,93.82,5,469.1,5,469.1
+2025-03-29,CUST_040,Taylor Moore,Retail,PROD_052,Product 52,Beverages,Food,Grocery,42.75,4,171.0,4,171.0
+2025-05-30,CUST_039,Shannon Green,Retail,PROD_003,Product 3,Bakery,Household,Home Essentials,57.35,9,516.15,12,599.25
+2025-07-27,CUST_028,Patrick Robinson,Wholesale,PROD_052,Product 52,Beverages,Beverage,Grocery,22.7,8,181.6,8,181.6
+2025-08-01,CUST_023,Miss Patricia Huff,Retail,PROD_065,Product 65,Bakery,Beverage,Home Essentials,80.75,10,807.5,10,807.5
+2025-08-08,CUST_010,Steven Richardson,Retail,PROD_014,Product 14,Fruits,Household,Home Essentials,37.64,10,376.4,10,376.4
+2025-03-25,CUST_036,Leslie Murray,Retail,PROD_050,Product 50,Dairy,Food,Grocery,73.62,9,662.58,9,662.58
+2025-04-11,CUST_016,Jason Vazquez,Retail,PROD_098,Product 98,Bakery,Household,Grocery,25.92,9,233.28,9,233.28
+2025-06-27,CUST_003,Katherine Washington,Retail,PROD_018,Product 18,Vegetables,Food,Home Essentials,89.22,6,535.32,6,535.32
+2025-08-10,CUST_018,Kevin Ward,Retail,PROD_061,Product 61,Vegetables,Food,Home Essentials,93.51,9,841.59,9,841.59
+2025-06-27,CUST_046,Jennifer Glass,Retail,PROD_092,Product 92,Vegetables,Food,Grocery,78.63,5,393.15,5,393.15
+2025-06-25,CUST_005,Anthony Brown,Retail,PROD_024,Product 24,Bakery,Food,Grocery,80.36,10,803.6,10,803.6
+2025-02-18,CUST_042,Jorge Morris,Wholesale,PROD_063,Product 63,Beverages,Household,Grocery,35.48,6,212.88,6,212.88
+2025-08-06,CUST_048,William Fritz,Wholesale,PROD_033,Product 33,Beverages,Beverage,Home Essentials,16.7,10,167.0,10,167.0
+2025-07-23,CUST_019,Brian Turner,Wholesale,PROD_055,Product 55,Bakery,Food,Home Essentials,54.45,5,272.25,5,272.25
+2025-07-20,CUST_010,Steven Richardson,Retail,PROD_028,Product 28,Fruits,Food,Home Essentials,72.27,8,578.16,8,578.16
+2025-03-21,CUST_020,Katrina Smith,Wholesale,PROD_031,Product 31,Beverages,Beverage,Grocery,23.24,3,69.72,3,69.72
+2025-04-01,CUST_019,Brian Turner,Wholesale,PROD_048,Product 48,Bakery,Beverage,Grocery,4.15,5,20.75,6,77.25
+2025-02-28,CUST_013,Joseph Noble,Wholesale,PROD_012,Product 12,Beverages,Beverage,Grocery,49.43,4,197.72,4,197.72
+2025-08-13,CUST_042,Jorge Morris,Wholesale,PROD_089,Product 89,Dairy,Beverage,Home Essentials,18.58,3,55.74,3,55.74
+2025-06-10,CUST_038,Edward Moreno,Wholesale,PROD_078,Product 78,Dairy,Household,Home Essentials,95.2,6,571.2,6,571.2
+2025-04-01,CUST_038,Edward Moreno,Wholesale,PROD_039,Product 39,Bakery,Household,Grocery,8.55,4,34.2,4,34.2
+2025-05-27,CUST_017,Kimberly Rose,Wholesale,PROD_005,Product 5,Beverages,Food,Grocery,62.77,2,125.54,2,125.54
+2025-08-12,CUST_020,Katrina Smith,Wholesale,PROD_017,Product 17,Vegetables,Food,Grocery,35.4,6,212.4,6,212.4
+2025-06-22,CUST_020,Katrina Smith,Wholesale,PROD_096,Product 96,Dairy,Food,Home Essentials,17.64,6,105.84,6,105.84
+2025-03-22,CUST_018,Kevin Ward,Wholesale,PROD_040,Product 40,Dairy,Food,Grocery,38.95,5,194.75,5,194.75
+2025-03-24,CUST_029,Diana Rojas,Retail,PROD_075,Product 75,Fruits,Household,Home Essentials,82.37,3,247.11,3,247.11
+2025-03-01,CUST_024,Katelyn Burke,Retail,PROD_099,Product 99,Fruits,Food,Grocery,6.26,2,12.52,2,12.52
+2025-05-01,CUST_012,Melissa Montgomery,Wholesale,PROD_025,Product 25,Beverages,Household,Home Essentials,98.57,3,295.71,3,295.71
+2025-05-10,CUST_002,Jonathon Thomas,Retail,PROD_083,Product 83,Vegetables,Household,Grocery,92.15,4,368.6,4,368.6
+2025-04-16,CUST_010,Steven Richardson,Retail,PROD_004,Product 4,Fruits,Beverage,Home Essentials,20.63,8,165.04,8,165.04
+2025-05-24,CUST_007,David Collins,Wholesale,PROD_097,Product 97,Fruits,Beverage,Home Essentials,79.07,3,237.21,3,237.21
+2025-07-13,CUST_034,Robert Miller,Retail,PROD_018,Product 18,Dairy,Food,Home Essentials,19.53,5,97.65,14,332.90999999999997
+2025-05-13,CUST_020,Katrina Smith,Wholesale,PROD_046,Product 46,Bakery,Food,Home Essentials,96.05,7,672.35,7,672.35
+2025-02-27,CUST_017,Kimberly Rose,Retail,PROD_089,Product 89,Beverages,Food,Grocery,85.42,3,256.26,3,256.26
+2025-06-08,CUST_029,Diana Rojas,Retail,PROD_097,Product 97,Fruits,Beverage,Grocery,5.86,6,35.16,6,35.16
+2025-04-09,CUST_008,Stacy Robles,Wholesale,PROD_073,Product 73,Fruits,Food,Grocery,21.95,2,43.9,2,43.9
+2025-06-15,CUST_037,Jack Williamson,Wholesale,PROD_037,Product 37,Dairy,Household,Grocery,69.16,9,622.44,9,622.44
+2025-07-26,CUST_011,Brandon White,Retail,PROD_041,Product 41,Fruits,Beverage,Home Essentials,84.44,2,168.88,2,168.88
+2025-02-28,CUST_014,Carla Bush,Retail,PROD_046,Product 46,Bakery,Food,Grocery,2.61,2,5.22,2,5.22
+2025-03-17,CUST_029,Diana Rojas,Wholesale,PROD_065,Product 65,Vegetables,Household,Grocery,63.99,8,511.92,8,511.92
+2025-05-10,CUST_041,Alan Williams,Retail,PROD_010,Product 10,Vegetables,Food,Home Essentials,68.1,10,681.0,10,681.0
+2025-08-09,CUST_031,Heather Gray,Wholesale,PROD_084,Product 84,Beverages,Beverage,Grocery,85.9,3,257.7,8,494.45
+2025-08-13,CUST_030,Daniel Taylor,Wholesale,PROD_096,Product 96,Dairy,Food,Grocery,73.58,1,73.58,1,73.58
+2025-05-14,CUST_029,Diana Rojas,Wholesale,PROD_012,Product 12,Vegetables,Beverage,Grocery,8.1,4,32.4,4,32.4
+2025-06-19,CUST_012,Melissa Montgomery,Retail,PROD_057,Product 57,Fruits,Beverage,Grocery,64.52,10,645.2,10,645.2
+2025-03-26,CUST_027,Wesley Hart,Retail,PROD_083,Product 83,Bakery,Beverage,Home Essentials,52.93,10,529.3,10,529.3
+2025-07-01,CUST_003,Katherine Washington,Retail,PROD_067,Product 67,Beverages,Beverage,Grocery,19.38,7,135.66,7,135.66
+2025-08-13,CUST_018,Kevin Ward,Wholesale,PROD_034,Product 34,Vegetables,Food,Home Essentials,48.06,8,384.48,8,384.48
+2025-03-20,CUST_047,Mr. Marc Dalton,Retail,PROD_072,Product 72,Vegetables,Beverage,Home Essentials,33.76,3,101.28,3,101.28
+2025-07-28,CUST_014,Carla Bush,Wholesale,PROD_055,Product 55,Dairy,Household,Home Essentials,94.33,2,188.66,2,188.66
+2025-07-29,CUST_027,Wesley Hart,Wholesale,PROD_078,Product 78,Fruits,Food,Grocery,91.25,2,182.5,7,370.35
+2025-08-14,CUST_013,Joseph Noble,Retail,PROD_045,Product 45,Fruits,Beverage,Home Essentials,26.83,3,80.49,3,80.49
+2025-02-22,CUST_024,Katelyn Burke,Wholesale,PROD_076,Product 76,Beverages,Household,Home Essentials,7.19,10,71.9,10,71.9
+2025-06-01,CUST_004,Bonnie Garrett,Retail,PROD_028,Product 28,Beverages,Food,Home Essentials,31.73,2,63.46,2,63.46
+2025-08-18,CUST_001,Pamela Tran,Retail,PROD_075,Product 75,Fruits,Beverage,Grocery,31.0,6,186.0,6,186.0
+2025-05-11,CUST_034,Robert Miller,Wholesale,PROD_049,Product 49,Beverages,Beverage,Grocery,42.64,6,255.84,6,255.84
+2025-06-19,CUST_016,Jason Vazquez,Retail,PROD_040,Product 40,Bakery,Household,Grocery,50.64,3,151.92,3,151.92
+2025-04-12,CUST_009,Tina Sullivan,Wholesale,PROD_057,Product 57,Vegetables,Beverage,Home Essentials,33.81,10,338.1,10,338.1
+2025-05-07,CUST_009,Tina Sullivan,Wholesale,PROD_053,Product 53,Dairy,Food,Home Essentials,32.83,10,328.3,10,328.3
+2025-07-27,CUST_016,Jason Vazquez,Wholesale,PROD_003,Product 3,Bakery,Household,Grocery,17.18,10,171.8,10,171.8
+2025-06-06,CUST_004,Bonnie Garrett,Retail,PROD_089,Product 89,Beverages,Food,Home Essentials,28.1,2,56.2,2,56.2
+2025-03-06,CUST_024,Katelyn Burke,Wholesale,PROD_085,Product 85,Vegetables,Household,Grocery,98.52,7,689.64,7,689.64
+2025-05-02,CUST_045,Sheila Williamson,Retail,PROD_033,Product 33,Beverages,Food,Home Essentials,6.76,7,47.32,7,47.32
+2025-04-12,CUST_048,William Fritz,Wholesale,PROD_096,Product 96,Vegetables,Food,Grocery,89.33,4,357.32,4,357.32
+2025-03-16,CUST_014,Carla Bush,Wholesale,PROD_003,Product 3,Beverages,Food,Home Essentials,9.91,3,29.73,3,29.73
+2025-07-07,CUST_033,Thomas Williams,Wholesale,PROD_040,Product 40,Vegetables,Household,Grocery,51.35,10,513.5,10,513.5
+2025-05-18,CUST_033,Thomas Williams,Retail,PROD_049,Product 49,Vegetables,Household,Grocery,44.8,4,179.2,4,179.2
+2025-06-24,CUST_001,Pamela Tran,Wholesale,PROD_039,Product 39,Vegetables,Beverage,Home Essentials,69.12,7,483.84,7,483.84
+2025-04-26,CUST_045,Sheila Williamson,Retail,PROD_077,Product 77,Beverages,Household,Grocery,4.45,1,4.45,1,4.45
+2025-05-19,CUST_026,Adam Johnson,Wholesale,PROD_045,Product 45,Beverages,Food,Home Essentials,70.35,10,703.5,10,703.5
+2025-07-26,CUST_023,Miss Patricia Huff,Wholesale,PROD_024,Product 24,Bakery,Food,Grocery,51.55,5,257.75,5,257.75
+2025-06-10,CUST_003,Katherine Washington,Retail,PROD_044,Product 44,Vegetables,Food,Grocery,22.72,4,90.88,8,425.68
+2025-07-03,CUST_028,Patrick Robinson,Wholesale,PROD_008,Product 8,Fruits,Food,Home Essentials,38.12,10,381.2,10,381.2
+2025-04-14,CUST_043,William Rios,Retail,PROD_007,Product 7,Fruits,Food,Grocery,85.73,1,85.73,1,85.73
+2025-04-24,CUST_036,Leslie Murray,Retail,PROD_036,Product 36,Vegetables,Food,Home Essentials,13.85,8,110.8,8,110.8
+2025-07-27,CUST_035,Kelsey Shaw,Retail,PROD_046,Product 46,Fruits,Beverage,Home Essentials,1.45,9,13.05,9,13.05
+2025-04-16,CUST_039,Shannon Green,Retail,PROD_017,Product 17,Beverages,Household,Grocery,45.87,2,91.74,2,91.74
+2025-05-29,CUST_021,Grace Wright,Wholesale,PROD_035,Product 35,Beverages,Household,Home Essentials,92.57,1,92.57,1,92.57
+2025-04-25,CUST_022,Ashley Wyatt,Wholesale,PROD_001,Product 1,Beverages,Beverage,Grocery,82.73,3,248.19,3,248.19
+2025-05-09,CUST_022,Ashley Wyatt,Retail,PROD_080,Product 80,Bakery,Household,Home Essentials,3.34,5,16.7,5,16.7
+2025-08-19,CUST_004,Bonnie Garrett,Wholesale,PROD_052,Product 52,Beverages,Beverage,Home Essentials,29.91,5,149.55,5,149.55
+2025-04-01,CUST_049,Elizabeth Bailey,Wholesale,PROD_095,Product 95,Dairy,Food,Home Essentials,47.81,7,334.67,7,334.67
+2025-03-28,CUST_021,Grace Wright,Retail,PROD_027,Product 27,Beverages,Beverage,Home Essentials,55.45,1,55.45,1,55.45
+2025-05-17,CUST_002,Jonathon Thomas,Wholesale,PROD_057,Product 57,Beverages,Beverage,Home Essentials,90.65,7,634.55,15,656.15
+2025-07-15,CUST_001,Pamela Tran,Wholesale,PROD_083,Product 83,Bakery,Beverage,Home Essentials,92.41,3,277.23,3,277.23
+2025-06-21,CUST_026,Adam Johnson,Retail,PROD_006,Product 6,Fruits,Food,Home Essentials,96.17,9,865.53,9,865.53
+2025-05-13,CUST_023,Miss Patricia Huff,Wholesale,PROD_099,Product 99,Dairy,Food,Home Essentials,12.46,7,87.22,7,87.22
+2025-04-22,CUST_008,Stacy Robles,Wholesale,PROD_039,Product 39,Beverages,Food,Home Essentials,90.21,1,90.21,1,90.21
+2025-05-09,CUST_003,Katherine Washington,Wholesale,PROD_057,Product 57,Vegetables,Beverage,Grocery,78.13,4,312.52,4,312.52
+2025-02-18,CUST_035,Kelsey Shaw,Wholesale,PROD_027,Product 27,Dairy,Household,Home Essentials,65.11,8,520.88,8,520.88
+2025-07-05,CUST_015,Lindsey Glass,Retail,PROD_034,Product 34,Dairy,Food,Home Essentials,92.89,9,836.01,9,836.01
+2025-08-05,CUST_001,Pamela Tran,Retail,PROD_004,Product 4,Fruits,Household,Grocery,26.06,4,104.24,7,176.54
+2025-08-17,CUST_021,Grace Wright,Retail,PROD_022,Product 22,Vegetables,Food,Grocery,87.75,5,438.75,9,445.87
+2025-04-21,CUST_045,Sheila Williamson,Retail,PROD_029,Product 29,Dairy,Beverage,Grocery,20.98,7,146.86,7,146.86
+2025-03-31,CUST_014,Carla Bush,Retail,PROD_012,Product 12,Fruits,Beverage,Home Essentials,41.15,10,411.5,10,411.5
+2025-05-15,CUST_018,Kevin Ward,Retail,PROD_004,Product 4,Beverages,Beverage,Grocery,25.41,1,25.41,1,25.41
+2025-04-01,CUST_001,Pamela Tran,Retail,PROD_052,Product 52,Beverages,Food,Home Essentials,1.6,8,12.8,8,12.8
+2025-08-17,CUST_029,Diana Rojas,Wholesale,PROD_089,Product 89,Beverages,Beverage,Home Essentials,83.0,6,498.0,6,498.0
+2025-08-09,CUST_034,Robert Miller,Wholesale,PROD_027,Product 27,Dairy,Beverage,Grocery,59.01,1,59.01,1,59.01
+2025-03-19,CUST_015,Lindsey Glass,Wholesale,PROD_088,Product 88,Vegetables,Household,Grocery,51.67,9,465.03,9,465.03
+2025-03-07,CUST_024,Katelyn Burke,Retail,PROD_013,Product 13,Beverages,Beverage,Grocery,83.51,3,250.53,3,250.53
+2025-06-26,CUST_050,James Steele,Wholesale,PROD_093,Product 93,Dairy,Household,Home Essentials,6.15,2,12.3,2,12.3
+2025-05-13,CUST_008,Stacy Robles,Retail,PROD_086,Product 86,Beverages,Beverage,Grocery,98.55,5,492.75,5,492.75
+2025-04-01,CUST_033,Thomas Williams,Wholesale,PROD_043,Product 43,Beverages,Food,Home Essentials,37.16,2,74.32,2,74.32
+2025-05-25,CUST_048,William Fritz,Retail,PROD_081,Product 81,Beverages,Household,Home Essentials,23.32,1,23.32,1,23.32
+2025-03-27,CUST_045,Sheila Williamson,Retail,PROD_038,Product 38,Vegetables,Household,Grocery,40.25,7,281.75,7,281.75
+2025-04-15,CUST_015,Lindsey Glass,Wholesale,PROD_012,Product 12,Dairy,Food,Home Essentials,51.55,5,257.75,5,257.75
+2025-03-20,CUST_009,Tina Sullivan,Retail,PROD_031,Product 31,Fruits,Household,Grocery,95.72,1,95.72,1,95.72
+2025-07-29,CUST_027,Wesley Hart,Retail,PROD_016,Product 16,Bakery,Household,Home Essentials,37.57,5,187.85,7,370.35
+2025-08-18,CUST_023,Miss Patricia Huff,Retail,PROD_009,Product 9,Fruits,Beverage,Home Essentials,27.92,4,111.68,4,111.68
+2025-08-15,CUST_018,Kevin Ward,Wholesale,PROD_087,Product 87,Fruits,Beverage,Grocery,48.57,2,97.14,2,97.14
+2025-05-07,CUST_008,Stacy Robles,Wholesale,PROD_034,Product 34,Dairy,Beverage,Grocery,39.81,7,278.67,7,278.67
+2025-05-14,CUST_046,Jennifer Glass,Retail,PROD_055,Product 55,Beverages,Food,Home Essentials,48.04,5,240.2,5,240.2
+2025-06-23,CUST_001,Pamela Tran,Retail,PROD_004,Product 4,Dairy,Food,Grocery,73.83,4,295.32,4,295.32
+2025-06-05,CUST_007,David Collins,Retail,PROD_074,Product 74,Vegetables,Food,Home Essentials,13.65,4,54.6,4,54.6
+2025-02-28,CUST_002,Jonathon Thomas,Wholesale,PROD_028,Product 28,Bakery,Beverage,Grocery,78.2,9,703.8,17,1453.24
+2025-06-03,CUST_003,Katherine Washington,Retail,PROD_030,Product 30,Beverages,Household,Grocery,68.97,5,344.85,5,344.85
+2025-08-05,CUST_043,William Rios,Retail,PROD_002,Product 2,Beverages,Food,Home Essentials,7.88,9,70.92,9,70.92
+2025-03-13,CUST_034,Robert Miller,Wholesale,PROD_091,Product 91,Vegetables,Food,Grocery,33.5,2,67.0,2,67.0
+2025-05-29,CUST_028,Patrick Robinson,Retail,PROD_086,Product 86,Fruits,Food,Grocery,27.22,3,81.66,3,81.66
+2025-05-24,CUST_048,William Fritz,Wholesale,PROD_002,Product 2,Dairy,Beverage,Grocery,48.13,1,48.13,1,48.13
+2025-02-26,CUST_040,Taylor Moore,Retail,PROD_051,Product 51,Fruits,Beverage,Grocery,77.46,4,309.84,4,309.84
+2025-03-10,CUST_047,Mr. Marc Dalton,Wholesale,PROD_068,Product 68,Fruits,Beverage,Home Essentials,8.14,9,73.26,9,73.26
+2025-06-27,CUST_009,Tina Sullivan,Wholesale,PROD_081,Product 81,Bakery,Beverage,Grocery,90.28,2,180.56,2,180.56
+2025-08-13,CUST_046,Jennifer Glass,Wholesale,PROD_021,Product 21,Dairy,Household,Home Essentials,28.54,5,142.7,5,142.7
+2025-03-26,CUST_003,Katherine Washington,Wholesale,PROD_082,Product 82,Bakery,Household,Grocery,25.11,7,175.77,14,594.51
+2025-03-24,CUST_033,Thomas Williams,Wholesale,PROD_081,Product 81,Fruits,Household,Grocery,60.22,4,240.88,4,240.88
+2025-06-26,CUST_011,Brandon White,Retail,PROD_038,Product 38,Beverages,Food,Home Essentials,65.71,8,525.68,8,525.68
+2025-08-16,CUST_003,Katherine Washington,Wholesale,PROD_092,Product 92,Fruits,Household,Grocery,61.45,2,122.9,6,176.38
+2025-05-24,CUST_025,John Guerra,Retail,PROD_013,Product 13,Bakery,Household,Grocery,84.15,7,589.05,7,589.05
+2025-07-26,CUST_034,Robert Miller,Retail,PROD_090,Product 90,Dairy,Beverage,Grocery,27.56,2,55.12,2,55.12
+2025-05-04,CUST_027,Wesley Hart,Retail,PROD_079,Product 79,Dairy,Food,Home Essentials,36.22,9,325.98,9,325.98
+2025-08-03,CUST_018,Kevin Ward,Retail,PROD_018,Product 18,Fruits,Household,Home Essentials,60.23,2,120.46,2,120.46
+2025-07-28,CUST_008,Stacy Robles,Wholesale,PROD_091,Product 91,Dairy,Beverage,Home Essentials,15.9,3,47.7,3,47.7
+2025-08-16,CUST_031,Heather Gray,Wholesale,PROD_030,Product 30,Fruits,Household,Grocery,92.97,10,929.7,10,929.7
+2025-05-19,CUST_016,Jason Vazquez,Wholesale,PROD_071,Product 71,Beverages,Food,Home Essentials,96.55,4,386.2,4,386.2
+2025-03-28,CUST_041,Alan Williams,Wholesale,PROD_050,Product 50,Bakery,Beverage,Home Essentials,16.44,8,131.52,13,377.37
+2025-04-23,CUST_027,Wesley Hart,Wholesale,PROD_070,Product 70,Beverages,Food,Home Essentials,73.15,3,219.45,3,219.45
+2025-03-10,CUST_046,Jennifer Glass,Wholesale,PROD_075,Product 75,Vegetables,Household,Home Essentials,32.84,5,164.2,9,481.96
+2025-03-10,CUST_008,Stacy Robles,Wholesale,PROD_084,Product 84,Vegetables,Food,Home Essentials,64.68,2,129.36,2,129.36
+2025-03-24,CUST_027,Wesley Hart,Retail,PROD_024,Product 24,Fruits,Food,Home Essentials,38.13,3,114.39,3,114.39
+2025-08-01,CUST_033,Thomas Williams,Retail,PROD_018,Product 18,Dairy,Beverage,Grocery,25.1,4,100.4,4,100.4
+2025-05-29,CUST_027,Wesley Hart,Wholesale,PROD_095,Product 95,Vegetables,Food,Home Essentials,47.7,5,238.5,5,238.5
+2025-08-04,CUST_015,Lindsey Glass,Retail,PROD_047,Product 47,Vegetables,Food,Grocery,97.14,9,874.26,9,874.26
+2025-02-25,CUST_046,Jennifer Glass,Retail,PROD_017,Product 17,Fruits,Food,Grocery,76.91,1,76.91,1,76.91
+2025-04-24,CUST_040,Taylor Moore,Retail,PROD_052,Product 52,Dairy,Food,Home Essentials,37.49,9,337.41,9,337.41
+2025-02-26,CUST_008,Stacy Robles,Retail,PROD_024,Product 24,Beverages,Food,Grocery,1.51,6,9.06,6,9.06
+2025-04-25,CUST_031,Heather Gray,Retail,PROD_054,Product 54,Beverages,Beverage,Home Essentials,88.48,9,796.32,9,796.32
+2025-08-05,CUST_001,Pamela Tran,Wholesale,PROD_055,Product 55,Beverages,Household,Grocery,24.1,3,72.3,7,176.54
+2025-03-19,CUST_048,William Fritz,Retail,PROD_038,Product 38,Fruits,Beverage,Grocery,54.36,5,271.8,5,271.8
+2025-03-27,CUST_018,Kevin Ward,Wholesale,PROD_100,Product 100,Dairy,Food,Grocery,45.76,5,228.8,11,431.9
+2025-07-30,CUST_028,Patrick Robinson,Retail,PROD_079,Product 79,Beverages,Beverage,Home Essentials,13.21,2,26.42,10,422.42
+2025-07-03,CUST_050,James Steele,Wholesale,PROD_018,Product 18,Beverages,Food,Grocery,58.27,2,116.54,2,116.54
+2025-04-30,CUST_012,Melissa Montgomery,Retail,PROD_099,Product 99,Beverages,Household,Home Essentials,88.69,6,532.14,6,532.14
+2025-04-23,CUST_012,Melissa Montgomery,Wholesale,PROD_075,Product 75,Dairy,Food,Home Essentials,65.02,3,195.06,3,195.06
+2025-06-07,CUST_021,Grace Wright,Retail,PROD_058,Product 58,Fruits,Food,Grocery,69.11,8,552.88,8,552.88
+2025-05-08,CUST_029,Diana Rojas,Wholesale,PROD_071,Product 71,Vegetables,Food,Home Essentials,67.31,3,201.93,6,443.90999999999997
+2025-04-24,CUST_011,Brandon White,Wholesale,PROD_010,Product 10,Beverages,Beverage,Home Essentials,63.95,7,447.65,7,447.65
+2025-04-10,CUST_008,Stacy Robles,Wholesale,PROD_004,Product 4,Vegetables,Household,Grocery,98.57,7,689.99,7,689.99
+2025-06-21,CUST_022,Ashley Wyatt,Retail,PROD_021,Product 21,Vegetables,Food,Home Essentials,99.37,3,298.11,3,298.11
+2025-08-06,CUST_021,Grace Wright,Retail,PROD_040,Product 40,Vegetables,Food,Grocery,84.94,5,424.7,5,424.7
+2025-03-15,CUST_024,Katelyn Burke,Wholesale,PROD_015,Product 15,Dairy,Beverage,Home Essentials,16.53,6,99.18,6,99.18
+2025-06-24,CUST_027,Wesley Hart,Wholesale,PROD_004,Product 4,Fruits,Food,Grocery,26.47,7,185.29,7,185.29
+2025-06-05,CUST_031,Heather Gray,Wholesale,PROD_046,Product 46,Dairy,Beverage,Home Essentials,4.54,8,36.32,8,36.32
+2025-08-11,CUST_019,Brian Turner,Wholesale,PROD_091,Product 91,Beverages,Beverage,Grocery,36.31,8,290.48,8,290.48
+2025-07-18,CUST_021,Grace Wright,Retail,PROD_094,Product 94,Dairy,Beverage,Grocery,53.8,9,484.2,9,484.2
+2025-03-18,CUST_034,Robert Miller,Wholesale,PROD_043,Product 43,Fruits,Beverage,Grocery,8.16,5,40.8,5,40.8
+2025-08-01,CUST_045,Sheila Williamson,Wholesale,PROD_065,Product 65,Beverages,Beverage,Grocery,34.46,7,241.22,7,241.22
+2025-07-08,CUST_014,Carla Bush,Retail,PROD_004,Product 4,Fruits,Food,Grocery,96.93,3,290.79,3,290.79
+2025-04-17,CUST_050,James Steele,Retail,PROD_073,Product 73,Beverages,Food,Home Essentials,39.49,5,197.45,5,197.45
+2025-04-23,CUST_025,John Guerra,Retail,PROD_032,Product 32,Vegetables,Household,Home Essentials,27.03,2,54.06,2,54.06
+2025-07-06,CUST_016,Jason Vazquez,Retail,PROD_077,Product 77,Beverages,Household,Grocery,15.39,8,123.12,8,123.12
+2025-04-05,CUST_031,Heather Gray,Retail,PROD_043,Product 43,Vegetables,Food,Grocery,65.94,2,131.88,2,131.88
+2025-03-17,CUST_012,Melissa Montgomery,Retail,PROD_023,Product 23,Beverages,Household,Home Essentials,37.39,10,373.9,10,373.9
+2025-08-17,CUST_013,Joseph Noble,Retail,PROD_066,Product 66,Dairy,Food,Grocery,83.78,1,83.78,1,83.78
+2025-04-01,CUST_002,Jonathon Thomas,Retail,PROD_043,Product 43,Vegetables,Food,Grocery,57.0,3,171.0,3,171.0
+2025-05-23,CUST_026,Adam Johnson,Wholesale,PROD_035,Product 35,Bakery,Beverage,Home Essentials,86.25,10,862.5,13,918.81
+2025-04-09,CUST_001,Pamela Tran,Wholesale,PROD_053,Product 53,Vegetables,Beverage,Grocery,69.05,9,621.45,9,621.45
+2025-02-24,CUST_017,Kimberly Rose,Retail,PROD_046,Product 46,Beverages,Beverage,Grocery,74.05,6,444.3,6,444.3
+2025-03-10,CUST_004,Bonnie Garrett,Retail,PROD_073,Product 73,Fruits,Beverage,Grocery,60.03,8,480.24,8,480.24
+2025-08-13,CUST_025,John Guerra,Retail,PROD_030,Product 30,Beverages,Household,Home Essentials,27.48,10,274.8,10,274.8
+2025-06-25,CUST_030,Daniel Taylor,Wholesale,PROD_078,Product 78,Dairy,Food,Grocery,62.11,5,310.55,5,310.55
+2025-03-15,CUST_044,Thomas Johnson,Wholesale,PROD_068,Product 68,Dairy,Household,Home Essentials,12.99,6,77.94,6,77.94
+2025-05-10,CUST_040,Taylor Moore,Wholesale,PROD_059,Product 59,Dairy,Household,Grocery,9.33,8,74.64,8,74.64
+2025-04-30,CUST_019,Brian Turner,Retail,PROD_015,Product 15,Fruits,Food,Grocery,12.79,10,127.9,10,127.9
+2025-03-28,CUST_031,Heather Gray,Wholesale,PROD_072,Product 72,Vegetables,Beverage,Home Essentials,76.9,2,153.8,2,153.8
+2025-04-12,CUST_016,Jason Vazquez,Retail,PROD_091,Product 91,Bakery,Household,Grocery,24.47,9,220.23,9,220.23
+2025-04-04,CUST_021,Grace Wright,Retail,PROD_014,Product 14,Bakery,Household,Home Essentials,79.59,6,477.54,6,477.54
+2025-07-10,CUST_026,Adam Johnson,Wholesale,PROD_035,Product 35,Fruits,Household,Grocery,43.06,6,258.36,6,258.36
+2025-08-10,CUST_008,Stacy Robles,Retail,PROD_053,Product 53,Bakery,Household,Home Essentials,54.27,10,542.7,10,542.7
+2025-04-11,CUST_021,Grace Wright,Wholesale,PROD_067,Product 67,Bakery,Food,Grocery,83.79,6,502.74,12,567.12
+2025-07-19,CUST_033,Thomas Williams,Wholesale,PROD_068,Product 68,Vegetables,Household,Grocery,87.77,10,877.7,10,877.7
+2025-04-26,CUST_014,Carla Bush,Wholesale,PROD_092,Product 92,Dairy,Household,Home Essentials,2.3,1,2.3,1,2.3
+2025-03-22,CUST_026,Adam Johnson,Retail,PROD_021,Product 21,Bakery,Household,Home Essentials,12.08,4,48.32,4,48.32
+2025-06-19,CUST_050,James Steele,Retail,PROD_060,Product 60,Fruits,Food,Grocery,51.77,1,51.77,1,51.77
+2025-02-28,CUST_030,Daniel Taylor,Wholesale,PROD_024,Product 24,Bakery,Household,Grocery,89.65,10,896.5,10,896.5
+2025-06-28,CUST_016,Jason Vazquez,Retail,PROD_092,Product 92,Vegetables,Beverage,Grocery,34.88,1,34.88,1,34.88
+2025-05-29,CUST_019,Brian Turner,Retail,PROD_011,Product 11,Beverages,Food,Grocery,73.2,4,292.8,4,292.8
+2025-07-09,CUST_014,Carla Bush,Retail,PROD_032,Product 32,Beverages,Household,Grocery,79.03,5,395.15,13,1077.31
+2025-03-30,CUST_007,David Collins,Wholesale,PROD_091,Product 91,Vegetables,Food,Home Essentials,91.17,8,729.36,8,729.36
+2025-02-27,CUST_050,James Steele,Retail,PROD_055,Product 55,Dairy,Household,Grocery,60.74,1,60.74,1,60.74
+2025-08-03,CUST_006,Richard Wilson,Wholesale,PROD_058,Product 58,Vegetables,Household,Grocery,59.16,5,295.8,12,534.5
+2025-07-08,CUST_023,Miss Patricia Huff,Retail,PROD_028,Product 28,Bakery,Beverage,Home Essentials,94.74,8,757.92,8,757.92
+2025-06-12,CUST_047,Mr. Marc Dalton,Wholesale,PROD_088,Product 88,Dairy,Food,Home Essentials,61.44,4,245.76,4,245.76
+2025-03-20,CUST_008,Stacy Robles,Retail,PROD_027,Product 27,Bakery,Household,Grocery,72.97,10,729.7,10,729.7
+2025-02-24,CUST_050,James Steele,Retail,PROD_008,Product 8,Bakery,Household,Grocery,65.73,2,131.46,2,131.46
+2025-07-28,CUST_048,William Fritz,Wholesale,PROD_033,Product 33,Beverages,Beverage,Grocery,17.9,2,35.8,2,35.8
+2025-04-02,CUST_019,Brian Turner,Wholesale,PROD_004,Product 4,Fruits,Food,Grocery,86.9,10,869.0,10,869.0
+2025-06-22,CUST_043,William Rios,Wholesale,PROD_044,Product 44,Bakery,Beverage,Home Essentials,55.68,2,111.36,2,111.36
+2025-06-11,CUST_014,Carla Bush,Retail,PROD_004,Product 4,Bakery,Food,Home Essentials,22.46,1,22.46,1,22.46
+2025-03-02,CUST_046,Jennifer Glass,Retail,PROD_067,Product 67,Vegetables,Beverage,Grocery,93.9,10,939.0,10,939.0
+2025-04-19,CUST_027,Wesley Hart,Wholesale,PROD_048,Product 48,Dairy,Household,Grocery,3.44,7,24.08,7,24.08
+2025-03-01,CUST_040,Taylor Moore,Wholesale,PROD_080,Product 80,Vegetables,Household,Grocery,51.29,4,205.16,4,205.16
+2025-05-16,CUST_045,Sheila Williamson,Wholesale,PROD_001,Product 1,Bakery,Food,Grocery,72.1,4,288.4,4,288.4
+2025-03-06,CUST_022,Ashley Wyatt,Retail,PROD_029,Product 29,Dairy,Household,Grocery,82.01,3,246.03,3,246.03
+2025-05-21,CUST_012,Melissa Montgomery,Wholesale,PROD_081,Product 81,Beverages,Household,Grocery,48.65,1,48.65,1,48.65
+2025-04-24,CUST_010,Steven Richardson,Wholesale,PROD_045,Product 45,Beverages,Household,Home Essentials,3.14,2,6.28,2,6.28
+2025-07-17,CUST_024,Katelyn Burke,Wholesale,PROD_017,Product 17,Bakery,Food,Grocery,32.93,8,263.44,8,263.44
+2025-07-16,CUST_039,Shannon Green,Wholesale,PROD_098,Product 98,Fruits,Food,Grocery,60.92,2,121.84,2,121.84
+2025-06-01,CUST_018,Kevin Ward,Retail,PROD_093,Product 93,Bakery,Household,Home Essentials,99.16,4,396.64,11,409.38
+2025-04-14,CUST_035,Kelsey Shaw,Retail,PROD_095,Product 95,Fruits,Food,Home Essentials,74.02,7,518.14,7,518.14
+2025-03-28,CUST_034,Robert Miller,Wholesale,PROD_044,Product 44,Vegetables,Beverage,Home Essentials,10.2,5,51.0,5,51.0
+2025-06-30,CUST_023,Miss Patricia Huff,Wholesale,PROD_042,Product 42,Beverages,Beverage,Home Essentials,69.15,7,484.05,12,577.2
+2025-08-04,CUST_032,Kyle Rogers,Retail,PROD_013,Product 13,Bakery,Food,Home Essentials,32.82,1,32.82,1,32.82
+2025-06-16,CUST_002,Jonathon Thomas,Wholesale,PROD_020,Product 20,Dairy,Beverage,Home Essentials,12.09,6,72.54,6,72.54
+2025-07-20,CUST_032,Kyle Rogers,Wholesale,PROD_052,Product 52,Bakery,Food,Grocery,15.27,9,137.43,9,137.43
+2025-03-21,CUST_044,Thomas Johnson,Wholesale,PROD_005,Product 5,Vegetables,Household,Grocery,88.48,1,88.48,1,88.48
+2025-03-18,CUST_008,Stacy Robles,Retail,PROD_047,Product 47,Dairy,Household,Home Essentials,9.56,9,86.04,9,86.04
+2025-05-31,CUST_026,Adam Johnson,Wholesale,PROD_069,Product 69,Dairy,Beverage,Home Essentials,39.67,7,277.69,7,277.69
+2025-03-01,CUST_050,James Steele,Retail,PROD_074,Product 74,Vegetables,Beverage,Grocery,36.06,4,144.24,4,144.24
+2025-06-22,CUST_006,Richard Wilson,Wholesale,PROD_024,Product 24,Dairy,Beverage,Grocery,90.01,6,540.06,6,540.06
+2025-04-15,CUST_022,Ashley Wyatt,Wholesale,PROD_070,Product 70,Bakery,Household,Grocery,56.09,10,560.9,10,560.9
+2025-04-27,CUST_028,Patrick Robinson,Retail,PROD_015,Product 15,Fruits,Food,Home Essentials,30.56,5,152.8,12,202.71
+2025-03-16,CUST_007,David Collins,Retail,PROD_100,Product 100,Vegetables,Household,Grocery,19.59,7,137.13,7,137.13
+2025-02-23,CUST_019,Brian Turner,Retail,PROD_053,Product 53,Bakery,Household,Grocery,13.16,7,92.12,7,92.12
+2025-03-01,CUST_015,Lindsey Glass,Wholesale,PROD_080,Product 80,Dairy,Food,Grocery,44.95,7,314.65,7,314.65
+2025-08-12,CUST_009,Tina Sullivan,Retail,PROD_029,Product 29,Dairy,Beverage,Home Essentials,9.93,7,69.51,7,69.51
+2025-05-16,CUST_034,Robert Miller,Wholesale,PROD_070,Product 70,Vegetables,Household,Home Essentials,21.18,5,105.9,5,105.9
+2025-08-16,CUST_026,Adam Johnson,Retail,PROD_072,Product 72,Vegetables,Household,Home Essentials,51.97,6,311.82,6,311.82
+2025-08-05,CUST_012,Melissa Montgomery,Retail,PROD_036,Product 36,Beverages,Beverage,Home Essentials,26.36,2,52.72,2,52.72
+2025-05-07,CUST_043,William Rios,Wholesale,PROD_079,Product 79,Dairy,Household,Home Essentials,14.11,7,98.77,7,98.77
+2025-04-11,CUST_049,Elizabeth Bailey,Retail,PROD_050,Product 50,Fruits,Food,Grocery,67.15,3,201.45,3,201.45
+2025-07-15,CUST_040,Taylor Moore,Retail,PROD_077,Product 77,Bakery,Household,Grocery,40.59,9,365.31,9,365.31
+2025-04-10,CUST_025,John Guerra,Retail,PROD_020,Product 20,Bakery,Food,Grocery,55.88,8,447.04,8,447.04
+2025-07-04,CUST_024,Katelyn Burke,Wholesale,PROD_037,Product 37,Bakery,Food,Home Essentials,35.34,3,106.02,3,106.02
+2025-04-24,CUST_004,Bonnie Garrett,Wholesale,PROD_076,Product 76,Beverages,Household,Home Essentials,29.34,6,176.04,6,176.04
+2025-05-06,CUST_049,Elizabeth Bailey,Wholesale,PROD_052,Product 52,Vegetables,Beverage,Grocery,8.04,8,64.32,8,64.32
+2025-02-20,CUST_049,Elizabeth Bailey,Wholesale,PROD_097,Product 97,Beverages,Household,Grocery,24.8,7,173.6,7,173.6
+2025-04-26,CUST_003,Katherine Washington,Wholesale,PROD_070,Product 70,Bakery,Household,Home Essentials,15.93,3,47.79,3,47.79
+2025-06-29,CUST_012,Melissa Montgomery,Retail,PROD_028,Product 28,Fruits,Beverage,Home Essentials,72.26,8,578.08,8,578.08
+2025-06-30,CUST_045,Sheila Williamson,Retail,PROD_041,Product 41,Dairy,Household,Grocery,60.63,9,545.67,9,545.67
+2025-04-02,CUST_025,John Guerra,Retail,PROD_011,Product 11,Dairy,Food,Home Essentials,48.03,4,192.12,4,192.12
+2025-04-24,CUST_032,Kyle Rogers,Wholesale,PROD_048,Product 48,Fruits,Food,Grocery,91.11,3,273.33,3,273.33
+2025-05-17,CUST_050,James Steele,Wholesale,PROD_093,Product 93,Dairy,Household,Grocery,50.51,1,50.51,1,50.51
+2025-08-02,CUST_039,Shannon Green,Wholesale,PROD_100,Product 100,Bakery,Household,Home Essentials,13.61,1,13.61,1,13.61
+2025-08-01,CUST_039,Shannon Green,Retail,PROD_075,Product 75,Beverages,Household,Grocery,43.61,5,218.05,5,218.05
+2025-03-12,CUST_021,Grace Wright,Retail,PROD_061,Product 61,Beverages,Food,Grocery,35.11,7,245.77,7,245.77
+2025-05-09,CUST_026,Adam Johnson,Retail,PROD_059,Product 59,Fruits,Household,Grocery,80.21,10,802.1,10,802.1
+2025-02-26,CUST_039,Shannon Green,Retail,PROD_009,Product 9,Beverages,Food,Grocery,4.97,9,44.73,9,44.73
+2025-05-28,CUST_008,Stacy Robles,Wholesale,PROD_022,Product 22,Bakery,Household,Home Essentials,94.33,9,848.97,9,848.97
+2025-07-13,CUST_050,James Steele,Retail,PROD_035,Product 35,Fruits,Food,Grocery,26.5,7,185.5,7,185.5
+2025-05-05,CUST_047,Mr. Marc Dalton,Retail,PROD_090,Product 90,Vegetables,Household,Home Essentials,45.67,10,456.7,10,456.7
+2025-07-08,CUST_006,Richard Wilson,Retail,PROD_059,Product 59,Beverages,Beverage,Home Essentials,17.14,10,171.4,10,171.4
+2025-05-20,CUST_026,Adam Johnson,Wholesale,PROD_067,Product 67,Fruits,Food,Home Essentials,35.76,1,35.76,1,35.76
+2025-05-18,CUST_019,Brian Turner,Wholesale,PROD_056,Product 56,Vegetables,Food,Home Essentials,81.86,3,245.58,3,245.58
+2025-02-27,CUST_035,Kelsey Shaw,Wholesale,PROD_083,Product 83,Fruits,Beverage,Grocery,57.07,3,171.21,3,171.21
+2025-05-22,CUST_014,Carla Bush,Retail,PROD_082,Product 82,Beverages,Food,Home Essentials,39.22,7,274.54,7,274.54
+2025-07-24,CUST_036,Leslie Murray,Wholesale,PROD_016,Product 16,Beverages,Beverage,Home Essentials,83.06,8,664.48,8,664.48
+2025-06-09,CUST_045,Sheila Williamson,Retail,PROD_052,Product 52,Bakery,Food,Home Essentials,64.18,1,64.18,1,64.18
+2025-06-10,CUST_011,Brandon White,Retail,PROD_010,Product 10,Dairy,Household,Home Essentials,22.93,9,206.37,9,206.37
+2025-05-28,CUST_037,Jack Williamson,Wholesale,PROD_001,Product 1,Bakery,Food,Home Essentials,81.91,6,491.46,6,491.46
+2025-03-17,CUST_041,Alan Williams,Wholesale,PROD_055,Product 55,Beverages,Food,Home Essentials,90.78,2,181.56,2,181.56
+2025-08-07,CUST_034,Robert Miller,Retail,PROD_051,Product 51,Dairy,Household,Home Essentials,93.26,2,186.52,2,186.52
+2025-04-18,CUST_032,Kyle Rogers,Wholesale,PROD_081,Product 81,Fruits,Beverage,Grocery,85.43,9,768.87,9,768.87
+2025-05-10,CUST_017,Kimberly Rose,Retail,PROD_070,Product 70,Beverages,Beverage,Home Essentials,94.35,10,943.5,10,943.5
+2025-03-26,CUST_008,Stacy Robles,Retail,PROD_078,Product 78,Beverages,Food,Grocery,26.45,3,79.35,3,79.35
+2025-08-14,CUST_021,Grace Wright,Wholesale,PROD_062,Product 62,Fruits,Household,Home Essentials,93.87,4,375.48,4,375.48
+2025-02-28,CUST_017,Kimberly Rose,Wholesale,PROD_041,Product 41,Vegetables,Household,Home Essentials,52.77,1,52.77,1,52.77
+2025-04-19,CUST_048,William Fritz,Retail,PROD_041,Product 41,Beverages,Household,Grocery,71.99,6,431.94,6,431.94
+2025-02-28,CUST_048,William Fritz,Wholesale,PROD_008,Product 8,Fruits,Household,Grocery,3.92,10,39.2,10,39.2
+2025-08-10,CUST_015,Lindsey Glass,Wholesale,PROD_099,Product 99,Beverages,Household,Home Essentials,24.84,10,248.4,10,248.4
+2025-07-14,CUST_031,Heather Gray,Wholesale,PROD_088,Product 88,Dairy,Household,Home Essentials,73.36,2,146.72,2,146.72
+2025-05-03,CUST_007,David Collins,Retail,PROD_065,Product 65,Dairy,Beverage,Home Essentials,84.69,3,254.07,3,254.07
+2025-08-07,CUST_027,Wesley Hart,Wholesale,PROD_091,Product 91,Beverages,Household,Grocery,65.29,10,652.9,10,652.9
+2025-07-10,CUST_019,Brian Turner,Wholesale,PROD_041,Product 41,Vegetables,Household,Grocery,31.99,8,255.92,8,255.92
+2025-08-09,CUST_031,Heather Gray,Retail,PROD_100,Product 100,Bakery,Beverage,Grocery,47.35,5,236.75,8,494.45
+2025-08-05,CUST_030,Daniel Taylor,Wholesale,PROD_044,Product 44,Bakery,Household,Home Essentials,27.81,3,83.43,3,83.43
+2025-04-22,CUST_017,Kimberly Rose,Retail,PROD_015,Product 15,Beverages,Household,Grocery,37.47,5,187.35,5,187.35
+2025-03-30,CUST_022,Ashley Wyatt,Retail,PROD_048,Product 48,Beverages,Household,Home Essentials,1.6,9,14.4,9,14.4
+2025-04-22,CUST_015,Lindsey Glass,Retail,PROD_075,Product 75,Fruits,Beverage,Home Essentials,32.95,9,296.55,9,296.55
+2025-07-12,CUST_041,Alan Williams,Retail,PROD_029,Product 29,Dairy,Food,Home Essentials,21.25,1,21.25,1,21.25
+2025-07-15,CUST_018,Kevin Ward,Retail,PROD_004,Product 4,Vegetables,Household,Grocery,37.36,9,336.24,9,336.24
+2025-06-05,CUST_049,Elizabeth Bailey,Retail,PROD_080,Product 80,Dairy,Beverage,Grocery,49.81,7,348.67,7,348.67
+2025-03-06,CUST_039,Shannon Green,Wholesale,PROD_029,Product 29,Dairy,Household,Home Essentials,16.53,9,148.77,9,148.77
+2025-07-19,CUST_021,Grace Wright,Retail,PROD_034,Product 34,Vegetables,Household,Home Essentials,59.08,2,118.16,2,118.16
+2025-05-13,CUST_024,Katelyn Burke,Wholesale,PROD_014,Product 14,Vegetables,Household,Grocery,77.9,4,311.6,4,311.6
+2025-06-26,CUST_017,Kimberly Rose,Retail,PROD_047,Product 47,Fruits,Food,Grocery,83.1,8,664.8,8,664.8
+2025-02-19,CUST_034,Robert Miller,Retail,PROD_047,Product 47,Vegetables,Beverage,Home Essentials,68.24,1,68.24,1,68.24
+2025-08-17,CUST_021,Grace Wright,Wholesale,PROD_093,Product 93,Beverages,Household,Grocery,1.78,4,7.12,9,445.87
+2025-03-18,CUST_039,Shannon Green,Retail,PROD_073,Product 73,Beverages,Beverage,Grocery,88.21,7,617.47,7,617.47
+2025-04-15,CUST_011,Brandon White,Retail,PROD_008,Product 8,Fruits,Household,Home Essentials,60.15,5,300.75,5,300.75
+2025-07-23,CUST_041,Alan Williams,Retail,PROD_030,Product 30,Fruits,Food,Home Essentials,9.73,7,68.11,7,68.11
+2025-03-23,CUST_014,Carla Bush,Wholesale,PROD_085,Product 85,Beverages,Beverage,Grocery,61.83,4,247.32,4,247.32
+2025-03-13,CUST_016,Jason Vazquez,Wholesale,PROD_087,Product 87,Fruits,Food,Home Essentials,92.29,1,92.29,1,92.29
+2025-05-27,CUST_014,Carla Bush,Retail,PROD_054,Product 54,Dairy,Household,Home Essentials,14.73,4,58.92,4,58.92
+2025-04-01,CUST_018,Kevin Ward,Wholesale,PROD_046,Product 46,Beverages,Food,Grocery,50.53,1,50.53,1,50.53
+2025-07-24,CUST_035,Kelsey Shaw,Retail,PROD_032,Product 32,Fruits,Beverage,Grocery,73.63,8,589.04,8,589.04
+2025-07-14,CUST_037,Jack Williamson,Retail,PROD_034,Product 34,Fruits,Household,Home Essentials,72.21,5,361.05,5,361.05
+2025-03-11,CUST_042,Jorge Morris,Wholesale,PROD_008,Product 8,Bakery,Household,Grocery,21.88,8,175.04,8,175.04
+2025-04-09,CUST_009,Tina Sullivan,Wholesale,PROD_068,Product 68,Fruits,Food,Grocery,44.11,2,88.22,2,88.22
+2025-04-05,CUST_001,Pamela Tran,Wholesale,PROD_082,Product 82,Bakery,Food,Grocery,80.17,9,721.53,19,1655.33
+2025-06-08,CUST_004,Bonnie Garrett,Retail,PROD_080,Product 80,Bakery,Beverage,Home Essentials,91.8,3,275.4,3,275.4
+2025-07-22,CUST_042,Jorge Morris,Wholesale,PROD_035,Product 35,Fruits,Food,Grocery,11.19,8,89.52,8,89.52
+2025-05-08,CUST_024,Katelyn Burke,Retail,PROD_026,Product 26,Vegetables,Household,Grocery,77.14,8,617.12,8,617.12
+2025-05-20,CUST_018,Kevin Ward,Wholesale,PROD_063,Product 63,Beverages,Beverage,Home Essentials,12.17,7,85.19,7,85.19
+2025-04-06,CUST_036,Leslie Murray,Wholesale,PROD_023,Product 23,Vegetables,Household,Home Essentials,33.36,7,233.52,7,233.52
+2025-05-19,CUST_047,Mr. Marc Dalton,Retail,PROD_067,Product 67,Fruits,Beverage,Home Essentials,66.61,9,599.49,9,599.49
+2025-02-21,CUST_050,James Steele,Retail,PROD_023,Product 23,Bakery,Food,Home Essentials,69.08,6,414.48,6,414.48
+2025-04-19,CUST_030,Daniel Taylor,Retail,PROD_069,Product 69,Vegetables,Food,Home Essentials,7.19,2,14.38,2,14.38
+2025-02-19,CUST_037,Jack Williamson,Wholesale,PROD_027,Product 27,Dairy,Beverage,Grocery,64.89,4,259.56,4,259.56
+2025-07-05,CUST_041,Alan Williams,Retail,PROD_084,Product 84,Dairy,Household,Grocery,85.67,8,685.36,23,1356.43
+2025-04-19,CUST_010,Steven Richardson,Wholesale,PROD_057,Product 57,Fruits,Household,Home Essentials,97.22,8,777.76,8,777.76
+2025-04-02,CUST_047,Mr. Marc Dalton,Retail,PROD_069,Product 69,Vegetables,Food,Grocery,89.34,10,893.4,10,893.4
+2025-04-05,CUST_011,Brandon White,Wholesale,PROD_064,Product 64,Dairy,Household,Grocery,96.84,5,484.2,5,484.2
+2025-06-06,CUST_038,Edward Moreno,Wholesale,PROD_009,Product 9,Bakery,Beverage,Grocery,4.9,6,29.4,6,29.4
+2025-07-09,CUST_034,Robert Miller,Wholesale,PROD_060,Product 60,Fruits,Household,Grocery,31.17,9,280.53,9,280.53
+2025-03-16,CUST_022,Ashley Wyatt,Retail,PROD_073,Product 73,Vegetables,Beverage,Home Essentials,68.98,9,620.82,9,620.82
+2025-04-21,CUST_037,Jack Williamson,Retail,PROD_079,Product 79,Fruits,Beverage,Home Essentials,55.55,6,333.3,6,333.3
+2025-05-12,CUST_029,Diana Rojas,Wholesale,PROD_020,Product 20,Bakery,Beverage,Grocery,97.44,7,682.08,7,682.08
+2025-04-24,CUST_005,Anthony Brown,Retail,PROD_005,Product 5,Dairy,Beverage,Grocery,68.21,5,341.05,5,341.05
+2025-02-23,CUST_002,Jonathon Thomas,Wholesale,PROD_078,Product 78,Vegetables,Household,Grocery,1.8,5,9.0,5,9.0
+2025-04-21,CUST_049,Elizabeth Bailey,Retail,PROD_048,Product 48,Beverages,Beverage,Grocery,4.44,3,13.32,4,68.49000000000001
+2025-04-13,CUST_006,Richard Wilson,Wholesale,PROD_086,Product 86,Dairy,Beverage,Home Essentials,47.58,2,95.16,2,95.16
+2025-05-21,CUST_034,Robert Miller,Retail,PROD_077,Product 77,Dairy,Beverage,Grocery,13.52,5,67.6,5,67.6
+2025-04-19,CUST_049,Elizabeth Bailey,Retail,PROD_051,Product 51,Beverages,Beverage,Grocery,63.0,5,315.0,5,315.0
+2025-03-10,CUST_042,Jorge Morris,Retail,PROD_100,Product 100,Bakery,Household,Home Essentials,66.84,3,200.52,3,200.52
+2025-03-25,CUST_023,Miss Patricia Huff,Wholesale,PROD_009,Product 9,Vegetables,Household,Home Essentials,99.05,4,396.2,5,444.46999999999997
+2025-05-22,CUST_009,Tina Sullivan,Retail,PROD_052,Product 52,Beverages,Food,Home Essentials,36.63,1,36.63,1,36.63
+2025-02-23,CUST_012,Melissa Montgomery,Retail,PROD_100,Product 100,Dairy,Household,Grocery,63.27,10,632.7,10,632.7
+2025-06-27,CUST_039,Shannon Green,Retail,PROD_027,Product 27,Fruits,Household,Grocery,37.32,8,298.56,8,298.56
+2025-02-26,CUST_006,Richard Wilson,Retail,PROD_015,Product 15,Dairy,Food,Grocery,27.56,1,27.56,6,517.16
+2025-06-03,CUST_033,Thomas Williams,Wholesale,PROD_037,Product 37,Fruits,Beverage,Home Essentials,2.28,1,2.28,1,2.28
+2025-04-01,CUST_024,Katelyn Burke,Wholesale,PROD_074,Product 74,Bakery,Household,Home Essentials,84.08,9,756.72,9,756.72
+2025-05-18,CUST_046,Jennifer Glass,Wholesale,PROD_078,Product 78,Beverages,Food,Home Essentials,3.38,2,6.76,2,6.76
+2025-07-08,CUST_011,Brandon White,Wholesale,PROD_072,Product 72,Dairy,Beverage,Grocery,70.25,6,421.5,6,421.5
+2025-07-21,CUST_013,Joseph Noble,Retail,PROD_034,Product 34,Vegetables,Food,Home Essentials,37.43,9,336.87,9,336.87
+2025-07-06,CUST_007,David Collins,Wholesale,PROD_048,Product 48,Bakery,Food,Grocery,84.07,8,672.56,8,672.56
+2025-06-27,CUST_002,Jonathon Thomas,Wholesale,PROD_004,Product 4,Bakery,Household,Grocery,42.69,9,384.21,9,384.21
+2025-06-14,CUST_013,Joseph Noble,Retail,PROD_029,Product 29,Beverages,Household,Grocery,70.78,8,566.24,8,566.24
+2025-07-18,CUST_012,Melissa Montgomery,Retail,PROD_016,Product 16,Bakery,Beverage,Home Essentials,74.43,9,669.87,9,669.87
+2025-03-29,CUST_008,Stacy Robles,Wholesale,PROD_083,Product 83,Bakery,Beverage,Grocery,49.55,7,346.85,13,744.29
+2025-05-18,CUST_039,Shannon Green,Wholesale,PROD_036,Product 36,Dairy,Food,Grocery,84.09,8,672.72,8,672.72
+2025-07-01,CUST_012,Melissa Montgomery,Retail,PROD_019,Product 19,Vegetables,Household,Home Essentials,40.52,9,364.68,9,364.68
+2025-03-25,CUST_045,Sheila Williamson,Retail,PROD_032,Product 32,Beverages,Household,Home Essentials,77.04,2,154.08,2,154.08
+2025-07-03,CUST_039,Shannon Green,Retail,PROD_050,Product 50,Bakery,Food,Grocery,76.6,5,383.0,8,416.84000000000003
+2025-04-23,CUST_005,Anthony Brown,Retail,PROD_022,Product 22,Fruits,Food,Grocery,75.17,10,751.7,10,751.7
+2025-05-13,CUST_026,Adam Johnson,Wholesale,PROD_068,Product 68,Fruits,Household,Home Essentials,25.5,10,255.0,10,255.0
+2025-08-16,CUST_013,Joseph Noble,Retail,PROD_033,Product 33,Vegetables,Household,Grocery,45.71,4,182.84,4,182.84
+2025-02-20,CUST_015,Lindsey Glass,Wholesale,PROD_050,Product 50,Bakery,Beverage,Home Essentials,75.8,1,75.8,1,75.8
+2025-07-12,CUST_039,Shannon Green,Retail,PROD_048,Product 48,Bakery,Household,Home Essentials,17.65,1,17.65,1,17.65
+2025-05-28,CUST_006,Richard Wilson,Retail,PROD_055,Product 55,Beverages,Beverage,Home Essentials,92.97,8,743.76,8,743.76
+2025-03-01,CUST_001,Pamela Tran,Wholesale,PROD_077,Product 77,Dairy,Beverage,Home Essentials,70.4,4,281.6,21,1010.48
+2025-06-18,CUST_021,Grace Wright,Retail,PROD_033,Product 33,Bakery,Household,Home Essentials,78.73,4,314.92,4,314.92
+2025-05-20,CUST_036,Leslie Murray,Retail,PROD_094,Product 94,Beverages,Beverage,Home Essentials,56.28,2,112.56,2,112.56
+2025-06-06,CUST_010,Steven Richardson,Wholesale,PROD_048,Product 48,Fruits,Food,Grocery,66.3,3,198.9,3,198.9
+2025-06-17,CUST_023,Miss Patricia Huff,Retail,PROD_098,Product 98,Beverages,Household,Grocery,96.95,3,290.85,3,290.85
+2025-06-19,CUST_006,Richard Wilson,Wholesale,PROD_077,Product 77,Bakery,Food,Home Essentials,55.11,2,110.22,2,110.22
+2025-07-16,CUST_010,Steven Richardson,Wholesale,PROD_070,Product 70,Vegetables,Household,Grocery,13.44,3,40.32,3,40.32
+2025-03-21,CUST_013,Joseph Noble,Retail,PROD_089,Product 89,Vegetables,Household,Grocery,43.49,5,217.45,5,217.45
+2025-07-31,CUST_021,Grace Wright,Wholesale,PROD_097,Product 97,Beverages,Household,Home Essentials,82.88,2,165.76,2,165.76
+2025-02-24,CUST_020,Katrina Smith,Wholesale,PROD_043,Product 43,Dairy,Beverage,Grocery,29.47,8,235.76,8,235.76
+2025-04-01,CUST_019,Brian Turner,Retail,PROD_020,Product 20,Dairy,Beverage,Grocery,56.5,1,56.5,6,77.25
+2025-08-05,CUST_014,Carla Bush,Wholesale,PROD_086,Product 86,Fruits,Beverage,Home Essentials,50.16,9,451.44,9,451.44
+2025-05-31,CUST_043,William Rios,Retail,PROD_072,Product 72,Vegetables,Household,Home Essentials,50.8,1,50.8,3,114.02
+2025-08-06,CUST_008,Stacy Robles,Retail,PROD_097,Product 97,Dairy,Beverage,Grocery,94.8,3,284.4,3,284.4
+2025-05-08,CUST_027,Wesley Hart,Wholesale,PROD_012,Product 12,Fruits,Food,Grocery,79.3,10,793.0,10,793.0
+2025-05-12,CUST_049,Elizabeth Bailey,Retail,PROD_092,Product 92,Vegetables,Food,Home Essentials,50.85,2,101.7,2,101.7
+2025-06-02,CUST_049,Elizabeth Bailey,Retail,PROD_037,Product 37,Vegetables,Household,Grocery,11.96,8,95.68,8,95.68
+2025-06-06,CUST_039,Shannon Green,Retail,PROD_085,Product 85,Bakery,Household,Grocery,29.47,3,88.41,3,88.41
+2025-04-03,CUST_031,Heather Gray,Wholesale,PROD_005,Product 5,Dairy,Household,Home Essentials,83.42,4,333.68,4,333.68
+2025-03-15,CUST_032,Kyle Rogers,Wholesale,PROD_030,Product 30,Bakery,Food,Grocery,55.46,4,221.84,13,1102.1299999999999
+2025-08-02,CUST_021,Grace Wright,Wholesale,PROD_019,Product 19,Beverages,Beverage,Grocery,87.52,6,525.12,6,525.12
+2025-03-04,CUST_009,Tina Sullivan,Wholesale,PROD_097,Product 97,Dairy,Food,Grocery,22.92,6,137.52,6,137.52
+2025-05-10,CUST_029,Diana Rojas,Retail,PROD_074,Product 74,Dairy,Household,Home Essentials,55.69,8,445.52,8,445.52
+2025-06-08,CUST_002,Jonathon Thomas,Retail,PROD_067,Product 67,Vegetables,Food,Grocery,63.23,10,632.3,10,632.3
+2025-04-28,CUST_004,Bonnie Garrett,Wholesale,PROD_074,Product 74,Bakery,Household,Grocery,16.19,10,161.9,10,161.9
+2025-07-23,CUST_001,Pamela Tran,Retail,PROD_067,Product 67,Bakery,Food,Home Essentials,69.83,9,628.47,9,628.47
+2025-08-02,CUST_031,Heather Gray,Wholesale,PROD_035,Product 35,Beverages,Food,Home Essentials,46.17,4,184.68,4,184.68
+2025-05-30,CUST_043,William Rios,Wholesale,PROD_025,Product 25,Vegetables,Beverage,Home Essentials,27.18,7,190.26,17,1173.3600000000001
+2025-04-05,CUST_034,Robert Miller,Retail,PROD_018,Product 18,Vegetables,Household,Grocery,34.27,6,205.62,6,205.62
+2025-04-20,CUST_024,Katelyn Burke,Retail,PROD_081,Product 81,Dairy,Beverage,Home Essentials,13.35,5,66.75,5,66.75
+2025-05-19,CUST_003,Katherine Washington,Retail,PROD_069,Product 69,Bakery,Food,Home Essentials,7.84,7,54.88,7,54.88
+2025-06-30,CUST_028,Patrick Robinson,Wholesale,PROD_068,Product 68,Dairy,Beverage,Grocery,42.65,2,85.3,5,133.75
+2025-04-18,CUST_028,Patrick Robinson,Retail,PROD_098,Product 98,Vegetables,Food,Grocery,39.57,3,118.71,12,613.98
+2025-04-22,CUST_044,Thomas Johnson,Wholesale,PROD_092,Product 92,Fruits,Beverage,Home Essentials,18.4,7,128.8,7,128.8
+2025-03-21,CUST_046,Jennifer Glass,Retail,PROD_089,Product 89,Fruits,Beverage,Grocery,18.69,8,149.52,8,149.52
+2025-05-29,CUST_040,Taylor Moore,Wholesale,PROD_093,Product 93,Beverages,Household,Home Essentials,38.56,7,269.92,7,269.92
+2025-04-22,CUST_018,Kevin Ward,Wholesale,PROD_002,Product 2,Dairy,Food,Grocery,91.28,2,182.56,2,182.56
+2025-07-04,CUST_002,Jonathon Thomas,Retail,PROD_064,Product 64,Bakery,Household,Grocery,67.21,7,470.47,7,470.47
+2025-04-03,CUST_011,Brandon White,Wholesale,PROD_097,Product 97,Dairy,Food,Grocery,83.48,7,584.36,7,584.36
+2025-06-19,CUST_023,Miss Patricia Huff,Wholesale,PROD_036,Product 36,Beverages,Household,Grocery,40.81,6,244.86,6,244.86
+2025-04-13,CUST_040,Taylor Moore,Retail,PROD_040,Product 40,Dairy,Beverage,Grocery,51.53,2,103.06,2,103.06
+2025-03-19,CUST_004,Bonnie Garrett,Retail,PROD_073,Product 73,Bakery,Beverage,Home Essentials,38.27,10,382.7,10,382.7
+2025-08-16,CUST_008,Stacy Robles,Retail,PROD_060,Product 60,Vegetables,Food,Grocery,69.01,10,690.1,10,690.1
+2025-05-19,CUST_018,Kevin Ward,Wholesale,PROD_045,Product 45,Vegetables,Beverage,Grocery,59.09,4,236.36,4,236.36
+2025-04-21,CUST_034,Robert Miller,Wholesale,PROD_028,Product 28,Dairy,Household,Home Essentials,76.14,5,380.7,5,380.7
+2025-08-19,CUST_009,Tina Sullivan,Wholesale,PROD_015,Product 15,Beverages,Household,Grocery,66.19,2,132.38,2,132.38
+2025-06-04,CUST_016,Jason Vazquez,Wholesale,PROD_096,Product 96,Dairy,Food,Grocery,95.96,4,383.84,4,383.84
+2025-07-06,CUST_049,Elizabeth Bailey,Retail,PROD_006,Product 6,Dairy,Household,Grocery,37.53,5,187.65,5,187.65
+2025-03-13,CUST_007,David Collins,Retail,PROD_083,Product 83,Fruits,Household,Grocery,36.22,2,72.44,3,155.24
+2025-06-04,CUST_005,Anthony Brown,Retail,PROD_005,Product 5,Vegetables,Food,Grocery,81.14,1,81.14,1,81.14
+2025-02-24,CUST_006,Richard Wilson,Retail,PROD_066,Product 66,Bakery,Household,Home Essentials,14.68,8,117.44,8,117.44
+2025-05-08,CUST_028,Patrick Robinson,Retail,PROD_043,Product 43,Bakery,Household,Grocery,42.16,9,379.44,9,379.44
+2025-07-21,CUST_010,Steven Richardson,Retail,PROD_040,Product 40,Bakery,Food,Home Essentials,80.17,9,721.53,9,721.53
+2025-07-13,CUST_034,Robert Miller,Wholesale,PROD_098,Product 98,Vegetables,Household,Grocery,26.14,9,235.26,14,332.90999999999997
+2025-06-15,CUST_027,Wesley Hart,Retail,PROD_031,Product 31,Vegetables,Beverage,Grocery,4.77,9,42.93,9,42.93
+2025-06-11,CUST_022,Ashley Wyatt,Wholesale,PROD_029,Product 29,Fruits,Beverage,Home Essentials,24.41,7,170.87,7,170.87
+2025-06-14,CUST_040,Taylor Moore,Wholesale,PROD_085,Product 85,Fruits,Beverage,Grocery,33.05,10,330.5,10,330.5
+2025-06-06,CUST_020,Katrina Smith,Retail,PROD_040,Product 40,Bakery,Beverage,Grocery,10.48,8,83.84,8,83.84
+2025-06-13,CUST_033,Thomas Williams,Wholesale,PROD_017,Product 17,Beverages,Food,Home Essentials,66.33,5,331.65,5,331.65
+2025-07-24,CUST_047,Mr. Marc Dalton,Wholesale,PROD_041,Product 41,Bakery,Beverage,Home Essentials,22.41,7,156.87,7,156.87
+2025-04-19,CUST_034,Robert Miller,Retail,PROD_007,Product 7,Bakery,Beverage,Home Essentials,83.78,1,83.78,1,83.78
+2025-03-19,CUST_029,Diana Rojas,Retail,PROD_001,Product 1,Beverages,Food,Home Essentials,26.84,9,241.56,16,457.58000000000004
+2025-03-12,CUST_006,Richard Wilson,Wholesale,PROD_046,Product 46,Dairy,Food,Grocery,77.53,3,232.59,3,232.59
+2025-06-17,CUST_004,Bonnie Garrett,Retail,PROD_078,Product 78,Bakery,Food,Grocery,2.49,7,17.43,7,17.43
+2025-08-16,CUST_032,Kyle Rogers,Wholesale,PROD_023,Product 23,Fruits,Household,Grocery,37.99,4,151.96,4,151.96
+2025-05-30,CUST_043,William Rios,Wholesale,PROD_100,Product 100,Dairy,Food,Home Essentials,98.31,10,983.1,17,1173.3600000000001
+2025-04-11,CUST_009,Tina Sullivan,Wholesale,PROD_017,Product 17,Fruits,Beverage,Home Essentials,26.2,4,104.8,4,104.8
+2025-05-30,CUST_016,Jason Vazquez,Wholesale,PROD_045,Product 45,Beverages,Food,Grocery,87.07,1,87.07,1,87.07
+2025-04-18,CUST_028,Patrick Robinson,Wholesale,PROD_089,Product 89,Bakery,Beverage,Grocery,55.03,9,495.27,12,613.98
+2025-08-06,CUST_029,Diana Rojas,Retail,PROD_016,Product 16,Bakery,Food,Home Essentials,80.54,1,80.54,1,80.54
+2025-07-21,CUST_024,Katelyn Burke,Retail,PROD_002,Product 2,Beverages,Beverage,Home Essentials,28.59,9,257.31,9,257.31
+2025-03-17,CUST_005,Anthony Brown,Wholesale,PROD_097,Product 97,Vegetables,Food,Grocery,38.29,3,114.87,3,114.87
+2025-04-13,CUST_016,Jason Vazquez,Wholesale,PROD_094,Product 94,Bakery,Household,Home Essentials,98.74,4,394.96,4,394.96
+2025-06-30,CUST_008,Stacy Robles,Wholesale,PROD_075,Product 75,Bakery,Beverage,Home Essentials,13.28,2,26.56,2,26.56
+2025-03-08,CUST_005,Anthony Brown,Retail,PROD_096,Product 96,Beverages,Food,Grocery,58.39,7,408.73,7,408.73
+2025-06-13,CUST_020,Katrina Smith,Wholesale,PROD_083,Product 83,Fruits,Food,Grocery,29.57,6,177.42,6,177.42
+2025-06-19,CUST_040,Taylor Moore,Retail,PROD_055,Product 55,Bakery,Household,Home Essentials,74.87,5,374.35,5,374.35
+2025-03-01,CUST_048,William Fritz,Retail,PROD_015,Product 15,Vegetables,Household,Home Essentials,86.73,6,520.38,6,520.38
+2025-03-26,CUST_006,Richard Wilson,Retail,PROD_010,Product 10,Bakery,Household,Grocery,70.25,1,70.25,1,70.25
+2025-05-12,CUST_048,William Fritz,Wholesale,PROD_005,Product 5,Fruits,Beverage,Grocery,67.47,7,472.29,13,636.99
+2025-07-21,CUST_032,Kyle Rogers,Wholesale,PROD_088,Product 88,Dairy,Household,Grocery,20.43,1,20.43,1,20.43
+2025-04-02,CUST_042,Jorge Morris,Wholesale,PROD_043,Product 43,Beverages,Household,Home Essentials,78.07,2,156.14,9,510.96999999999997
+2025-07-02,CUST_002,Jonathon Thomas,Wholesale,PROD_027,Product 27,Dairy,Beverage,Grocery,93.68,7,655.76,7,655.76
+2025-05-18,CUST_047,Mr. Marc Dalton,Retail,PROD_056,Product 56,Dairy,Household,Grocery,99.49,1,99.49,1,99.49
+2025-03-26,CUST_049,Elizabeth Bailey,Retail,PROD_071,Product 71,Fruits,Food,Grocery,97.39,10,973.9,10,973.9
+2025-06-11,CUST_027,Wesley Hart,Wholesale,PROD_094,Product 94,Fruits,Beverage,Home Essentials,71.94,8,575.52,8,575.52
+2025-05-19,CUST_015,Lindsey Glass,Wholesale,PROD_061,Product 61,Vegetables,Beverage,Home Essentials,15.51,6,93.06,6,93.06
+2025-04-27,CUST_042,Jorge Morris,Retail,PROD_098,Product 98,Vegetables,Household,Grocery,71.2,2,142.4,2,142.4
+2025-03-05,CUST_038,Edward Moreno,Wholesale,PROD_005,Product 5,Dairy,Beverage,Home Essentials,28.87,1,28.87,1,28.87
+2025-04-27,CUST_013,Joseph Noble,Wholesale,PROD_045,Product 45,Bakery,Household,Home Essentials,73.08,9,657.72,9,657.72
+2025-02-28,CUST_002,Jonathon Thomas,Wholesale,PROD_071,Product 71,Beverages,Household,Grocery,93.68,8,749.44,17,1453.24
+2025-02-26,CUST_045,Sheila Williamson,Wholesale,PROD_027,Product 27,Vegetables,Beverage,Grocery,42.46,6,254.76,6,254.76
+2025-04-30,CUST_039,Shannon Green,Wholesale,PROD_012,Product 12,Dairy,Food,Home Essentials,38.76,2,77.52,2,77.52
+2025-08-05,CUST_013,Joseph Noble,Wholesale,PROD_055,Product 55,Dairy,Food,Grocery,59.63,6,357.78,6,357.78
+2025-02-22,CUST_023,Miss Patricia Huff,Wholesale,PROD_060,Product 60,Beverages,Beverage,Grocery,95.43,10,954.3,10,954.3
+2025-03-25,CUST_049,Elizabeth Bailey,Retail,PROD_038,Product 38,Dairy,Beverage,Grocery,18.25,8,146.0,8,146.0
+2025-06-18,CUST_023,Miss Patricia Huff,Wholesale,PROD_051,Product 51,Dairy,Food,Home Essentials,31.7,10,317.0,10,317.0
+2025-05-04,CUST_035,Kelsey Shaw,Retail,PROD_011,Product 11,Beverages,Food,Grocery,87.09,10,870.9,12,1065.2
+2025-06-19,CUST_043,William Rios,Wholesale,PROD_047,Product 47,Vegetables,Beverage,Grocery,79.73,9,717.57,9,717.57
+2025-04-11,CUST_003,Katherine Washington,Wholesale,PROD_031,Product 31,Vegetables,Household,Home Essentials,86.93,6,521.58,6,521.58
+2025-08-18,CUST_039,Shannon Green,Retail,PROD_027,Product 27,Vegetables,Household,Grocery,87.66,6,525.96,6,525.96
+2025-06-14,CUST_017,Kimberly Rose,Wholesale,PROD_038,Product 38,Bakery,Food,Grocery,42.19,2,84.38,2,84.38
+2025-07-14,CUST_023,Miss Patricia Huff,Wholesale,PROD_066,Product 66,Bakery,Household,Home Essentials,30.11,6,180.66,6,180.66
+2025-03-17,CUST_024,Katelyn Burke,Retail,PROD_014,Product 14,Vegetables,Household,Grocery,91.62,6,549.72,6,549.72
+2025-07-07,CUST_020,Katrina Smith,Wholesale,PROD_063,Product 63,Beverages,Household,Grocery,86.81,3,260.43,3,260.43
+2025-07-18,CUST_037,Jack Williamson,Wholesale,PROD_089,Product 89,Dairy,Household,Home Essentials,13.95,5,69.75,5,69.75
+2025-02-27,CUST_001,Pamela Tran,Retail,PROD_045,Product 45,Fruits,Household,Home Essentials,15.95,7,111.65,7,111.65
+2025-05-25,CUST_043,William Rios,Wholesale,PROD_081,Product 81,Vegetables,Household,Home Essentials,4.95,10,49.5,10,49.5
+2025-04-01,CUST_032,Kyle Rogers,Wholesale,PROD_081,Product 81,Bakery,Food,Home Essentials,37.51,3,112.53,3,112.53
+2025-04-16,CUST_020,Katrina Smith,Wholesale,PROD_070,Product 70,Beverages,Food,Home Essentials,43.81,9,394.29,16,526.1
+2025-03-13,CUST_007,David Collins,Wholesale,PROD_021,Product 21,Fruits,Household,Home Essentials,82.8,1,82.8,3,155.24
+2025-04-23,CUST_011,Brandon White,Retail,PROD_082,Product 82,Vegetables,Food,Home Essentials,23.27,3,69.81,3,69.81
+2025-05-21,CUST_046,Jennifer Glass,Wholesale,PROD_057,Product 57,Beverages,Food,Home Essentials,10.68,2,21.36,2,21.36
+2025-07-12,CUST_037,Jack Williamson,Wholesale,PROD_082,Product 82,Fruits,Household,Home Essentials,2.58,8,20.64,8,20.64
+2025-04-01,CUST_015,Lindsey Glass,Wholesale,PROD_043,Product 43,Vegetables,Beverage,Home Essentials,86.18,6,517.08,6,517.08
+2025-05-31,CUST_040,Taylor Moore,Wholesale,PROD_050,Product 50,Dairy,Food,Home Essentials,64.1,7,448.7,7,448.7
+2025-05-24,CUST_043,William Rios,Retail,PROD_087,Product 87,Fruits,Household,Grocery,29.11,7,203.77,24,737.54
+2025-04-05,CUST_016,Jason Vazquez,Retail,PROD_011,Product 11,Bakery,Beverage,Home Essentials,46.61,5,233.05,9,241.01000000000002
+2025-05-17,CUST_034,Robert Miller,Retail,PROD_068,Product 68,Bakery,Beverage,Home Essentials,86.27,1,86.27,1,86.27
+2025-05-25,CUST_003,Katherine Washington,Wholesale,PROD_058,Product 58,Bakery,Beverage,Home Essentials,12.19,2,24.38,2,24.38
+2025-03-28,CUST_005,Anthony Brown,Wholesale,PROD_025,Product 25,Bakery,Household,Grocery,84.65,4,338.6,4,338.6
+2025-05-29,CUST_017,Kimberly Rose,Wholesale,PROD_048,Product 48,Dairy,Beverage,Grocery,31.8,7,222.6,7,222.6
+2025-07-08,CUST_025,John Guerra,Retail,PROD_047,Product 47,Bakery,Household,Grocery,66.17,7,463.19,7,463.19
+2025-02-25,CUST_017,Kimberly Rose,Wholesale,PROD_090,Product 90,Dairy,Food,Grocery,11.19,10,111.9,10,111.9
+2025-04-13,CUST_036,Leslie Murray,Wholesale,PROD_019,Product 19,Bakery,Food,Home Essentials,18.39,6,110.34,14,533.38
+2025-03-21,CUST_048,William Fritz,Wholesale,PROD_082,Product 82,Dairy,Household,Grocery,37.92,6,227.52,6,227.52
+2025-08-07,CUST_031,Heather Gray,Retail,PROD_028,Product 28,Bakery,Food,Grocery,73.02,10,730.2,10,730.2
+2025-04-19,CUST_036,Leslie Murray,Wholesale,PROD_009,Product 9,Dairy,Household,Grocery,14.56,6,87.36,6,87.36
+2025-04-27,CUST_009,Tina Sullivan,Retail,PROD_041,Product 41,Dairy,Household,Grocery,26.46,1,26.46,1,26.46
+2025-03-31,CUST_050,James Steele,Retail,PROD_007,Product 7,Fruits,Food,Grocery,59.78,2,119.56,2,119.56
+2025-05-28,CUST_046,Jennifer Glass,Wholesale,PROD_055,Product 55,Bakery,Beverage,Home Essentials,4.33,6,25.98,6,25.98
+2025-07-16,CUST_033,Thomas Williams,Retail,PROD_091,Product 91,Beverages,Beverage,Home Essentials,61.86,4,247.44,4,247.44
+2025-04-30,CUST_003,Katherine Washington,Wholesale,PROD_039,Product 39,Bakery,Food,Home Essentials,32.96,6,197.76,6,197.76
+2025-07-20,CUST_033,Thomas Williams,Retail,PROD_076,Product 76,Bakery,Beverage,Home Essentials,44.15,3,132.45,3,132.45
+2025-07-04,CUST_012,Melissa Montgomery,Wholesale,PROD_086,Product 86,Fruits,Food,Grocery,30.48,1,30.48,1,30.48
+2025-07-13,CUST_041,Alan Williams,Retail,PROD_004,Product 4,Bakery,Beverage,Grocery,21.08,9,189.72,9,189.72
+2025-03-26,CUST_045,Sheila Williamson,Retail,PROD_069,Product 69,Bakery,Beverage,Grocery,3.5,10,35.0,10,35.0
+2025-05-07,CUST_005,Anthony Brown,Retail,PROD_079,Product 79,Dairy,Household,Home Essentials,14.73,6,88.38,6,88.38
+2025-04-01,CUST_028,Patrick Robinson,Wholesale,PROD_038,Product 38,Fruits,Beverage,Home Essentials,64.42,9,579.78,9,579.78
+2025-08-16,CUST_033,Thomas Williams,Retail,PROD_085,Product 85,Beverages,Beverage,Home Essentials,63.16,1,63.16,1,63.16
+2025-06-07,CUST_015,Lindsey Glass,Retail,PROD_047,Product 47,Vegetables,Food,Home Essentials,89.53,10,895.3,10,895.3
+2025-04-23,CUST_013,Joseph Noble,Wholesale,PROD_090,Product 90,Dairy,Beverage,Grocery,70.89,5,354.45,5,354.45
+2025-07-28,CUST_013,Joseph Noble,Wholesale,PROD_038,Product 38,Fruits,Food,Grocery,67.19,10,671.9,10,671.9
+2025-07-08,CUST_038,Edward Moreno,Retail,PROD_018,Product 18,Dairy,Beverage,Grocery,44.1,1,44.1,1,44.1
+2025-06-08,CUST_017,Kimberly Rose,Wholesale,PROD_098,Product 98,Fruits,Household,Grocery,13.74,1,13.74,1,13.74
+2025-04-03,CUST_018,Kevin Ward,Retail,PROD_073,Product 73,Beverages,Beverage,Home Essentials,23.18,4,92.72,4,92.72
+2025-06-19,CUST_042,Jorge Morris,Wholesale,PROD_029,Product 29,Dairy,Beverage,Grocery,51.36,6,308.16,6,308.16
+2025-07-22,CUST_022,Ashley Wyatt,Wholesale,PROD_068,Product 68,Bakery,Food,Grocery,71.26,7,498.82,7,498.82
+2025-06-03,CUST_032,Kyle Rogers,Wholesale,PROD_055,Product 55,Bakery,Household,Home Essentials,2.15,5,10.75,5,10.75
+2025-06-11,CUST_035,Kelsey Shaw,Wholesale,PROD_077,Product 77,Bakery,Food,Grocery,83.36,1,83.36,1,83.36
+2025-07-17,CUST_049,Elizabeth Bailey,Wholesale,PROD_080,Product 80,Vegetables,Food,Grocery,75.56,10,755.6,10,755.6
+2025-03-17,CUST_036,Leslie Murray,Retail,PROD_025,Product 25,Fruits,Beverage,Home Essentials,48.51,1,48.51,1,48.51
+2025-07-16,CUST_040,Taylor Moore,Wholesale,PROD_010,Product 10,Beverages,Beverage,Grocery,11.42,3,34.26,5,142.8
+2025-06-26,CUST_037,Jack Williamson,Wholesale,PROD_013,Product 13,Beverages,Household,Grocery,26.03,10,260.3,10,260.3
+2025-05-12,CUST_036,Leslie Murray,Retail,PROD_092,Product 92,Vegetables,Food,Grocery,92.9,2,185.8,2,185.8
+2025-03-26,CUST_003,Katherine Washington,Wholesale,PROD_028,Product 28,Dairy,Beverage,Grocery,59.82,7,418.74,14,594.51
+2025-06-16,CUST_010,Steven Richardson,Retail,PROD_041,Product 41,Bakery,Beverage,Home Essentials,95.63,5,478.15,5,478.15
+2025-06-11,CUST_009,Tina Sullivan,Retail,PROD_050,Product 50,Fruits,Food,Grocery,14.78,10,147.8,10,147.8
+2025-03-25,CUST_030,Daniel Taylor,Wholesale,PROD_004,Product 4,Bakery,Food,Grocery,76.7,9,690.3,9,690.3
+2025-03-12,CUST_042,Jorge Morris,Retail,PROD_035,Product 35,Fruits,Food,Home Essentials,27.18,2,54.36,2,54.36
+2025-06-28,CUST_035,Kelsey Shaw,Wholesale,PROD_012,Product 12,Dairy,Beverage,Home Essentials,96.42,2,192.84,2,192.84
+2025-03-06,CUST_036,Leslie Murray,Wholesale,PROD_077,Product 77,Fruits,Beverage,Grocery,48.03,7,336.21,7,336.21
+2025-07-11,CUST_034,Robert Miller,Wholesale,PROD_074,Product 74,Bakery,Food,Home Essentials,48.33,8,386.64,8,386.64
+2025-04-05,CUST_016,Jason Vazquez,Retail,PROD_077,Product 77,Vegetables,Household,Home Essentials,1.99,4,7.96,9,241.01000000000002
+2025-04-15,CUST_043,William Rios,Wholesale,PROD_065,Product 65,Dairy,Beverage,Home Essentials,50.63,8,405.04,8,405.04
+2025-03-30,CUST_009,Tina Sullivan,Wholesale,PROD_009,Product 9,Vegetables,Household,Grocery,91.81,5,459.05,5,459.05
+2025-08-15,CUST_033,Thomas Williams,Retail,PROD_058,Product 58,Bakery,Food,Home Essentials,13.06,6,78.36,6,78.36
+2025-07-22,CUST_014,Carla Bush,Retail,PROD_057,Product 57,Beverages,Household,Grocery,29.27,6,175.62,6,175.62
+2025-04-03,CUST_046,Jennifer Glass,Retail,PROD_065,Product 65,Fruits,Household,Home Essentials,5.35,5,26.75,5,26.75
+2025-06-12,CUST_035,Kelsey Shaw,Wholesale,PROD_040,Product 40,Vegetables,Household,Home Essentials,2.76,6,16.56,6,16.56
+2025-06-17,CUST_034,Robert Miller,Wholesale,PROD_015,Product 15,Beverages,Beverage,Home Essentials,93.54,2,187.08,2,187.08
+2025-07-11,CUST_007,David Collins,Wholesale,PROD_094,Product 94,Fruits,Food,Home Essentials,38.16,1,38.16,1,38.16
+2025-05-28,CUST_044,Thomas Johnson,Wholesale,PROD_098,Product 98,Fruits,Beverage,Home Essentials,46.71,5,233.55,5,233.55
+2025-05-27,CUST_038,Edward Moreno,Wholesale,PROD_092,Product 92,Vegetables,Household,Home Essentials,2.26,4,9.04,4,9.04
+2025-07-15,CUST_049,Elizabeth Bailey,Retail,PROD_013,Product 13,Fruits,Food,Home Essentials,51.16,5,255.8,5,255.8
+2025-03-01,CUST_001,Pamela Tran,Retail,PROD_085,Product 85,Beverages,Food,Home Essentials,53.92,9,485.28,21,1010.48
+2025-03-30,CUST_041,Alan Williams,Wholesale,PROD_046,Product 46,Vegetables,Food,Home Essentials,36.91,9,332.19,9,332.19
+2025-07-02,CUST_006,Richard Wilson,Wholesale,PROD_078,Product 78,Vegetables,Beverage,Grocery,48.54,7,339.78,7,339.78
+2025-04-03,CUST_015,Lindsey Glass,Retail,PROD_082,Product 82,Dairy,Food,Home Essentials,9.01,2,18.02,2,18.02
+2025-07-13,CUST_021,Grace Wright,Wholesale,PROD_060,Product 60,Beverages,Food,Home Essentials,75.31,7,527.17,7,527.17
+2025-03-29,CUST_003,Katherine Washington,Retail,PROD_067,Product 67,Vegetables,Household,Home Essentials,86.25,10,862.5,10,862.5
+2025-05-14,CUST_006,Richard Wilson,Retail,PROD_016,Product 16,Vegetables,Food,Grocery,97.49,7,682.43,7,682.43
+2025-05-24,CUST_043,William Rios,Retail,PROD_082,Product 82,Vegetables,Food,Home Essentials,43.43,10,434.3,24,737.54

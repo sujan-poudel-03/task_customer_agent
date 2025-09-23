@@ -1,0 +1,3343 @@
+{
+  "customers": {
+    "CUST_031": {
+      "customer_id": "CUST_031",
+      "customer_name": "Heather Gray",
+      "total_spend": 5141.34,
+      "total_orders": 14,
+      "total_items": 75,
+      "avg_ticket": 367.24,
+      "category_counts": {
+        "Food": 5,
+        "Beverage": 6,
+        "Household": 3
+      },
+      "category_spend": {
+        "Food": 2236.76,
+        "Beverage": 1494.48,
+        "Household": 1410.1
+      },
+      "product_counts": {
+        "Product 78": 10,
+        "Product 24": 1,
+        "Product 31": 5,
+        "Product 84": 3,
+        "Product 30": 10,
+        "Product 54": 9,
+        "Product 46": 8,
+        "Product 43": 2,
+        "Product 72": 2,
+        "Product 88": 2,
+        "Product 100": 5,
+        "Product 5": 4,
+        "Product 35": 4,
+        "Product 28": 10
+      },
+      "first_purchase": "2025-03-15",
+      "last_purchase": "2025-08-16"
+    },
+    "CUST_029": {
+      "customer_id": "CUST_029",
+      "customer_name": "Diana Rojas",
+      "total_spend": 5849.84,
+      "total_orders": 18,
+      "total_items": 115,
+      "avg_ticket": 324.99,
+      "category_counts": {
+        "Beverage": 7,
+        "Food": 5,
+        "Household": 7
+      },
+      "category_spend": {
+        "Beverage": 2702.9,
+        "Food": 1230.93,
+        "Household": 1916.01
+      },
+      "product_counts": {
+        "Product 19": 7,
+        "Product 47": 7,
+        "Product 93": 9,
+        "Product 39": 10,
+        "Product 9": 7,
+        "Product 94": 7,
+        "Product 98": 8,
+        "Product 83": 2,
+        "Product 88": 3,
+        "Product 75": 3,
+        "Product 97": 6,
+        "Product 65": 8,
+        "Product 12": 4,
+        "Product 89": 6,
+        "Product 71": 3,
+        "Product 20": 7,
+        "Product 74": 8,
+        "Product 1": 9,
+        "Product 16": 1
+      },
+      "first_purchase": "2025-02-19",
+      "last_purchase": "2025-08-17"
+    },
+    "CUST_026": {
+      "customer_id": "CUST_026",
+      "customer_name": "Adam Johnson",
+      "total_spend": 7411.32,
+      "total_orders": 23,
+      "total_items": 146,
+      "avg_ticket": 322.23,
+      "category_counts": {
+        "Food": 7,
+        "Household": 9,
+        "Beverage": 8
+      },
+      "category_spend": {
+        "Food": 2049.82,
+        "Household": 2943.55,
+        "Beverage": 2417.95
+      },
+      "product_counts": {
+        "Product 23": 4,
+        "Product 18": 9,
+        "Product 70": 14,
+        "Product 31": 7,
+        "Product 19": 2,
+        "Product 74": 10,
+        "Product 62": 4,
+        "Product 53": 1,
+        "Product 91": 12,
+        "Product 55": 3,
+        "Product 57": 2,
+        "Product 5": 5,
+        "Product 45": 10,
+        "Product 6": 9,
+        "Product 35": 16,
+        "Product 21": 4,
+        "Product 69": 7,
+        "Product 72": 6,
+        "Product 59": 10,
+        "Product 67": 1,
+        "Product 68": 10
+      },
+      "first_purchase": "2025-03-15",
+      "last_purchase": "2025-08-17"
+    },
+    "CUST_025": {
+      "customer_id": "CUST_025",
+      "customer_name": "John Guerra",
+      "total_spend": 3866.59,
+      "total_orders": 12,
+      "total_items": 74,
+      "avg_ticket": 322.22,
+      "category_counts": {
+        "Food": 5,
+        "Household": 7
+      },
+      "category_spend": {
+        "Food": 2028.28,
+        "Household": 1838.31
+      },
+      "product_counts": {
+        "Product 52": 12,
+        "Product 6": 10,
+        "Product 58": 3,
+        "Product 7": 4,
+        "Product 1": 7,
+        "Product 13": 7,
+        "Product 32": 2,
+        "Product 30": 10,
+        "Product 20": 8,
+        "Product 11": 4,
+        "Product 47": 7
+      },
+      "first_purchase": "2025-02-18",
+      "last_purchase": "2025-08-13"
+    },
+    "CUST_028": {
+      "customer_id": "CUST_028",
+      "customer_name": "Patrick Robinson",
+      "total_spend": 3923.21,
+      "total_orders": 18,
+      "total_items": 102,
+      "avg_ticket": 217.96,
+      "category_counts": {
+        "Food": 9,
+        "Household": 3,
+        "Beverage": 7
+      },
+      "category_spend": {
+        "Food": 1384.92,
+        "Household": 825.35,
+        "Beverage": 1712.94
+      },
+      "product_counts": {
+        "Product 87": 1,
+        "Product 66": 8,
+        "Product 51": 4,
+        "Product 61": 9,
+        "Product 97": 3,
+        "Product 21": 7,
+        "Product 36": 2,
+        "Product 30": 1,
+        "Product 37": 7,
+        "Product 52": 8,
+        "Product 8": 10,
+        "Product 86": 3,
+        "Product 79": 2,
+        "Product 15": 5,
+        "Product 68": 2,
+        "Product 98": 3,
+        "Product 43": 9,
+        "Product 89": 9,
+        "Product 38": 9
+      },
+      "first_purchase": "2025-03-29",
+      "last_purchase": "2025-07-30"
+    },
+    "CUST_004": {
+      "customer_id": "CUST_004",
+      "customer_name": "Bonnie Garrett",
+      "total_spend": 4952.26,
+      "total_orders": 18,
+      "total_items": 98,
+      "avg_ticket": 275.13,
+      "category_counts": {
+        "Beverage": 7,
+        "Household": 6,
+        "Food": 5
+      },
+      "category_spend": {
+        "Beverage": 2396.92,
+        "Household": 2274.7,
+        "Food": 280.64
+      },
+      "product_counts": {
+        "Product 57": 3,
+        "Product 43": 5,
+        "Product 9": 6,
+        "Product 91": 8,
+        "Product 27": 10,
+        "Product 11": 1,
+        "Product 64": 2,
+        "Product 45": 2,
+        "Product 93": 8,
+        "Product 28": 2,
+        "Product 89": 2,
+        "Product 52": 5,
+        "Product 73": 18,
+        "Product 76": 6,
+        "Product 80": 3,
+        "Product 74": 10,
+        "Product 78": 7
+      },
+      "first_purchase": "2025-03-09",
+      "last_purchase": "2025-08-19"
+    },
+    "CUST_021": {
+      "customer_id": "CUST_021",
+      "customer_name": "Grace Wright",
+      "total_spend": 7564.39,
+      "total_orders": 25,
+      "total_items": 125,
+      "avg_ticket": 302.58,
+      "category_counts": {
+        "Beverage": 10,
+        "Household": 8,
+        "Food": 8
+      },
+      "category_spend": {
+        "Beverage": 2810.95,
+        "Household": 1636.09,
+        "Food": 3117.35
+      },
+      "product_counts": {
+        "Product 81": 6,
+        "Product 96": 3,
+        "Product 76": 8,
+        "Product 37": 3,
+        "Product 71": 5,
+        "Product 86": 6,
+        "Product 69": 6,
+        "Product 91": 2,
+        "Product 11": 5,
+        "Product 42": 4,
+        "Product 35": 1,
+        "Product 27": 1,
+        "Product 22": 5,
+        "Product 58": 8,
+        "Product 40": 5,
+        "Product 94": 9,
+        "Product 14": 6,
+        "Product 67": 6,
+        "Product 61": 7,
+        "Product 62": 4,
+        "Product 34": 2,
+        "Product 93": 4,
+        "Product 33": 4,
+        "Product 97": 2,
+        "Product 19": 6,
+        "Product 60": 7
+      },
+      "first_purchase": "2025-02-18",
+      "last_purchase": "2025-08-17"
+    },
+    "CUST_007": {
+      "customer_id": "CUST_007",
+      "customer_name": "David Collins",
+      "total_spend": 3905.93,
+      "total_orders": 18,
+      "total_items": 87,
+      "avg_ticket": 217.0,
+      "category_counts": {
+        "Household": 5,
+        "Food": 7,
+        "Beverage": 6
+      },
+      "category_spend": {
+        "Household": 824.54,
+        "Food": 1836.8,
+        "Beverage": 1244.59
+      },
+      "product_counts": {
+        "Product 1": 1,
+        "Product 33": 9,
+        "Product 75": 2,
+        "Product 84": 6,
+        "Product 35": 8,
+        "Product 2": 5,
+        "Product 31": 10,
+        "Product 34": 9,
+        "Product 97": 3,
+        "Product 74": 4,
+        "Product 91": 8,
+        "Product 100": 7,
+        "Product 65": 3,
+        "Product 48": 8,
+        "Product 83": 2,
+        "Product 21": 1,
+        "Product 94": 1
+      },
+      "first_purchase": "2025-03-13",
+      "last_purchase": "2025-07-27"
+    },
+    "CUST_015": {
+      "customer_id": "CUST_015",
+      "customer_name": "Lindsey Glass",
+      "total_spend": 8067.88,
+      "total_orders": 21,
+      "total_items": 127,
+      "avg_ticket": 384.18,
+      "category_counts": {
+        "Beverage": 8,
+        "Food": 9,
+        "Household": 4
+      },
+      "category_spend": {
+        "Beverage": 2058.55,
+        "Food": 4086.55,
+        "Household": 1922.78
+      },
+      "product_counts": {
+        "Product 50": 2,
+        "Product 93": 10,
+        "Product 21": 10,
+        "Product 60": 1,
+        "Product 40": 4,
+        "Product 95": 8,
+        "Product 20": 5,
+        "Product 100": 3,
+        "Product 53": 2,
+        "Product 34": 9,
+        "Product 88": 9,
+        "Product 12": 5,
+        "Product 47": 19,
+        "Product 80": 7,
+        "Product 99": 10,
+        "Product 75": 9,
+        "Product 61": 6,
+        "Product 43": 6,
+        "Product 82": 2
+      },
+      "first_purchase": "2025-02-20",
+      "last_purchase": "2025-08-13"
+    },
+    "CUST_017": {
+      "customer_id": "CUST_017",
+      "customer_name": "Kimberly Rose",
+      "total_spend": 6435.48,
+      "total_orders": 20,
+      "total_items": 114,
+      "avg_ticket": 321.77,
+      "category_counts": {
+        "Household": 8,
+        "Food": 6,
+        "Beverage": 6
+      },
+      "category_spend": {
+        "Household": 1997.53,
+        "Food": 1314.99,
+        "Beverage": 3122.96
+      },
+      "product_counts": {
+        "Product 2": 7,
+        "Product 22": 8,
+        "Product 88": 6,
+        "Product 12": 5,
+        "Product 97": 9,
+        "Product 34": 10,
+        "Product 27": 5,
+        "Product 17": 9,
+        "Product 5": 2,
+        "Product 89": 3,
+        "Product 46": 6,
+        "Product 70": 10,
+        "Product 41": 1,
+        "Product 15": 5,
+        "Product 47": 8,
+        "Product 38": 2,
+        "Product 48": 7,
+        "Product 90": 10,
+        "Product 98": 1
+      },
+      "first_purchase": "2025-02-24",
+      "last_purchase": "2025-08-11"
+    },
+    "CUST_035": {
+      "customer_id": "CUST_035",
+      "customer_name": "Kelsey Shaw",
+      "total_spend": 5833.99,
+      "total_orders": 23,
+      "total_items": 125,
+      "avg_ticket": 253.65,
+      "category_counts": {
+        "Beverage": 8,
+        "Household": 7,
+        "Food": 9
+      },
+      "category_spend": {
+        "Beverage": 1360.6,
+        "Household": 1064.11,
+        "Food": 3409.28
+      },
+      "product_counts": {
+        "Product 15": 1,
+        "Product 37": 2,
+        "Product 21": 9,
+        "Product 56": 6,
+        "Product 16": 5,
+        "Product 63": 1,
+        "Product 51": 5,
+        "Product 7": 9,
+        "Product 47": 1,
+        "Product 64": 9,
+        "Product 61": 2,
+        "Product 73": 6,
+        "Product 5": 7,
+        "Product 42": 1,
+        "Product 98": 7,
+        "Product 46": 9,
+        "Product 27": 8,
+        "Product 95": 7,
+        "Product 83": 3,
+        "Product 32": 8,
+        "Product 11": 10,
+        "Product 77": 1,
+        "Product 12": 2,
+        "Product 40": 6
+      },
+      "first_purchase": "2025-02-18",
+      "last_purchase": "2025-07-27"
+    },
+    "CUST_049": {
+      "customer_id": "CUST_049",
+      "customer_name": "Elizabeth Bailey",
+      "total_spend": 6986.91,
+      "total_orders": 23,
+      "total_items": 138,
+      "avg_ticket": 303.78,
+      "category_counts": {
+        "Food": 9,
+        "Household": 9,
+        "Beverage": 6
+      },
+      "category_spend": {
+        "Food": 3868.45,
+        "Household": 1874.3,
+        "Beverage": 1244.16
+      },
+      "product_counts": {
+        "Product 42": 8,
+        "Product 54": 1,
+        "Product 75": 3,
+        "Product 30": 6,
+        "Product 55": 7,
+        "Product 47": 1,
+        "Product 27": 9,
+        "Product 39": 8,
+        "Product 44": 3,
+        "Product 32": 4,
+        "Product 95": 7,
+        "Product 50": 3,
+        "Product 52": 8,
+        "Product 97": 7,
+        "Product 80": 17,
+        "Product 48": 3,
+        "Product 51": 5,
+        "Product 92": 2,
+        "Product 37": 8,
+        "Product 6": 5,
+        "Product 71": 10,
+        "Product 38": 8,
+        "Product 13": 5
+      },
+      "first_purchase": "2025-02-20",
+      "last_purchase": "2025-08-14"
+    },
+    "CUST_048": {
+      "customer_id": "CUST_048",
+      "customer_name": "William Fritz",
+      "total_spend": 4023.85,
+      "total_orders": 15,
+      "total_items": 88,
+      "avg_ticket": 268.26,
+      "category_counts": {
+        "Food": 3,
+        "Household": 7,
+        "Beverage": 6
+      },
+      "category_spend": {
+        "Food": 664.06,
+        "Household": 2200.07,
+        "Beverage": 1159.72
+      },
+      "product_counts": {
+        "Product 27": 6,
+        "Product 63": 5,
+        "Product 94": 4,
+        "Product 52": 6,
+        "Product 10": 9,
+        "Product 33": 12,
+        "Product 96": 4,
+        "Product 81": 1,
+        "Product 2": 1,
+        "Product 38": 5,
+        "Product 41": 6,
+        "Product 8": 10,
+        "Product 15": 6,
+        "Product 5": 7,
+        "Product 82": 6
+      },
+      "first_purchase": "2025-02-28",
+      "last_purchase": "2025-08-06"
+    },
+    "CUST_044": {
+      "customer_id": "CUST_044",
+      "customer_name": "Thomas Johnson",
+      "total_spend": 5060.18,
+      "total_orders": 20,
+      "total_items": 111,
+      "avg_ticket": 253.01,
+      "category_counts": {
+        "Beverage": 7,
+        "Food": 5,
+        "Household": 8
+      },
+      "category_spend": {
+        "Beverage": 2078.45,
+        "Food": 1017.82,
+        "Household": 1963.91
+      },
+      "product_counts": {
+        "Product 8": 4,
+        "Product 93": 2,
+        "Product 4": 3,
+        "Product 19": 7,
+        "Product 42": 1,
+        "Product 10": 10,
+        "Product 95": 8,
+        "Product 62": 5,
+        "Product 33": 9,
+        "Product 97": 1,
+        "Product 75": 10,
+        "Product 27": 7,
+        "Product 2": 3,
+        "Product 94": 10,
+        "Product 21": 5,
+        "Product 43": 7,
+        "Product 68": 6,
+        "Product 5": 1,
+        "Product 92": 7,
+        "Product 98": 5
+      },
+      "first_purchase": "2025-03-08",
+      "last_purchase": "2025-07-18"
+    },
+    "CUST_046": {
+      "customer_id": "CUST_046",
+      "customer_name": "Jennifer Glass",
+      "total_spend": 3562.93,
+      "total_orders": 17,
+      "total_items": 105,
+      "avg_ticket": 209.58,
+      "category_counts": {
+        "Food": 7,
+        "Beverage": 5,
+        "Household": 6
+      },
+      "category_spend": {
+        "Food": 1138.4,
+        "Beverage": 1825.78,
+        "Household": 598.75
+      },
+      "product_counts": {
+        "Product 44": 6,
+        "Product 53": 7,
+        "Product 43": 8,
+        "Product 36": 8,
+        "Product 46": 4,
+        "Product 87": 10,
+        "Product 25": 8,
+        "Product 92": 5,
+        "Product 55": 11,
+        "Product 21": 5,
+        "Product 75": 5,
+        "Product 17": 1,
+        "Product 67": 10,
+        "Product 78": 2,
+        "Product 89": 8,
+        "Product 57": 2,
+        "Product 65": 5
+      },
+      "first_purchase": "2025-02-25",
+      "last_purchase": "2025-08-13"
+    },
+    "CUST_042": {
+      "customer_id": "CUST_042",
+      "customer_name": "Jorge Morris",
+      "total_spend": 3331.79,
+      "total_orders": 20,
+      "total_items": 97,
+      "avg_ticket": 166.59,
+      "category_counts": {
+        "Household": 8,
+        "Beverage": 7,
+        "Food": 5
+      },
+      "category_spend": {
+        "Household": 1486.38,
+        "Beverage": 1538.55,
+        "Food": 306.86
+      },
+      "product_counts": {
+        "Product 29": 8,
+        "Product 40": 14,
+        "Product 26": 9,
+        "Product 31": 10,
+        "Product 18": 3,
+        "Product 3": 4,
+        "Product 75": 1,
+        "Product 17": 7,
+        "Product 69": 2,
+        "Product 27": 5,
+        "Product 63": 6,
+        "Product 89": 3,
+        "Product 8": 8,
+        "Product 35": 10,
+        "Product 100": 3,
+        "Product 43": 2,
+        "Product 98": 2
+      },
+      "first_purchase": "2025-02-18",
+      "last_purchase": "2025-08-13"
+    },
+    "CUST_050": {
+      "customer_id": "CUST_050",
+      "customer_name": "James Steele",
+      "total_spend": 3825.89,
+      "total_orders": 22,
+      "total_items": 71,
+      "avg_ticket": 173.9,
+      "category_counts": {
+        "Food": 10,
+        "Beverage": 6,
+        "Household": 6
+      },
+      "category_spend": {
+        "Food": 1498.37,
+        "Beverage": 1370.87,
+        "Household": 956.65
+      },
+      "product_counts": {
+        "Product 3": 4,
+        "Product 61": 6,
+        "Product 27": 5,
+        "Product 51": 4,
+        "Product 34": 3,
+        "Product 69": 1,
+        "Product 12": 4,
+        "Product 93": 6,
+        "Product 9": 2,
+        "Product 46": 6,
+        "Product 18": 2,
+        "Product 73": 5,
+        "Product 60": 1,
+        "Product 55": 1,
+        "Product 8": 2,
+        "Product 74": 4,
+        "Product 35": 7,
+        "Product 23": 6,
+        "Product 7": 2
+      },
+      "first_purchase": "2025-02-21",
+      "last_purchase": "2025-08-17"
+    },
+    "CUST_043": {
+      "customer_id": "CUST_043",
+      "customer_name": "William Rios",
+      "total_spend": 6872.26,
+      "total_orders": 23,
+      "total_items": 159,
+      "avg_ticket": 298.79,
+      "category_counts": {
+        "Household": 12,
+        "Beverage": 9,
+        "Food": 4
+      },
+      "category_spend": {
+        "Household": 2749.43,
+        "Beverage": 2548.78,
+        "Food": 1574.05
+      },
+      "product_counts": {
+        "Product 14": 10,
+        "Product 32": 3,
+        "Product 75": 8,
+        "Product 31": 1,
+        "Product 28": 9,
+        "Product 43": 7,
+        "Product 78": 4,
+        "Product 6": 7,
+        "Product 74": 3,
+        "Product 2": 18,
+        "Product 7": 9,
+        "Product 3": 2,
+        "Product 50": 7,
+        "Product 44": 2,
+        "Product 79": 7,
+        "Product 72": 1,
+        "Product 25": 7,
+        "Product 100": 10,
+        "Product 47": 9,
+        "Product 81": 10,
+        "Product 87": 7,
+        "Product 65": 8,
+        "Product 82": 10
+      },
+      "first_purchase": "2025-03-21",
+      "last_purchase": "2025-08-05"
+    },
+    "CUST_018": {
+      "customer_id": "CUST_018",
+      "customer_name": "Kevin Ward",
+      "total_spend": 6032.27,
+      "total_orders": 22,
+      "total_items": 113,
+      "avg_ticket": 274.19,
+      "category_counts": {
+        "Household": 9,
+        "Food": 7,
+        "Beverage": 6
+      },
+      "category_spend": {
+        "Household": 2782.9,
+        "Food": 2566.39,
+        "Beverage": 682.98
+      },
+      "product_counts": {
+        "Product 89": 10,
+        "Product 100": 11,
+        "Product 23": 2,
+        "Product 99": 4,
+        "Product 88": 8,
+        "Product 6": 7,
+        "Product 98": 6,
+        "Product 50": 7,
+        "Product 61": 9,
+        "Product 40": 5,
+        "Product 34": 8,
+        "Product 4": 10,
+        "Product 87": 2,
+        "Product 18": 2,
+        "Product 93": 4,
+        "Product 46": 1,
+        "Product 63": 7,
+        "Product 2": 2,
+        "Product 45": 4,
+        "Product 73": 4
+      },
+      "first_purchase": "2025-03-15",
+      "last_purchase": "2025-08-18"
+    },
+    "CUST_020": {
+      "customer_id": "CUST_020",
+      "customer_name": "Katrina Smith",
+      "total_spend": 4234.42,
+      "total_orders": 17,
+      "total_items": 98,
+      "avg_ticket": 249.08,
+      "category_counts": {
+        "Food": 7,
+        "Household": 6,
+        "Beverage": 4
+      },
+      "category_spend": {
+        "Food": 1878.22,
+        "Household": 1924.29,
+        "Beverage": 431.91
+      },
+      "product_counts": {
+        "Product 86": 5,
+        "Product 80": 8,
+        "Product 36": 16,
+        "Product 64": 9,
+        "Product 26": 1,
+        "Product 32": 3,
+        "Product 31": 3,
+        "Product 17": 6,
+        "Product 96": 6,
+        "Product 46": 7,
+        "Product 43": 8,
+        "Product 40": 8,
+        "Product 83": 6,
+        "Product 63": 3,
+        "Product 70": 9
+      },
+      "first_purchase": "2025-02-24",
+      "last_purchase": "2025-08-12"
+    },
+    "CUST_005": {
+      "customer_id": "CUST_005",
+      "customer_name": "Anthony Brown",
+      "total_spend": 4115.49,
+      "total_orders": 15,
+      "total_items": 78,
+      "avg_ticket": 274.37,
+      "category_counts": {
+        "Household": 5,
+        "Beverage": 4,
+        "Food": 6
+      },
+      "category_spend": {
+        "Household": 668.53,
+        "Beverage": 932.92,
+        "Food": 2514.04
+      },
+      "product_counts": {
+        "Product 32": 3,
+        "Product 66": 7,
+        "Product 68": 2,
+        "Product 100": 7,
+        "Product 49": 8,
+        "Product 58": 1,
+        "Product 75": 4,
+        "Product 24": 10,
+        "Product 5": 6,
+        "Product 22": 10,
+        "Product 97": 3,
+        "Product 96": 7,
+        "Product 25": 4,
+        "Product 79": 6
+      },
+      "first_purchase": "2025-02-24",
+      "last_purchase": "2025-08-08"
+    },
+    "CUST_040": {
+      "customer_id": "CUST_040",
+      "customer_name": "Taylor Moore",
+      "total_spend": 6820.72,
+      "total_orders": 26,
+      "total_items": 143,
+      "avg_ticket": 262.34,
+      "category_counts": {
+        "Food": 9,
+        "Household": 10,
+        "Beverage": 7
+      },
+      "category_spend": {
+        "Food": 2273.82,
+        "Household": 2515.22,
+        "Beverage": 2031.68
+      },
+      "product_counts": {
+        "Product 39": 5,
+        "Product 5": 6,
+        "Product 82": 9,
+        "Product 76": 9,
+        "Product 61": 5,
+        "Product 66": 4,
+        "Product 44": 8,
+        "Product 45": 7,
+        "Product 71": 2,
+        "Product 23": 6,
+        "Product 20": 10,
+        "Product 52": 13,
+        "Product 51": 4,
+        "Product 59": 8,
+        "Product 80": 4,
+        "Product 77": 9,
+        "Product 93": 7,
+        "Product 40": 2,
+        "Product 85": 10,
+        "Product 55": 5,
+        "Product 50": 7,
+        "Product 10": 3
+      },
+      "first_purchase": "2025-02-26",
+      "last_purchase": "2025-08-03"
+    },
+    "CUST_037": {
+      "customer_id": "CUST_037",
+      "customer_name": "Jack Williamson",
+      "total_spend": 5412.03,
+      "total_orders": 17,
+      "total_items": 100,
+      "avg_ticket": 318.35,
+      "category_counts": {
+        "Beverage": 7,
+        "Food": 3,
+        "Household": 7
+      },
+      "category_spend": {
+        "Beverage": 2153.41,
+        "Food": 1129.66,
+        "Household": 2128.96
+      },
+      "product_counts": {
+        "Product 41": 1,
+        "Product 100": 8,
+        "Product 96": 5,
+        "Product 60": 1,
+        "Product 33": 10,
+        "Product 8": 10,
+        "Product 68": 4,
+        "Product 79": 11,
+        "Product 86": 3,
+        "Product 37": 9,
+        "Product 1": 6,
+        "Product 34": 5,
+        "Product 27": 4,
+        "Product 89": 5,
+        "Product 82": 8,
+        "Product 13": 10
+      },
+      "first_purchase": "2025-02-19",
+      "last_purchase": "2025-08-14"
+    },
+    "CUST_008": {
+      "customer_id": "CUST_008",
+      "customer_name": "Stacy Robles",
+      "total_spend": 6796.4,
+      "total_orders": 23,
+      "total_items": 122,
+      "avg_ticket": 295.5,
+      "category_counts": {
+        "Household": 8,
+        "Beverage": 9,
+        "Food": 7
+      },
+      "category_spend": {
+        "Household": 3843.07,
+        "Beverage": 1836.17,
+        "Food": 1117.16
+      },
+      "product_counts": {
+        "Product 55": 8,
+        "Product 38": 2,
+        "Product 62": 2,
+        "Product 84": 5,
+        "Product 30": 6,
+        "Product 96": 3,
+        "Product 43": 2,
+        "Product 73": 2,
+        "Product 39": 1,
+        "Product 86": 5,
+        "Product 34": 7,
+        "Product 91": 3,
+        "Product 24": 6,
+        "Product 4": 7,
+        "Product 53": 10,
+        "Product 27": 10,
+        "Product 47": 9,
+        "Product 22": 9,
+        "Product 78": 3,
+        "Product 83": 7,
+        "Product 97": 3,
+        "Product 60": 10,
+        "Product 75": 2
+      },
+      "first_purchase": "2025-02-26",
+      "last_purchase": "2025-08-16"
+    },
+    "CUST_016": {
+      "customer_id": "CUST_016",
+      "customer_name": "Jason Vazquez",
+      "total_spend": 5043.67,
+      "total_orders": 21,
+      "total_items": 111,
+      "avg_ticket": 240.17,
+      "category_counts": {
+        "Beverage": 7,
+        "Household": 10,
+        "Food": 5
+      },
+      "category_spend": {
+        "Beverage": 2352.22,
+        "Household": 1517.33,
+        "Food": 1174.12
+      },
+      "product_counts": {
+        "Product 18": 10,
+        "Product 85": 8,
+        "Product 40": 4,
+        "Product 78": 7,
+        "Product 76": 9,
+        "Product 46": 1,
+        "Product 82": 4,
+        "Product 24": 8,
+        "Product 98": 9,
+        "Product 3": 10,
+        "Product 71": 4,
+        "Product 77": 12,
+        "Product 91": 9,
+        "Product 92": 1,
+        "Product 87": 1,
+        "Product 96": 4,
+        "Product 45": 1,
+        "Product 94": 4,
+        "Product 11": 5
+      },
+      "first_purchase": "2025-03-13",
+      "last_purchase": "2025-08-04"
+    },
+    "CUST_030": {
+      "customer_id": "CUST_030",
+      "customer_name": "Daniel Taylor",
+      "total_spend": 4116.02,
+      "total_orders": 13,
+      "total_items": 76,
+      "avg_ticket": 316.62,
+      "category_counts": {
+        "Household": 6,
+        "Beverage": 2,
+        "Food": 5
+      },
+      "category_spend": {
+        "Household": 2547.34,
+        "Beverage": 476.86,
+        "Food": 1091.82
+      },
+      "product_counts": {
+        "Product 41": 10,
+        "Product 83": 8,
+        "Product 72": 1,
+        "Product 76": 6,
+        "Product 39": 8,
+        "Product 87": 9,
+        "Product 29": 4,
+        "Product 96": 1,
+        "Product 78": 5,
+        "Product 24": 10,
+        "Product 44": 3,
+        "Product 69": 2,
+        "Product 4": 9
+      },
+      "first_purchase": "2025-02-28",
+      "last_purchase": "2025-08-13"
+    },
+    "CUST_013": {
+      "customer_id": "CUST_013",
+      "customer_name": "Joseph Noble",
+      "total_spend": 4791.6,
+      "total_orders": 15,
+      "total_items": 80,
+      "avg_ticket": 319.44,
+      "category_counts": {
+        "Household": 7,
+        "Beverage": 4,
+        "Food": 4
+      },
+      "category_spend": {
+        "Household": 2352.87,
+        "Beverage": 988.4,
+        "Food": 1450.33
+      },
+      "product_counts": {
+        "Product 38": 11,
+        "Product 81": 6,
+        "Product 86": 4,
+        "Product 70": 5,
+        "Product 12": 4,
+        "Product 45": 12,
+        "Product 66": 1,
+        "Product 34": 9,
+        "Product 29": 8,
+        "Product 33": 4,
+        "Product 89": 5,
+        "Product 55": 6,
+        "Product 90": 5
+      },
+      "first_purchase": "2025-02-28",
+      "last_purchase": "2025-08-19"
+    },
+    "CUST_024": {
+      "customer_id": "CUST_024",
+      "customer_name": "Katelyn Burke",
+      "total_spend": 6476.03,
+      "total_orders": 21,
+      "total_items": 124,
+      "avg_ticket": 308.38,
+      "category_counts": {
+        "Food": 7,
+        "Household": 8,
+        "Beverage": 6
+      },
+      "category_spend": {
+        "Food": 1204.84,
+        "Household": 3737.62,
+        "Beverage": 1533.57
+      },
+      "product_counts": {
+        "Product 42": 5,
+        "Product 52": 8,
+        "Product 93": 4,
+        "Product 48": 6,
+        "Product 65": 4,
+        "Product 8": 10,
+        "Product 38": 1,
+        "Product 45": 6,
+        "Product 99": 2,
+        "Product 76": 10,
+        "Product 85": 7,
+        "Product 13": 3,
+        "Product 15": 6,
+        "Product 17": 8,
+        "Product 37": 3,
+        "Product 14": 10,
+        "Product 26": 8,
+        "Product 74": 9,
+        "Product 81": 5,
+        "Product 2": 9
+      },
+      "first_purchase": "2025-02-22",
+      "last_purchase": "2025-07-24"
+    },
+    "CUST_012": {
+      "customer_id": "CUST_012",
+      "customer_name": "Melissa Montgomery",
+      "total_spend": 7667.68,
+      "total_orders": 19,
+      "total_items": 125,
+      "avg_ticket": 403.56,
+      "category_counts": {
+        "Household": 8,
+        "Beverage": 8,
+        "Food": 3
+      },
+      "category_spend": {
+        "Household": 3176.02,
+        "Beverage": 3684.14,
+        "Food": 807.52
+      },
+      "product_counts": {
+        "Product 81": 11,
+        "Product 1": 8,
+        "Product 13": 7,
+        "Product 77": 9,
+        "Product 97": 7,
+        "Product 64": 8,
+        "Product 19": 13,
+        "Product 25": 3,
+        "Product 57": 10,
+        "Product 99": 6,
+        "Product 75": 3,
+        "Product 23": 10,
+        "Product 36": 2,
+        "Product 28": 8,
+        "Product 100": 10,
+        "Product 16": 9,
+        "Product 86": 1
+      },
+      "first_purchase": "2025-02-18",
+      "last_purchase": "2025-08-05"
+    },
+    "CUST_033": {
+      "customer_id": "CUST_033",
+      "customer_name": "Thomas Williams",
+      "total_spend": 5003.81,
+      "total_orders": 19,
+      "total_items": 102,
+      "avg_ticket": 263.36,
+      "category_counts": {
+        "Food": 7,
+        "Household": 6,
+        "Beverage": 6
+      },
+      "category_spend": {
+        "Food": 2290.0,
+        "Household": 2103.04,
+        "Beverage": 610.77
+      },
+      "product_counts": {
+        "Product 70": 10,
+        "Product 95": 4,
+        "Product 52": 4,
+        "Product 13": 3,
+        "Product 46": 10,
+        "Product 48": 7,
+        "Product 11": 10,
+        "Product 40": 10,
+        "Product 49": 4,
+        "Product 43": 2,
+        "Product 81": 4,
+        "Product 18": 4,
+        "Product 68": 10,
+        "Product 37": 1,
+        "Product 17": 5,
+        "Product 91": 4,
+        "Product 76": 3,
+        "Product 85": 1,
+        "Product 58": 6
+      },
+      "first_purchase": "2025-02-24",
+      "last_purchase": "2025-08-18"
+    },
+    "CUST_032": {
+      "customer_id": "CUST_032",
+      "customer_name": "Kyle Rogers",
+      "total_spend": 4524.61,
+      "total_orders": 17,
+      "total_items": 84,
+      "avg_ticket": 266.15,
+      "category_counts": {
+        "Food": 8,
+        "Household": 7,
+        "Beverage": 3
+      },
+      "category_spend": {
+        "Food": 1752.65,
+        "Household": 1332.93,
+        "Beverage": 1439.03
+      },
+      "product_counts": {
+        "Product 44": 4,
+        "Product 49": 1,
+        "Product 40": 2,
+        "Product 94": 6,
+        "Product 98": 8,
+        "Product 70": 9,
+        "Product 37": 1,
+        "Product 90": 8,
+        "Product 17": 6,
+        "Product 13": 1,
+        "Product 52": 9,
+        "Product 48": 3,
+        "Product 81": 12,
+        "Product 30": 4,
+        "Product 23": 4,
+        "Product 88": 1,
+        "Product 55": 5
+      },
+      "first_purchase": "2025-02-24",
+      "last_purchase": "2025-08-16"
+    },
+    "CUST_023": {
+      "customer_id": "CUST_023",
+      "customer_name": "Miss Patricia Huff",
+      "total_spend": 6523.99,
+      "total_orders": 16,
+      "total_items": 111,
+      "avg_ticket": 407.75,
+      "category_counts": {
+        "Food": 5,
+        "Household": 6,
+        "Beverage": 7
+      },
+      "category_spend": {
+        "Food": 1088.14,
+        "Household": 1807.64,
+        "Beverage": 3628.21
+      },
+      "product_counts": {
+        "Product 21": 5,
+        "Product 32": 8,
+        "Product 54": 1,
+        "Product 63": 5,
+        "Product 99": 13,
+        "Product 35": 6,
+        "Product 65": 10,
+        "Product 24": 5,
+        "Product 9": 8,
+        "Product 28": 8,
+        "Product 42": 7,
+        "Product 98": 3,
+        "Product 36": 6,
+        "Product 60": 10,
+        "Product 51": 10,
+        "Product 66": 6
+      },
+      "first_purchase": "2025-02-22",
+      "last_purchase": "2025-08-18"
+    },
+    "CUST_045": {
+      "customer_id": "CUST_045",
+      "customer_name": "Sheila Williamson",
+      "total_spend": 3173.66,
+      "total_orders": 15,
+      "total_items": 84,
+      "avg_ticket": 211.58,
+      "category_counts": {
+        "Beverage": 7,
+        "Household": 5,
+        "Food": 3
+      },
+      "category_spend": {
+        "Beverage": 1116.37,
+        "Household": 1657.39,
+        "Food": 399.9
+      },
+      "product_counts": {
+        "Product 56": 7,
+        "Product 42": 8,
+        "Product 59": 7,
+        "Product 71": 1,
+        "Product 33": 7,
+        "Product 77": 1,
+        "Product 29": 7,
+        "Product 38": 7,
+        "Product 65": 7,
+        "Product 1": 4,
+        "Product 41": 9,
+        "Product 52": 1,
+        "Product 32": 2,
+        "Product 27": 6,
+        "Product 69": 10
+      },
+      "first_purchase": "2025-02-23",
+      "last_purchase": "2025-08-07"
+    },
+    "CUST_001": {
+      "customer_id": "CUST_001",
+      "customer_name": "Pamela Tran",
+      "total_spend": 8938.45,
+      "total_orders": 25,
+      "total_items": 163,
+      "avg_ticket": 357.54,
+      "category_counts": {
+        "Beverage": 11,
+        "Household": 6,
+        "Food": 9
+      },
+      "category_spend": {
+        "Beverage": 3764.61,
+        "Household": 769.48,
+        "Food": 4404.36
+      },
+      "product_counts": {
+        "Product 94": 8,
+        "Product 26": 3,
+        "Product 75": 16,
+        "Product 22": 15,
+        "Product 92": 3,
+        "Product 87": 3,
+        "Product 20": 10,
+        "Product 77": 11,
+        "Product 91": 2,
+        "Product 66": 6,
+        "Product 82": 14,
+        "Product 99": 9,
+        "Product 39": 7,
+        "Product 83": 3,
+        "Product 4": 8,
+        "Product 52": 8,
+        "Product 55": 3,
+        "Product 53": 9,
+        "Product 67": 9,
+        "Product 45": 7,
+        "Product 85": 9
+      },
+      "first_purchase": "2025-02-27",
+      "last_purchase": "2025-08-18"
+    },
+    "CUST_009": {
+      "customer_id": "CUST_009",
+      "customer_name": "Tina Sullivan",
+      "total_spend": 4247.89,
+      "total_orders": 24,
+      "total_items": 114,
+      "avg_ticket": 177.0,
+      "category_counts": {
+        "Household": 10,
+        "Food": 10,
+        "Beverage": 4
+      },
+      "category_spend": {
+        "Household": 1521.35,
+        "Food": 2033.57,
+        "Beverage": 692.97
+      },
+      "product_counts": {
+        "Product 83": 10,
+        "Product 78": 4,
+        "Product 57": 17,
+        "Product 10": 8,
+        "Product 55": 8,
+        "Product 51": 9,
+        "Product 3": 1,
+        "Product 66": 4,
+        "Product 13": 2,
+        "Product 53": 10,
+        "Product 31": 1,
+        "Product 81": 2,
+        "Product 29": 7,
+        "Product 68": 2,
+        "Product 52": 1,
+        "Product 97": 6,
+        "Product 15": 2,
+        "Product 17": 4,
+        "Product 41": 1,
+        "Product 50": 10,
+        "Product 9": 5
+      },
+      "first_purchase": "2025-03-04",
+      "last_purchase": "2025-08-19"
+    },
+    "CUST_003": {
+      "customer_id": "CUST_003",
+      "customer_name": "Katherine Washington",
+      "total_spend": 6633.37,
+      "total_orders": 22,
+      "total_items": 127,
+      "avg_ticket": 301.52,
+      "category_counts": {
+        "Beverage": 6,
+        "Household": 9,
+        "Food": 8
+      },
+      "category_spend": {
+        "Beverage": 1548.04,
+        "Household": 2854.87,
+        "Food": 2230.46
+      },
+      "product_counts": {
+        "Product 86": 8,
+        "Product 29": 6,
+        "Product 66": 7,
+        "Product 100": 4,
+        "Product 6": 4,
+        "Product 80": 6,
+        "Product 9": 2,
+        "Product 4": 4,
+        "Product 81": 10,
+        "Product 18": 6,
+        "Product 67": 17,
+        "Product 44": 4,
+        "Product 57": 4,
+        "Product 30": 5,
+        "Product 82": 7,
+        "Product 92": 2,
+        "Product 70": 3,
+        "Product 69": 7,
+        "Product 31": 6,
+        "Product 58": 2,
+        "Product 39": 6,
+        "Product 28": 7
+      },
+      "first_purchase": "2025-03-07",
+      "last_purchase": "2025-08-16"
+    },
+    "CUST_022": {
+      "customer_id": "CUST_022",
+      "customer_name": "Ashley Wyatt",
+      "total_spend": 4858.09,
+      "total_orders": 17,
+      "total_items": 98,
+      "avg_ticket": 285.77,
+      "category_counts": {
+        "Food": 7,
+        "Beverage": 5,
+        "Household": 6
+      },
+      "category_spend": {
+        "Food": 1968.99,
+        "Beverage": 1405.13,
+        "Household": 1483.97
+      },
+      "product_counts": {
+        "Product 67": 5,
+        "Product 69": 8,
+        "Product 22": 5,
+        "Product 86": 3,
+        "Product 38": 1,
+        "Product 15": 8,
+        "Product 71": 4,
+        "Product 1": 9,
+        "Product 85": 2,
+        "Product 80": 5,
+        "Product 21": 3,
+        "Product 29": 10,
+        "Product 70": 10,
+        "Product 48": 9,
+        "Product 73": 9,
+        "Product 68": 7
+      },
+      "first_purchase": "2025-03-06",
+      "last_purchase": "2025-07-22"
+    },
+    "CUST_041": {
+      "customer_id": "CUST_041",
+      "customer_name": "Alan Williams",
+      "total_spend": 5886.24,
+      "total_orders": 18,
+      "total_items": 129,
+      "avg_ticket": 327.01,
+      "category_counts": {
+        "Household": 5,
+        "Food": 9,
+        "Beverage": 7
+      },
+      "category_spend": {
+        "Household": 1885.09,
+        "Food": 2571.74,
+        "Beverage": 1429.41
+      },
+      "product_counts": {
+        "Product 29": 8,
+        "Product 54": 5,
+        "Product 99": 5,
+        "Product 1": 5,
+        "Product 96": 9,
+        "Product 18": 4,
+        "Product 24": 6,
+        "Product 76": 5,
+        "Product 86": 1,
+        "Product 66": 3,
+        "Product 85": 10,
+        "Product 20": 10,
+        "Product 27": 5,
+        "Product 10": 10,
+        "Product 50": 8,
+        "Product 55": 2,
+        "Product 30": 7,
+        "Product 84": 8,
+        "Product 4": 9,
+        "Product 46": 9
+      },
+      "first_purchase": "2025-02-23",
+      "last_purchase": "2025-07-23"
+    },
+    "CUST_038": {
+      "customer_id": "CUST_038",
+      "customer_name": "Edward Moreno",
+      "total_spend": 5181.0,
+      "total_orders": 19,
+      "total_items": 91,
+      "avg_ticket": 272.68,
+      "category_counts": {
+        "Household": 8,
+        "Beverage": 7,
+        "Food": 5
+      },
+      "category_spend": {
+        "Household": 1969.13,
+        "Beverage": 2574.39,
+        "Food": 637.48
+      },
+      "product_counts": {
+        "Product 69": 6,
+        "Product 66": 10,
+        "Product 95": 4,
+        "Product 32": 1,
+        "Product 93": 4,
+        "Product 82": 1,
+        "Product 48": 4,
+        "Product 85": 10,
+        "Product 61": 1,
+        "Product 72": 8,
+        "Product 88": 4,
+        "Product 43": 7,
+        "Product 24": 8,
+        "Product 71": 1,
+        "Product 78": 6,
+        "Product 39": 4,
+        "Product 9": 6,
+        "Product 5": 1,
+        "Product 18": 1,
+        "Product 92": 4
+      },
+      "first_purchase": "2025-02-19",
+      "last_purchase": "2025-07-24"
+    },
+    "CUST_036": {
+      "customer_id": "CUST_036",
+      "customer_name": "Leslie Murray",
+      "total_spend": 7136.67,
+      "total_orders": 25,
+      "total_items": 139,
+      "avg_ticket": 285.47,
+      "category_counts": {
+        "Beverage": 10,
+        "Household": 8,
+        "Food": 7
+      },
+      "category_spend": {
+        "Beverage": 3730.07,
+        "Household": 2027.35,
+        "Food": 1379.25
+      },
+      "product_counts": {
+        "Product 27": 17,
+        "Product 84": 10,
+        "Product 39": 3,
+        "Product 61": 7,
+        "Product 64": 10,
+        "Product 1": 8,
+        "Product 97": 1,
+        "Product 31": 8,
+        "Product 85": 2,
+        "Product 15": 8,
+        "Product 11": 1,
+        "Product 91": 3,
+        "Product 52": 5,
+        "Product 50": 9,
+        "Product 36": 8,
+        "Product 16": 8,
+        "Product 23": 7,
+        "Product 94": 2,
+        "Product 19": 6,
+        "Product 9": 6,
+        "Product 25": 1,
+        "Product 92": 2,
+        "Product 77": 7
+      },
+      "first_purchase": "2025-02-23",
+      "last_purchase": "2025-07-29"
+    },
+    "CUST_010": {
+      "customer_id": "CUST_010",
+      "customer_name": "Steven Richardson",
+      "total_spend": 4836.69,
+      "total_orders": 17,
+      "total_items": 97,
+      "avg_ticket": 284.51,
+      "category_counts": {
+        "Beverage": 7,
+        "Food": 6,
+        "Household": 4
+      },
+      "category_spend": {
+        "Beverage": 1750.79,
+        "Food": 1885.14,
+        "Household": 1200.76
+      },
+      "product_counts": {
+        "Product 41": 8,
+        "Product 73": 7,
+        "Product 36": 8,
+        "Product 2": 5,
+        "Product 3": 8,
+        "Product 37": 3,
+        "Product 51": 2,
+        "Product 92": 5,
+        "Product 14": 10,
+        "Product 28": 8,
+        "Product 4": 8,
+        "Product 45": 2,
+        "Product 57": 8,
+        "Product 48": 3,
+        "Product 70": 3,
+        "Product 40": 9
+      },
+      "first_purchase": "2025-03-14",
+      "last_purchase": "2025-08-08"
+    },
+    "CUST_011": {
+      "customer_id": "CUST_011",
+      "customer_name": "Brandon White",
+      "total_spend": 4621.58,
+      "total_orders": 18,
+      "total_items": 94,
+      "avg_ticket": 256.75,
+      "category_counts": {
+        "Food": 8,
+        "Beverage": 5,
+        "Household": 5
+      },
+      "category_spend": {
+        "Food": 2236.58,
+        "Beverage": 1132.81,
+        "Household": 1252.19
+      },
+      "product_counts": {
+        "Product 64": 9,
+        "Product 79": 2,
+        "Product 45": 10,
+        "Product 83": 5,
+        "Product 86": 1,
+        "Product 59": 10,
+        "Product 61": 10,
+        "Product 41": 2,
+        "Product 38": 8,
+        "Product 10": 16,
+        "Product 8": 5,
+        "Product 72": 6,
+        "Product 97": 7,
+        "Product 82": 3
+      },
+      "first_purchase": "2025-03-01",
+      "last_purchase": "2025-07-26"
+    },
+    "CUST_019": {
+      "customer_id": "CUST_019",
+      "customer_name": "Brian Turner",
+      "total_spend": 4687.95,
+      "total_orders": 17,
+      "total_items": 112,
+      "avg_ticket": 275.76,
+      "category_counts": {
+        "Household": 7,
+        "Food": 7,
+        "Beverage": 4
+      },
+      "category_spend": {
+        "Household": 2207.61,
+        "Food": 2050.18,
+        "Beverage": 430.16
+      },
+      "product_counts": {
+        "Product 97": 6,
+        "Product 22": 19,
+        "Product 35": 4,
+        "Product 91": 9,
+        "Product 100": 8,
+        "Product 57": 3,
+        "Product 12": 10,
+        "Product 55": 5,
+        "Product 48": 5,
+        "Product 15": 10,
+        "Product 11": 4,
+        "Product 4": 10,
+        "Product 53": 7,
+        "Product 56": 3,
+        "Product 41": 8,
+        "Product 20": 1
+      },
+      "first_purchase": "2025-02-21",
+      "last_purchase": "2025-08-11"
+    },
+    "CUST_047": {
+      "customer_id": "CUST_047",
+      "customer_name": "Mr. Marc Dalton",
+      "total_spend": 6547.11,
+      "total_orders": 22,
+      "total_items": 115,
+      "avg_ticket": 297.6,
+      "category_counts": {
+        "Household": 10,
+        "Beverage": 7,
+        "Food": 6
+      },
+      "category_spend": {
+        "Household": 2264.47,
+        "Beverage": 1639.98,
+        "Food": 2642.66
+      },
+      "product_counts": {
+        "Product 68": 12,
+        "Product 32": 4,
+        "Product 83": 8,
+        "Product 84": 4,
+        "Product 51": 7,
+        "Product 21": 8,
+        "Product 73": 2,
+        "Product 90": 14,
+        "Product 55": 5,
+        "Product 5": 5,
+        "Product 85": 1,
+        "Product 20": 5,
+        "Product 64": 3,
+        "Product 23": 3,
+        "Product 72": 3,
+        "Product 88": 4,
+        "Product 67": 9,
+        "Product 69": 10,
+        "Product 41": 7,
+        "Product 56": 1
+      },
+      "first_purchase": "2025-03-01",
+      "last_purchase": "2025-08-12"
+    },
+    "CUST_034": {
+      "customer_id": "CUST_034",
+      "customer_name": "Robert Miller",
+      "total_spend": 4185.67,
+      "total_orders": 23,
+      "total_items": 99,
+      "avg_ticket": 181.99,
+      "category_counts": {
+        "Beverage": 11,
+        "Household": 7,
+        "Food": 5
+      },
+      "category_spend": {
+        "Beverage": 1113.68,
+        "Household": 1594.0,
+        "Food": 1477.99
+      },
+      "product_counts": {
+        "Product 64": 3,
+        "Product 63": 3,
+        "Product 30": 9,
+        "Product 61": 4,
+        "Product 18": 11,
+        "Product 49": 6,
+        "Product 27": 1,
+        "Product 91": 2,
+        "Product 90": 2,
+        "Product 43": 5,
+        "Product 44": 5,
+        "Product 70": 5,
+        "Product 51": 2,
+        "Product 47": 1,
+        "Product 60": 9,
+        "Product 77": 5,
+        "Product 28": 5,
+        "Product 98": 9,
+        "Product 7": 1,
+        "Product 68": 1,
+        "Product 74": 8,
+        "Product 15": 2
+      },
+      "first_purchase": "2025-02-19",
+      "last_purchase": "2025-08-12"
+    },
+    "CUST_006": {
+      "customer_id": "CUST_006",
+      "customer_name": "Richard Wilson",
+      "total_spend": 4437.83,
+      "total_orders": 15,
+      "total_items": 77,
+      "avg_ticket": 295.86,
+      "category_counts": {
+        "Household": 6,
+        "Beverage": 6,
+        "Food": 4
+      },
+      "category_spend": {
+        "Household": 1358.97,
+        "Beverage": 2026.06,
+        "Food": 1052.8
+      },
+      "product_counts": {
+        "Product 7": 5,
+        "Product 23": 2,
+        "Product 6": 3,
+        "Product 89": 7,
+        "Product 58": 5,
+        "Product 24": 6,
+        "Product 59": 10,
+        "Product 86": 2,
+        "Product 15": 1,
+        "Product 55": 8,
+        "Product 77": 2,
+        "Product 66": 8,
+        "Product 46": 3,
+        "Product 10": 1,
+        "Product 78": 7,
+        "Product 16": 7
+      },
+      "first_purchase": "2025-02-24",
+      "last_purchase": "2025-08-03"
+    },
+    "CUST_002": {
+      "customer_id": "CUST_002",
+      "customer_name": "Jonathon Thomas",
+      "total_spend": 5795.9,
+      "total_orders": 15,
+      "total_items": 100,
+      "avg_ticket": 386.39,
+      "category_counts": {
+        "Beverage": 6,
+        "Food": 3,
+        "Household": 8
+      },
+      "category_spend": {
+        "Beverage": 2438.53,
+        "Food": 884.27,
+        "Household": 2473.1
+      },
+      "product_counts": {
+        "Product 25": 8,
+        "Product 100": 1,
+        "Product 62": 1,
+        "Product 9": 1,
+        "Product 13": 6,
+        "Product 18": 8,
+        "Product 83": 4,
+        "Product 57": 7,
+        "Product 28": 9,
+        "Product 43": 3,
+        "Product 20": 6,
+        "Product 78": 5,
+        "Product 4": 9,
+        "Product 67": 10,
+        "Product 64": 7,
+        "Product 27": 7,
+        "Product 71": 8
+      },
+      "first_purchase": "2025-02-23",
+      "last_purchase": "2025-08-01"
+    },
+    "CUST_014": {
+      "customer_id": "CUST_014",
+      "customer_name": "Carla Bush",
+      "total_spend": 3725.38,
+      "total_orders": 17,
+      "total_items": 84,
+      "avg_ticket": 219.14,
+      "category_counts": {
+        "Household": 8,
+        "Beverage": 4,
+        "Food": 5
+      },
+      "category_spend": {
+        "Household": 1688.68,
+        "Beverage": 1413.96,
+        "Food": 622.74
+      },
+      "product_counts": {
+        "Product 78": 7,
+        "Product 67": 8,
+        "Product 45": 10,
+        "Product 47": 2,
+        "Product 46": 2,
+        "Product 55": 2,
+        "Product 3": 3,
+        "Product 12": 10,
+        "Product 4": 4,
+        "Product 92": 1,
+        "Product 32": 5,
+        "Product 82": 7,
+        "Product 85": 4,
+        "Product 54": 4,
+        "Product 86": 9,
+        "Product 57": 6
+      },
+      "first_purchase": "2025-02-22",
+      "last_purchase": "2025-08-05"
+    },
+    "CUST_027": {
+      "customer_id": "CUST_027",
+      "customer_name": "Wesley Hart",
+      "total_spend": 7748.72,
+      "total_orders": 27,
+      "total_items": 168,
+      "avg_ticket": 286.99,
+      "category_counts": {
+        "Household": 9,
+        "Food": 12,
+        "Beverage": 6
+      },
+      "category_spend": {
+        "Household": 2443.82,
+        "Food": 3472.31,
+        "Beverage": 1832.59
+      },
+      "product_counts": {
+        "Product 22": 4,
+        "Product 21": 10,
+        "Product 52": 3,
+        "Product 78": 11,
+        "Product 40": 8,
+        "Product 49": 2,
+        "Product 76": 4,
+        "Product 81": 10,
+        "Product 16": 14,
+        "Product 68": 10,
+        "Product 38": 4,
+        "Product 82": 5,
+        "Product 99": 2,
+        "Product 83": 10,
+        "Product 79": 9,
+        "Product 70": 3,
+        "Product 24": 3,
+        "Product 95": 5,
+        "Product 4": 7,
+        "Product 48": 7,
+        "Product 91": 10,
+        "Product 12": 10,
+        "Product 31": 9,
+        "Product 94": 8
+      },
+      "first_purchase": "2025-02-24",
+      "last_purchase": "2025-08-07"
+    },
+    "CUST_039": {
+      "customer_id": "CUST_039",
+      "customer_name": "Shannon Green",
+      "total_spend": 6900.9,
+      "total_orders": 24,
+      "total_items": 135,
+      "avg_ticket": 287.54,
+      "category_counts": {
+        "Food": 9,
+        "Beverage": 6,
+        "Household": 11
+      },
+      "category_spend": {
+        "Food": 1869.61,
+        "Beverage": 2321.41,
+        "Household": 2709.88
+      },
+      "product_counts": {
+        "Product 34": 6,
+        "Product 23": 4,
+        "Product 90": 10,
+        "Product 4": 8,
+        "Product 89": 8,
+        "Product 44": 4,
+        "Product 65": 3,
+        "Product 6": 2,
+        "Product 74": 3,
+        "Product 8": 3,
+        "Product 40": 7,
+        "Product 3": 9,
+        "Product 17": 2,
+        "Product 98": 2,
+        "Product 100": 1,
+        "Product 75": 5,
+        "Product 9": 9,
+        "Product 29": 9,
+        "Product 73": 7,
+        "Product 27": 14,
+        "Product 36": 8,
+        "Product 50": 5,
+        "Product 48": 1,
+        "Product 85": 3,
+        "Product 12": 2
+      },
+      "first_purchase": "2025-02-21",
+      "last_purchase": "2025-08-18"
+    }
+  },
+  "products": {
+    "PROD_078": {
+      "product_id": "PROD_078",
+      "display_name": "Product 78",
+      "category": "Food",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 78,
+      "total_revenue": 3829.99,
+      "avg_price": 47.77
+    },
+    "PROD_019": {
+      "product_id": "PROD_019",
+      "display_name": "Product 19",
+      "category": "Beverage",
+      "sub_category": "Dairy",
+      "broad_category": "Grocery",
+      "total_quantity": 41,
+      "total_revenue": 2524.02,
+      "avg_price": 62.87
+    },
+    "PROD_023": {
+      "product_id": "PROD_023",
+      "display_name": "Product 23",
+      "category": "Food",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 48,
+      "total_revenue": 2252.48,
+      "avg_price": 52.24
+    },
+    "PROD_052": {
+      "product_id": "PROD_052",
+      "display_name": "Product 52",
+      "category": "Food",
+      "sub_category": "Dairy",
+      "broad_category": "Grocery",
+      "total_quantity": 91,
+      "total_revenue": 3441.55,
+      "avg_price": 40.38
+    },
+    "PROD_087": {
+      "product_id": "PROD_087",
+      "display_name": "Product 87",
+      "category": "Food",
+      "sub_category": "Bakery",
+      "broad_category": "Home Essentials",
+      "total_quantity": 33,
+      "total_revenue": 1308.28,
+      "avg_price": 52.74
+    },
+    "PROD_057": {
+      "product_id": "PROD_057",
+      "display_name": "Product 57",
+      "category": "Beverage",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 62,
+      "total_revenue": 3399.85,
+      "avg_price": 51.58
+    },
+    "PROD_081": {
+      "product_id": "PROD_081",
+      "display_name": "Product 81",
+      "category": "Beverage",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 77,
+      "total_revenue": 3926.84,
+      "avg_price": 50.24
+    },
+    "PROD_001": {
+      "product_id": "PROD_001",
+      "display_name": "Product 1",
+      "category": "Household",
+      "sub_category": "Fruits",
+      "broad_category": "Home Essentials",
+      "total_quantity": 57,
+      "total_revenue": 2594.26,
+      "avg_price": 45.42
+    },
+    "PROD_050": {
+      "product_id": "PROD_050",
+      "display_name": "Product 50",
+      "category": "Beverage",
+      "sub_category": "Fruits",
+      "broad_category": "Home Essentials",
+      "total_quantity": 58,
+      "total_revenue": 2340.64,
+      "avg_price": 46.77
+    },
+    "PROD_002": {
+      "product_id": "PROD_002",
+      "display_name": "Product 2",
+      "category": "Household",
+      "sub_category": "Fruits",
+      "broad_category": "Home Essentials",
+      "total_quantity": 50,
+      "total_revenue": 1520.37,
+      "avg_price": 36.94
+    },
+    "PROD_096": {
+      "product_id": "PROD_096",
+      "display_name": "Product 96",
+      "category": "Household",
+      "sub_category": "Bakery",
+      "broad_category": "Grocery",
+      "total_quantity": 42,
+      "total_revenue": 2257.19,
+      "avg_price": 60.92
+    },
+    "PROD_066": {
+      "product_id": "PROD_066",
+      "display_name": "Product 66",
+      "category": "Household",
+      "sub_category": "Beverages",
+      "broad_category": "Grocery",
+      "total_quantity": 64,
+      "total_revenue": 2291.17,
+      "avg_price": 43.43
+    },
+    "PROD_015": {
+      "product_id": "PROD_015",
+      "display_name": "Product 15",
+      "category": "Beverage",
+      "sub_category": "Dairy",
+      "broad_category": "Home Essentials",
+      "total_quantity": 54,
+      "total_revenue": 2024.73,
+      "avg_price": 42.45
+    },
+    "PROD_042": {
+      "product_id": "PROD_042",
+      "display_name": "Product 42",
+      "category": "Food",
+      "sub_category": "Bakery",
+      "broad_category": "Home Essentials",
+      "total_quantity": 34,
+      "total_revenue": 1651.13,
+      "avg_price": 52.9
+    },
+    "PROD_043": {
+      "product_id": "PROD_043",
+      "display_name": "Product 43",
+      "category": "Household",
+      "sub_category": "Bakery",
+      "broad_category": "Grocery",
+      "total_quantity": 73,
+      "total_revenue": 3356.44,
+      "avg_price": 48.9
+    },
+    "PROD_027": {
+      "product_id": "PROD_027",
+      "display_name": "Product 27",
+      "category": "Food",
+      "sub_category": "Vegetables",
+      "broad_category": "Grocery",
+      "total_quantity": 120,
+      "total_revenue": 7461.9,
+      "avg_price": 61.3
+    },
+    "PROD_008": {
+      "product_id": "PROD_008",
+      "display_name": "Product 8",
+      "category": "Beverage",
+      "sub_category": "Vegetables",
+      "broad_category": "Grocery",
+      "total_quantity": 62,
+      "total_revenue": 2789.67,
+      "avg_price": 49.32
+    },
+    "PROD_044": {
+      "product_id": "PROD_044",
+      "display_name": "Product 44",
+      "category": "Food",
+      "sub_category": "Beverages",
+      "broad_category": "Grocery",
+      "total_quantity": 39,
+      "total_revenue": 1267.32,
+      "avg_price": 35.65
+    },
+    "PROD_093": {
+      "product_id": "PROD_093",
+      "display_name": "Product 93",
+      "category": "Food",
+      "sub_category": "Vegetables",
+      "broad_category": "Grocery",
+      "total_quantity": 58,
+      "total_revenue": 2996.42,
+      "avg_price": 47.21
+    },
+    "PROD_029": {
+      "product_id": "PROD_029",
+      "display_name": "Product 29",
+      "category": "Household",
+      "sub_category": "Bakery",
+      "broad_category": "Home Essentials",
+      "total_quantity": 67,
+      "total_revenue": 2554.31,
+      "avg_price": 39.53
+    },
+    "PROD_003": {
+      "product_id": "PROD_003",
+      "display_name": "Product 3",
+      "category": "Food",
+      "sub_category": "Beverages",
+      "broad_category": "Grocery",
+      "total_quantity": 41,
+      "total_revenue": 1394.19,
+      "avg_price": 32.16
+    },
+    "PROD_014": {
+      "product_id": "PROD_014",
+      "display_name": "Product 14",
+      "category": "Household",
+      "sub_category": "Dairy",
+      "broad_category": "Grocery",
+      "total_quantity": 36,
+      "total_revenue": 2160.16,
+      "avg_price": 66.25
+    },
+    "PROD_089": {
+      "product_id": "PROD_089",
+      "display_name": "Product 89",
+      "category": "Household",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 66,
+      "total_revenue": 3642.25,
+      "avg_price": 50.7
+    },
+    "PROD_040": {
+      "product_id": "PROD_040",
+      "display_name": "Product 40",
+      "category": "Household",
+      "sub_category": "Beverages",
+      "broad_category": "Grocery",
+      "total_quantity": 84,
+      "total_revenue": 3556.12,
+      "avg_price": 44.28
+    },
+    "PROD_009": {
+      "product_id": "PROD_009",
+      "display_name": "Product 9",
+      "category": "Beverage",
+      "sub_category": "Dairy",
+      "broad_category": "Home Essentials",
+      "total_quantity": 52,
+      "total_revenue": 1850.43,
+      "avg_price": 39.62
+    },
+    "PROD_086": {
+      "product_id": "PROD_086",
+      "display_name": "Product 86",
+      "category": "Food",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 51,
+      "total_revenue": 3045.08,
+      "avg_price": 56.75
+    },
+    "PROD_032": {
+      "product_id": "PROD_032",
+      "display_name": "Product 32",
+      "category": "Household",
+      "sub_category": "Beverages",
+      "broad_category": "Home Essentials",
+      "total_quantity": 43,
+      "total_revenue": 2724.44,
+      "avg_price": 60.87
+    },
+    "PROD_039": {
+      "product_id": "PROD_039",
+      "display_name": "Product 39",
+      "category": "Food",
+      "sub_category": "Beverages",
+      "broad_category": "Home Essentials",
+      "total_quantity": 52,
+      "total_revenue": 3124.87,
+      "avg_price": 56.15
+    },
+    "PROD_063": {
+      "product_id": "PROD_063",
+      "display_name": "Product 63",
+      "category": "Food",
+      "sub_category": "Bakery",
+      "broad_category": "Grocery",
+      "total_quantity": 30,
+      "total_revenue": 1138.06,
+      "avg_price": 45.39
+    },
+    "PROD_041": {
+      "product_id": "PROD_041",
+      "display_name": "Product 41",
+      "category": "Beverage",
+      "sub_category": "Fruits",
+      "broad_category": "Grocery",
+      "total_quantity": 53,
+      "total_revenue": 2999.05,
+      "avg_price": 62.07
+    },
+    "PROD_055": {
+      "product_id": "PROD_055",
+      "display_name": "Product 55",
+      "category": "Household",
+      "sub_category": "Dairy",
+      "broad_category": "Home Essentials",
+      "total_quantity": 79,
+      "total_revenue": 4255.28,
+      "avg_price": 54.68
+    },
+    "PROD_018": {
+      "product_id": "PROD_018",
+      "display_name": "Product 18",
+      "category": "Beverage",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 60,
+      "total_revenue": 2805.83,
+      "avg_price": 50.89
+    },
+    "PROD_100": {
+      "product_id": "PROD_100",
+      "display_name": "Product 100",
+      "category": "Food",
+      "sub_category": "Vegetables",
+      "broad_category": "Grocery",
+      "total_quantity": 78,
+      "total_revenue": 4046.67,
+      "avg_price": 51.83
+    },
+    "PROD_038": {
+      "product_id": "PROD_038",
+      "display_name": "Product 38",
+      "category": "Household",
+      "sub_category": "Bakery",
+      "broad_category": "Grocery",
+      "total_quantity": 58,
+      "total_revenue": 2996.85,
+      "avg_price": 45.72
+    },
+    "PROD_004": {
+      "product_id": "PROD_004",
+      "display_name": "Product 4",
+      "category": "Household",
+      "sub_category": "Bakery",
+      "broad_category": "Home Essentials",
+      "total_quantity": 96,
+      "total_revenue": 4741.55,
+      "avg_price": 45.83
+    },
+    "PROD_070": {
+      "product_id": "PROD_070",
+      "display_name": "Product 70",
+      "category": "Food",
+      "sub_category": "Fruits",
+      "broad_category": "Grocery",
+      "total_quantity": 81,
+      "total_revenue": 5191.71,
+      "avg_price": 59.45
+    },
+    "PROD_075": {
+      "product_id": "PROD_075",
+      "display_name": "Product 75",
+      "category": "Household",
+      "sub_category": "Bakery",
+      "broad_category": "Home Essentials",
+      "total_quantity": 71,
+      "total_revenue": 3258.47,
+      "avg_price": 44.06
+    },
+    "PROD_091": {
+      "product_id": "PROD_091",
+      "display_name": "Product 91",
+      "category": "Beverage",
+      "sub_category": "Bakery",
+      "broad_category": "Grocery",
+      "total_quantity": 72,
+      "total_revenue": 3770.29,
+      "avg_price": 48.82
+    },
+    "PROD_037": {
+      "product_id": "PROD_037",
+      "display_name": "Product 37",
+      "category": "Household",
+      "sub_category": "Fruits",
+      "broad_category": "Home Essentials",
+      "total_quantity": 37,
+      "total_revenue": 1612.45,
+      "avg_price": 35.85
+    },
+    "PROD_021": {
+      "product_id": "PROD_021",
+      "display_name": "Product 21",
+      "category": "Food",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 67,
+      "total_revenue": 3274.42,
+      "avg_price": 51.39
+    },
+    "PROD_056": {
+      "product_id": "PROD_056",
+      "display_name": "Product 56",
+      "category": "Beverage",
+      "sub_category": "Beverages",
+      "broad_category": "Grocery",
+      "total_quantity": 17,
+      "total_revenue": 804.3,
+      "avg_price": 62.58
+    },
+    "PROD_094": {
+      "product_id": "PROD_094",
+      "display_name": "Product 94",
+      "category": "Beverage",
+      "sub_category": "Fruits",
+      "broad_category": "Home Essentials",
+      "total_quantity": 59,
+      "total_revenue": 3162.78,
+      "avg_price": 56.19
+    },
+    "PROD_026": {
+      "product_id": "PROD_026",
+      "display_name": "Product 26",
+      "category": "Household",
+      "sub_category": "Dairy",
+      "broad_category": "Home Essentials",
+      "total_quantity": 21,
+      "total_revenue": 1100.11,
+      "avg_price": 35.55
+    },
+    "PROD_031": {
+      "product_id": "PROD_031",
+      "display_name": "Product 31",
+      "category": "Beverage",
+      "sub_category": "Vegetables",
+      "broad_category": "Grocery",
+      "total_quantity": 60,
+      "total_revenue": 2013.4,
+      "avg_price": 42.89
+    },
+    "PROD_085": {
+      "product_id": "PROD_085",
+      "display_name": "Product 85",
+      "category": "Beverage",
+      "sub_category": "Beverages",
+      "broad_category": "Home Essentials",
+      "total_quantity": 67,
+      "total_revenue": 4234.41,
+      "avg_price": 63.4
+    },
+    "PROD_083": {
+      "product_id": "PROD_083",
+      "display_name": "Product 83",
+      "category": "Household",
+      "sub_category": "Vegetables",
+      "broad_category": "Grocery",
+      "total_quantity": 68,
+      "total_revenue": 3284.35,
+      "avg_price": 48.09
+    },
+    "PROD_028": {
+      "product_id": "PROD_028",
+      "display_name": "Product 28",
+      "category": "Beverage",
+      "sub_category": "Beverages",
+      "broad_category": "Grocery",
+      "total_quantity": 66,
+      "total_revenue": 4884.08,
+      "avg_price": 70.33
+    },
+    "PROD_067": {
+      "product_id": "PROD_067",
+      "display_name": "Product 67",
+      "category": "Food",
+      "sub_category": "Vegetables",
+      "broad_category": "Grocery",
+      "total_quantity": 75,
+      "total_revenue": 5277.28,
+      "avg_price": 65.59
+    },
+    "PROD_095": {
+      "product_id": "PROD_095",
+      "display_name": "Product 95",
+      "category": "Household",
+      "sub_category": "Bakery",
+      "broad_category": "Home Essentials",
+      "total_quantity": 43,
+      "total_revenue": 2458.19,
+      "avg_price": 57.44
+    },
+    "PROD_033": {
+      "product_id": "PROD_033",
+      "display_name": "Product 33",
+      "category": "Food",
+      "sub_category": "Dairy",
+      "broad_category": "Grocery",
+      "total_quantity": 55,
+      "total_revenue": 2055.8,
+      "avg_price": 37.79
+    },
+    "PROD_069": {
+      "product_id": "PROD_069",
+      "display_name": "Product 69",
+      "category": "Household",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 59,
+      "total_revenue": 2282.21,
+      "avg_price": 35.5
+    },
+    "PROD_061": {
+      "product_id": "PROD_061",
+      "display_name": "Product 61",
+      "category": "Beverage",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 66,
+      "total_revenue": 2736.31,
+      "avg_price": 48.55
+    },
+    "PROD_064": {
+      "product_id": "PROD_064",
+      "display_name": "Product 64",
+      "category": "Food",
+      "sub_category": "Bakery",
+      "broad_category": "Grocery",
+      "total_quantity": 60,
+      "total_revenue": 3898.0,
+      "avg_price": 61.8
+    },
+    "PROD_068": {
+      "product_id": "PROD_068",
+      "display_name": "Product 68",
+      "category": "Household",
+      "sub_category": "Bakery",
+      "broad_category": "Home Essentials",
+      "total_quantity": 66,
+      "total_revenue": 2902.94,
+      "avg_price": 44.32
+    },
+    "PROD_097": {
+      "product_id": "PROD_097",
+      "display_name": "Product 97",
+      "category": "Household",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 64,
+      "total_revenue": 2763.1,
+      "avg_price": 47.13
+    },
+    "PROD_022": {
+      "product_id": "PROD_022",
+      "display_name": "Product 22",
+      "category": "Beverage",
+      "sub_category": "Dairy",
+      "broad_category": "Grocery",
+      "total_quantity": 75,
+      "total_revenue": 4428.29,
+      "avg_price": 62.4
+    },
+    "PROD_060": {
+      "product_id": "PROD_060",
+      "display_name": "Product 60",
+      "category": "Beverage",
+      "sub_category": "Dairy",
+      "broad_category": "Grocery",
+      "total_quantity": 39,
+      "total_revenue": 2601.25,
+      "avg_price": 60.01
+    },
+    "PROD_005": {
+      "product_id": "PROD_005",
+      "display_name": "Product 5",
+      "category": "Household",
+      "sub_category": "Dairy",
+      "broad_category": "Grocery",
+      "total_quantity": 44,
+      "total_revenue": 2417.12,
+      "avg_price": 60.25
+    },
+    "PROD_024": {
+      "product_id": "PROD_024",
+      "display_name": "Product 24",
+      "category": "Beverage",
+      "sub_category": "Beverages",
+      "broad_category": "Home Essentials",
+      "total_quantity": 63,
+      "total_revenue": 3396.81,
+      "avg_price": 48.1
+    },
+    "PROD_053": {
+      "product_id": "PROD_053",
+      "display_name": "Product 53",
+      "category": "Beverage",
+      "sub_category": "Dairy",
+      "broad_category": "Grocery",
+      "total_quantity": 46,
+      "total_revenue": 2482.69,
+      "avg_price": 58.67
+    },
+    "PROD_080": {
+      "product_id": "PROD_080",
+      "display_name": "Product 80",
+      "category": "Household",
+      "sub_category": "Dairy",
+      "broad_category": "Home Essentials",
+      "total_quantity": 50,
+      "total_revenue": 2102.34,
+      "avg_price": 42.24
+    },
+    "PROD_073": {
+      "product_id": "PROD_073",
+      "display_name": "Product 73",
+      "category": "Beverage",
+      "sub_category": "Beverages",
+      "broad_category": "Home Essentials",
+      "total_quantity": 60,
+      "total_revenue": 3054.78,
+      "avg_price": 48.54
+    },
+    "PROD_007": {
+      "product_id": "PROD_007",
+      "display_name": "Product 7",
+      "category": "Household",
+      "sub_category": "Bakery",
+      "broad_category": "Home Essentials",
+      "total_quantity": 30,
+      "total_revenue": 1629.2,
+      "avg_price": 68.3
+    },
+    "PROD_047": {
+      "product_id": "PROD_047",
+      "display_name": "Product 47",
+      "category": "Beverage",
+      "sub_category": "Dairy",
+      "broad_category": "Home Essentials",
+      "total_quantity": 64,
+      "total_revenue": 4083.1,
+      "avg_price": 54.2
+    },
+    "PROD_036": {
+      "product_id": "PROD_036",
+      "display_name": "Product 36",
+      "category": "Beverage",
+      "sub_category": "Fruits",
+      "broad_category": "Grocery",
+      "total_quantity": 58,
+      "total_revenue": 2303.15,
+      "avg_price": 37.22
+    },
+    "PROD_059": {
+      "product_id": "PROD_059",
+      "display_name": "Product 59",
+      "category": "Household",
+      "sub_category": "Bakery",
+      "broad_category": "Home Essentials",
+      "total_quantity": 45,
+      "total_revenue": 2228.76,
+      "avg_price": 50.94
+    },
+    "PROD_054": {
+      "product_id": "PROD_054",
+      "display_name": "Product 54",
+      "category": "Food",
+      "sub_category": "Dairy",
+      "broad_category": "Home Essentials",
+      "total_quantity": 20,
+      "total_revenue": 1360.73,
+      "avg_price": 57.41
+    },
+    "PROD_082": {
+      "product_id": "PROD_082",
+      "display_name": "Product 82",
+      "category": "Beverage",
+      "sub_category": "Fruits",
+      "broad_category": "Home Essentials",
+      "total_quantity": 76,
+      "total_revenue": 3912.53,
+      "avg_price": 51.4
+    },
+    "PROD_011": {
+      "product_id": "PROD_011",
+      "display_name": "Product 11",
+      "category": "Food",
+      "sub_category": "Dairy",
+      "broad_category": "Home Essentials",
+      "total_quantity": 40,
+      "total_revenue": 3168.25,
+      "avg_price": 76.13
+    },
+    "PROD_071": {
+      "product_id": "PROD_071",
+      "display_name": "Product 71",
+      "category": "Beverage",
+      "sub_category": "Vegetables",
+      "broad_category": "Grocery",
+      "total_quantity": 38,
+      "total_revenue": 3009.91,
+      "avg_price": 72.47
+    },
+    "PROD_092": {
+      "product_id": "PROD_092",
+      "display_name": "Product 92",
+      "category": "Food",
+      "sub_category": "Beverages",
+      "broad_category": "Grocery",
+      "total_quantity": 32,
+      "total_revenue": 1420.35,
+      "avg_price": 46.06
+    },
+    "PROD_084": {
+      "product_id": "PROD_084",
+      "display_name": "Product 84",
+      "category": "Household",
+      "sub_category": "Fruits",
+      "broad_category": "Grocery",
+      "total_quantity": 36,
+      "total_revenue": 2680.4,
+      "avg_price": 70.45
+    },
+    "PROD_076": {
+      "product_id": "PROD_076",
+      "display_name": "Product 76",
+      "category": "Beverage",
+      "sub_category": "Bakery",
+      "broad_category": "Grocery",
+      "total_quantity": 60,
+      "total_revenue": 2225.57,
+      "avg_price": 42.58
+    },
+    "PROD_051": {
+      "product_id": "PROD_051",
+      "display_name": "Product 51",
+      "category": "Beverage",
+      "sub_category": "Beverages",
+      "broad_category": "Grocery",
+      "total_quantity": 52,
+      "total_revenue": 2103.79,
+      "avg_price": 43.6
+    },
+    "PROD_025": {
+      "product_id": "PROD_025",
+      "display_name": "Product 25",
+      "category": "Beverage",
+      "sub_category": "Bakery",
+      "broad_category": "Grocery",
+      "total_quantity": 31,
+      "total_revenue": 1344.12,
+      "avg_price": 52.96
+    },
+    "PROD_062": {
+      "product_id": "PROD_062",
+      "display_name": "Product 62",
+      "category": "Household",
+      "sub_category": "Beverages",
+      "broad_category": "Home Essentials",
+      "total_quantity": 16,
+      "total_revenue": 1113.61,
+      "avg_price": 60.29
+    },
+    "PROD_099": {
+      "product_id": "PROD_099",
+      "display_name": "Product 99",
+      "category": "Household",
+      "sub_category": "Bakery",
+      "broad_category": "Home Essentials",
+      "total_quantity": 51,
+      "total_revenue": 1588.65,
+      "avg_price": 31.19
+    },
+    "PROD_034": {
+      "product_id": "PROD_034",
+      "display_name": "Product 34",
+      "category": "Beverage",
+      "sub_category": "Beverages",
+      "broad_category": "Home Essentials",
+      "total_quantity": 68,
+      "total_revenue": 4418.06,
+      "avg_price": 63.82
+    },
+    "PROD_079": {
+      "product_id": "PROD_079",
+      "display_name": "Product 79",
+      "category": "Beverage",
+      "sub_category": "Beverages",
+      "broad_category": "Home Essentials",
+      "total_quantity": 37,
+      "total_revenue": 1162.68,
+      "avg_price": 33.45
+    },
+    "PROD_088": {
+      "product_id": "PROD_088",
+      "display_name": "Product 88",
+      "category": "Food",
+      "sub_category": "Vegetables",
+      "broad_category": "Grocery",
+      "total_quantity": 37,
+      "total_revenue": 2451.95,
+      "avg_price": 63.53
+    },
+    "PROD_006": {
+      "product_id": "PROD_006",
+      "display_name": "Product 6",
+      "category": "Food",
+      "sub_category": "Bakery",
+      "broad_category": "Grocery",
+      "total_quantity": 47,
+      "total_revenue": 2045.48,
+      "avg_price": 43.18
+    },
+    "PROD_020": {
+      "product_id": "PROD_020",
+      "display_name": "Product 20",
+      "category": "Food",
+      "sub_category": "Beverages",
+      "broad_category": "Grocery",
+      "total_quantity": 62,
+      "total_revenue": 3644.31,
+      "avg_price": 58.24
+    },
+    "PROD_074": {
+      "product_id": "PROD_074",
+      "display_name": "Product 74",
+      "category": "Beverage",
+      "sub_category": "Fruits",
+      "broad_category": "Home Essentials",
+      "total_quantity": 59,
+      "total_revenue": 2457.61,
+      "avg_price": 45.9
+    },
+    "PROD_013": {
+      "product_id": "PROD_013",
+      "display_name": "Product 13",
+      "category": "Food",
+      "sub_category": "Fruits",
+      "broad_category": "Grocery",
+      "total_quantity": 44,
+      "total_revenue": 2593.32,
+      "avg_price": 55.45
+    },
+    "PROD_077": {
+      "product_id": "PROD_077",
+      "display_name": "Product 77",
+      "category": "Beverage",
+      "sub_category": "Dairy",
+      "broad_category": "Grocery",
+      "total_quantity": 57,
+      "total_revenue": 2483.13,
+      "avg_price": 42.63
+    },
+    "PROD_010": {
+      "product_id": "PROD_010",
+      "display_name": "Product 10",
+      "category": "Household",
+      "sub_category": "Beverages",
+      "broad_category": "Home Essentials",
+      "total_quantity": 57,
+      "total_revenue": 3459.22,
+      "avg_price": 57.85
+    },
+    "PROD_045": {
+      "product_id": "PROD_045",
+      "display_name": "Product 45",
+      "category": "Household",
+      "sub_category": "Fruits",
+      "broad_category": "Grocery",
+      "total_quantity": 71,
+      "total_revenue": 3000.29,
+      "avg_price": 44.36
+    },
+    "PROD_012": {
+      "product_id": "PROD_012",
+      "display_name": "Product 12",
+      "category": "Household",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 56,
+      "total_revenue": 3211.31,
+      "avg_price": 55.47
+    },
+    "PROD_035": {
+      "product_id": "PROD_035",
+      "display_name": "Product 35",
+      "category": "Food",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 56,
+      "total_revenue": 2155.93,
+      "avg_price": 41.07
+    },
+    "PROD_048": {
+      "product_id": "PROD_048",
+      "display_name": "Product 48",
+      "category": "Food",
+      "sub_category": "Beverages",
+      "broad_category": "Home Essentials",
+      "total_quantity": 63,
+      "total_revenue": 2175.2,
+      "avg_price": 36.0
+    },
+    "PROD_030": {
+      "product_id": "PROD_030",
+      "display_name": "Product 30",
+      "category": "Household",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 58,
+      "total_revenue": 3700.9,
+      "avg_price": 65.14
+    },
+    "PROD_016": {
+      "product_id": "PROD_016",
+      "display_name": "Product 16",
+      "category": "Food",
+      "sub_category": "Vegetables",
+      "broad_category": "Grocery",
+      "total_quantity": 44,
+      "total_revenue": 2945.73,
+      "avg_price": 67.62
+    },
+    "PROD_072": {
+      "product_id": "PROD_072",
+      "display_name": "Product 72",
+      "category": "Food",
+      "sub_category": "Beverages",
+      "broad_category": "Home Essentials",
+      "total_quantity": 27,
+      "total_revenue": 1739.17,
+      "avg_price": 53.4
+    },
+    "PROD_058": {
+      "product_id": "PROD_058",
+      "display_name": "Product 58",
+      "category": "Household",
+      "sub_category": "Beverages",
+      "broad_category": "Home Essentials",
+      "total_quantity": 25,
+      "total_revenue": 1109.06,
+      "avg_price": 37.33
+    },
+    "PROD_065": {
+      "product_id": "PROD_065",
+      "display_name": "Product 65",
+      "category": "Household",
+      "sub_category": "Dairy",
+      "broad_category": "Home Essentials",
+      "total_quantity": 48,
+      "total_revenue": 2508.06,
+      "avg_price": 48.51
+    },
+    "PROD_049": {
+      "product_id": "PROD_049",
+      "display_name": "Product 49",
+      "category": "Household",
+      "sub_category": "Beverages",
+      "broad_category": "Grocery",
+      "total_quantity": 21,
+      "total_revenue": 1095.21,
+      "avg_price": 47.99
+    },
+    "PROD_046": {
+      "product_id": "PROD_046",
+      "display_name": "Product 46",
+      "category": "Household",
+      "sub_category": "Fruits",
+      "broad_category": "Grocery",
+      "total_quantity": 66,
+      "total_revenue": 2723.97,
+      "avg_price": 45.59
+    },
+    "PROD_090": {
+      "product_id": "PROD_090",
+      "display_name": "Product 90",
+      "category": "Beverage",
+      "sub_category": "Bakery",
+      "broad_category": "Home Essentials",
+      "total_quantity": 49,
+      "total_revenue": 1620.31,
+      "avg_price": 34.73
+    },
+    "PROD_017": {
+      "product_id": "PROD_017",
+      "display_name": "Product 17",
+      "category": "Beverage",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 48,
+      "total_revenue": 1934.85,
+      "avg_price": 44.52
+    },
+    "PROD_098": {
+      "product_id": "PROD_098",
+      "display_name": "Product 98",
+      "category": "Beverage",
+      "sub_category": "Vegetables",
+      "broad_category": "Home Essentials",
+      "total_quantity": 63,
+      "total_revenue": 3192.74,
+      "avg_price": 53.31
+    }
+  },
+  "segments": {
+    "mid": 5100.76,
+    "high": 6674.1275000000005
+  },
+  "monthly_revenue": {
+    "2025-07": 48825.67,
+    "2025-04": 45405.15,
+    "2025-08": 26032.53,
+    "2025-03": 48579.75,
+    "2025-02": 16556.48,
+    "2025-05": 47844.79,
+    "2025-06": 40473.51
+  },
+  "category_hierarchy": {
+    "Home Essentials": {
+      "Food": [
+        "Bakery",
+        "Beverages",
+        "Dairy",
+        "Fruits",
+        "Vegetables"
+      ],
+      "Beverage": [
+        "Bakery",
+        "Beverages",
+        "Dairy",
+        "Fruits",
+        "Vegetables"
+      ],
+      "Household": [
+        "Bakery",
+        "Beverages",
+        "Dairy",
+        "Fruits",
+        "Vegetables"
+      ]
+    },
+    "Grocery": {
+      "Beverage": [
+        "Bakery",
+        "Beverages",
+        "Dairy",
+        "Fruits",
+        "Vegetables"
+      ],
+      "Food": [
+        "Bakery",
+        "Beverages",
+        "Dairy",
+        "Fruits",
+        "Vegetables"
+      ],
+      "Household": [
+        "Bakery",
+        "Beverages",
+        "Dairy",
+        "Fruits",
+        "Vegetables"
+      ]
+    }
+  },
+  "unusual_events": [
+    {
+      "customer_id": "CUST_029",
+      "customer_name": "Diana Rojas",
+      "category": "Food",
+      "recent_share": 0.48,
+      "previous_share": 0.15,
+      "change_ratio": 3.26
+    },
+    {
+      "customer_id": "CUST_028",
+      "customer_name": "Patrick Robinson",
+      "category": "Household",
+      "recent_share": 0.34,
+      "previous_share": 0.16,
+      "change_ratio": 2.2
+    },
+    {
+      "customer_id": "CUST_004",
+      "customer_name": "Bonnie Garrett",
+      "category": "Food",
+      "recent_share": 0.14,
+      "previous_share": 0.0,
+      "change_ratio": 999.0
+    },
+    {
+      "customer_id": "CUST_007",
+      "customer_name": "David Collins",
+      "category": "Food",
+      "recent_share": 0.67,
+      "previous_share": 0.32,
+      "change_ratio": 2.08
+    },
+    {
+      "customer_id": "CUST_015",
+      "customer_name": "Lindsey Glass",
+      "category": "Food",
+      "recent_share": 0.87,
+      "previous_share": 0.22,
+      "change_ratio": 4.02
+    },
+    {
+      "customer_id": "CUST_017",
+      "customer_name": "Kimberly Rose",
+      "category": "Household",
+      "recent_share": 0.6,
+      "previous_share": 0.19,
+      "change_ratio": 3.13
+    },
+    {
+      "customer_id": "CUST_017",
+      "customer_name": "Kimberly Rose",
+      "category": "Food",
+      "recent_share": 0.4,
+      "previous_share": 0.12,
+      "change_ratio": 3.23
+    },
+    {
+      "customer_id": "CUST_035",
+      "customer_name": "Kelsey Shaw",
+      "category": "Beverage",
+      "recent_share": 0.46,
+      "previous_share": 0.13,
+      "change_ratio": 3.7
+    },
+    {
+      "customer_id": "CUST_049",
+      "customer_name": "Elizabeth Bailey",
+      "category": "Household",
+      "recent_share": 0.51,
+      "previous_share": 0.11,
+      "change_ratio": 4.8
+    },
+    {
+      "customer_id": "CUST_044",
+      "customer_name": "Thomas Johnson",
+      "category": "Food",
+      "recent_share": 0.3,
+      "previous_share": 0.15,
+      "change_ratio": 2.0
+    },
+    {
+      "customer_id": "CUST_046",
+      "customer_name": "Jennifer Glass",
+      "category": "Household",
+      "recent_share": 0.4,
+      "previous_share": 0.12,
+      "change_ratio": 3.43
+    },
+    {
+      "customer_id": "CUST_046",
+      "customer_name": "Jennifer Glass",
+      "category": "Food",
+      "recent_share": 0.6,
+      "previous_share": 0.26,
+      "change_ratio": 2.35
+    },
+    {
+      "customer_id": "CUST_042",
+      "customer_name": "Jorge Morris",
+      "category": "Food",
+      "recent_share": 0.2,
+      "previous_share": 0.03,
+      "change_ratio": 6.64
+    },
+    {
+      "customer_id": "CUST_042",
+      "customer_name": "Jorge Morris",
+      "category": "Beverage",
+      "recent_share": 0.73,
+      "previous_share": 0.3,
+      "change_ratio": 2.44
+    },
+    {
+      "customer_id": "CUST_050",
+      "customer_name": "James Steele",
+      "category": "Food",
+      "recent_share": 0.64,
+      "previous_share": 0.31,
+      "change_ratio": 2.1
+    },
+    {
+      "customer_id": "CUST_018",
+      "customer_name": "Kevin Ward",
+      "category": "Food",
+      "recent_share": 0.54,
+      "previous_share": 0.26,
+      "change_ratio": 2.03
+    },
+    {
+      "customer_id": "CUST_040",
+      "customer_name": "Taylor Moore",
+      "category": "Household",
+      "recent_share": 0.48,
+      "previous_share": 0.23,
+      "change_ratio": 2.15
+    },
+    {
+      "customer_id": "CUST_037",
+      "customer_name": "Jack Williamson",
+      "category": "Household",
+      "recent_share": 0.55,
+      "previous_share": 0.0,
+      "change_ratio": 558.48
+    },
+    {
+      "customer_id": "CUST_008",
+      "customer_name": "Stacy Robles",
+      "category": "Food",
+      "recent_share": 0.35,
+      "previous_share": 0.09,
+      "change_ratio": 3.97
+    },
+    {
+      "customer_id": "CUST_030",
+      "customer_name": "Daniel Taylor",
+      "category": "Beverage",
+      "recent_share": 0.19,
+      "previous_share": 0.09,
+      "change_ratio": 2.08
+    },
+    {
+      "customer_id": "CUST_013",
+      "customer_name": "Joseph Noble",
+      "category": "Food",
+      "recent_share": 0.46,
+      "previous_share": 0.0,
+      "change_ratio": 999.0
+    },
+    {
+      "customer_id": "CUST_024",
+      "customer_name": "Katelyn Burke",
+      "category": "Food",
+      "recent_share": 0.43,
+      "previous_share": 0.09,
+      "change_ratio": 4.65
+    },
+    {
+      "customer_id": "CUST_012",
+      "customer_name": "Melissa Montgomery",
+      "category": "Beverage",
+      "recent_share": 0.74,
+      "previous_share": 0.17,
+      "change_ratio": 4.31
+    },
+    {
+      "customer_id": "CUST_033",
+      "customer_name": "Thomas Williams",
+      "category": "Beverage",
+      "recent_share": 0.18,
+      "previous_share": 0.03,
+      "change_ratio": 5.62
+    },
+    {
+      "customer_id": "CUST_045",
+      "customer_name": "Sheila Williamson",
+      "category": "Household",
+      "recent_share": 0.8,
+      "previous_share": 0.27,
+      "change_ratio": 3.0
+    },
+    {
+      "customer_id": "CUST_001",
+      "customer_name": "Pamela Tran",
+      "category": "Household",
+      "recent_share": 0.14,
+      "previous_share": 0.03,
+      "change_ratio": 5.35
+    },
+    {
+      "customer_id": "CUST_041",
+      "customer_name": "Alan Williams",
+      "category": "Household",
+      "recent_share": 0.55,
+      "previous_share": 0.19,
+      "change_ratio": 2.96
+    },
+    {
+      "customer_id": "CUST_010",
+      "customer_name": "Steven Richardson",
+      "category": "Food",
+      "recent_share": 0.61,
+      "previous_share": 0.06,
+      "change_ratio": 9.43
+    },
+    {
+      "customer_id": "CUST_019",
+      "customer_name": "Brian Turner",
+      "category": "Beverage",
+      "recent_share": 0.24,
+      "previous_share": 0.02,
+      "change_ratio": 10.15
+    },
+    {
+      "customer_id": "CUST_002",
+      "customer_name": "Jonathon Thomas",
+      "category": "Food",
+      "recent_share": 0.26,
+      "previous_share": 0.06,
+      "change_ratio": 4.67
+    },
+    {
+      "customer_id": "CUST_014",
+      "customer_name": "Carla Bush",
+      "category": "Household",
+      "recent_share": 0.65,
+      "previous_share": 0.16,
+      "change_ratio": 4.02
+    }
+  ]
+}
