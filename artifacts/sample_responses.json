@@ -1,8 +1,8 @@
 [
   {
     "question": "Which products does Customer CUST_015 frequently purchase in the Beverages category?",
-    "answer": "Lindsey Glass frequently buys Beverages items. Top picks: Product 47 (19), Product 93 (10), Product 21 (10). Total spend $8,068 across 21 orders (avg ticket $384).",
-    "reasoning": "Data aggregated from customer purchase history.",
+    "answer": "Customer CUST_015 (Lindsey Glass) frequently purchases the following products in the Beverages category:\n\n*   **Product 47**: 19 units\n*   **Product 93**: 10 units\n*   **Product 21**: 10 units\n\nWhile \"Product 99\" (10 units) and \"Product 34\" (9 units) are also among her top purchases, the context does not specify if these fall under the \"Beverage\" category.\n\nLindsey Glass spends **$2,059** in the Beverage category. She has made **8** purchases in the Beverage category, out of a total of 21 orders, contributing to an overall spend of **$8,068** and an average ticket of **$384**.",
+    "reasoning": "Data aggregated from customer purchase history. Narrative composed with Gemini.",
     "supporting_facts": [
       {
         "category_counts": {
@@ -33,12 +33,96 @@
           ]
         ]
       }
-    ]
+    ],
+    "retrieved_records": [
+      {
+        "record_id": "unusual-CUST_015-Food",
+        "similarity": 0.224,
+        "text": "Customer Lindsey Glass (CUST_015) recently shifted towards Food with share 87% vs previous 22%.",
+        "metadata": {
+          "type": "unusual_pattern",
+          "customer_id": "CUST_015",
+          "customer_name": "Lindsey Glass",
+          "category": "Food",
+          "recent_share": 0.87,
+          "previous_share": 0.22,
+          "change_ratio": 4.02
+        }
+      },
+      {
+        "record_id": "cust-CUST_015",
+        "similarity": 0.181,
+        "text": "Customer Lindsey Glass (CUST_015) spends $8,068 overall. Top categories: Food ($4,087), Beverage ($2,059), Household ($1,923). Average ticket $384.",
+        "metadata": {
+          "type": "customer_profile",
+          "customer_id": "CUST_015",
+          "customer_name": "Lindsey Glass"
+        }
+      },
+      {
+        "record_id": "unusual-CUST_029-Food",
+        "similarity": 0.149,
+        "text": "Customer Diana Rojas (CUST_029) recently shifted towards Food with share 48% vs previous 15%.",
+        "metadata": {
+          "type": "unusual_pattern",
+          "customer_id": "CUST_029",
+          "customer_name": "Diana Rojas",
+          "category": "Food",
+          "recent_share": 0.48,
+          "previous_share": 0.15,
+          "change_ratio": 3.26
+        }
+      },
+      {
+        "record_id": "unusual-CUST_028-Household",
+        "similarity": 0.149,
+        "text": "Customer Patrick Robinson (CUST_028) recently shifted towards Household with share 34% vs previous 16%.",
+        "metadata": {
+          "type": "unusual_pattern",
+          "customer_id": "CUST_028",
+          "customer_name": "Patrick Robinson",
+          "category": "Household",
+          "recent_share": 0.34,
+          "previous_share": 0.16,
+          "change_ratio": 2.2
+        }
+      },
+      {
+        "record_id": "unusual-CUST_004-Food",
+        "similarity": 0.149,
+        "text": "Customer Bonnie Garrett (CUST_004) recently shifted towards Food with share 14% vs previous 0%.",
+        "metadata": {
+          "type": "unusual_pattern",
+          "customer_id": "CUST_004",
+          "customer_name": "Bonnie Garrett",
+          "category": "Food",
+          "recent_share": 0.14,
+          "previous_share": 0.0,
+          "change_ratio": 999.0
+        }
+      }
+    ],
+    "analysis_trace": [
+      {
+        "step": "intent_classification",
+        "intent": "frequent_purchase"
+      },
+      {
+        "step": "retrieval",
+        "hits": 5
+      },
+      {
+        "step": "llm_synthesis",
+        "model": "gemini-2.5-flash"
+      }
+    ],
+    "answer_raw": "Lindsey Glass frequently buys Beverages items. Top picks: Product 47 (19), Product 93 (10), Product 21 (10). Total spend $8,068 across 21 orders (avg ticket $384).",
+    "llm_model": "gemini-2.5-flash"
   },
   {
     "question": "Suggest products that are usually bought together by high-value customers.",
-    "answer": "High-value customers tend to bundle: Product 77 (Beverage) with Product 94 (Beverage) - 1 joint orders.; Product 48 (Food) with Product 54 (Food) - 1 joint orders.; Product 67 (Food) with Product 69 (Household) - 1 joint orders.; Product 30 (Household) with Product 83 (Household) - 1 joint orders.; Product 35 (Food) with Product 55 (Household) - 1 joint orders.",
-    "reasoning": "Pairs derived from high-value customer baskets.",
+    "answer": "High-value customers show a propensity to purchase certain product pairs together. The context provides **five specific product bundles**, each occurring in **1 joint order**:\n\n*   **Product 77 (Beverage) with Product 94 (Beverage)**\n*   **Product 48 (Food) with Product 54 (Food)**\n*   **Product 67 (Food) with Product 69 (Household)**\n*   **Product 30 (Household) with Product 83 (Household)**\n*   **Product 35 (Food) with Product 55 (Household)**\n\n**Insufficient Information and Next Steps:**\n\nThe provided data indicates that each of these bundles has only **1 joint order**. While these are the only specific bundles identified for high-value customers in the context, the low count means that a broader trend cannot be definitively established from this information alone.\n\nTo provide more robust recommendations, the next steps should involve:\n1.  **Accessing a larger dataset of high-value customer purchases** to identify bundles with higher co-occurrence counts.\n2.  **Defining \"high-value customer\" more concretely** if not already established, to ensure the analysis is focused on the most relevant customer segment.\n3.  **Analyzing product categories within these bundles** to understand if there are underlying category-level co-occurrence patterns that could be leveraged for broader product suggestions. For instance, Food and Household items appear together twice (Product 67 with Product 69; Product 35 with Product 55).",
+    "reasoning": "Pairs derived from high-value customer baskets. Narrative composed with Gemini.",
     "supporting_facts": [
       {
         "pair": [
@@ -75,12 +159,85 @@
         ],
         "count": 1
       }
-    ]
+    ],
+    "retrieved_records": [
+      {
+        "record_id": "pair-PROD_020-PROD_029",
+        "similarity": 0.151,
+        "text": "Products Product 20 and Product 29 appear together in 1 orders. Categories: Food & Household.",
+        "metadata": {
+          "type": "product_pair",
+          "product_a": "PROD_020",
+          "product_b": "PROD_029",
+          "count": 1
+        }
+      },
+      {
+        "record_id": "pair-PROD_007-PROD_015",
+        "similarity": 0.151,
+        "text": "Products Product 7 and Product 15 appear together in 1 orders. Categories: Household & Beverage.",
+        "metadata": {
+          "type": "product_pair",
+          "product_a": "PROD_007",
+          "product_b": "PROD_015",
+          "count": 1
+        }
+      },
+      {
+        "record_id": "pair-PROD_085-PROD_093",
+        "similarity": 0.151,
+        "text": "Products Product 85 and Product 93 appear together in 1 orders. Categories: Beverage & Food.",
+        "metadata": {
+          "type": "product_pair",
+          "product_a": "PROD_085",
+          "product_b": "PROD_093",
+          "count": 1
+        }
+      },
+      {
+        "record_id": "pair-PROD_064-PROD_084",
+        "similarity": 0.151,
+        "text": "Products Product 64 and Product 84 appear together in 1 orders. Categories: Food & Household.",
+        "metadata": {
+          "type": "product_pair",
+          "product_a": "PROD_064",
+          "product_b": "PROD_084",
+          "count": 1
+        }
+      },
+      {
+        "record_id": "pair-PROD_067-PROD_069",
+        "similarity": 0.151,
+        "text": "Products Product 67 and Product 69 appear together in 1 orders. Categories: Food & Household.",
+        "metadata": {
+          "type": "product_pair",
+          "product_a": "PROD_067",
+          "product_b": "PROD_069",
+          "count": 1
+        }
+      }
+    ],
+    "analysis_trace": [
+      {
+        "step": "intent_classification",
+        "intent": "cooccurrence"
+      },
+      {
+        "step": "retrieval",
+        "hits": 5
+      },
+      {
+        "step": "llm_synthesis",
+        "model": "gemini-2.5-flash"
+      }
+    ],
+    "answer_raw": "High-value customers tend to bundle: Product 77 (Beverage) with Product 94 (Beverage) - 1 joint orders.; Product 48 (Food) with Product 54 (Food) - 1 joint orders.; Product 67 (Food) with Product 69 (Household) - 1 joint orders.; Product 30 (Household) with Product 83 (Household) - 1 joint orders.; Product 35 (Food) with Product 55 (Household) - 1 joint orders.",
+    "llm_model": "gemini-2.5-flash"
   },
   {
     "question": "Identify unusual buying patterns in the last 3 months.",
-    "answer": "Recent anomalies: Bonnie Garrett increased Food share to 14% (was 0%).; Joseph Noble increased Food share to 46% (was 0%).; Jack Williamson increased Household share to 55% (was 0%).; Brian Turner increased Beverage share to 24% (was 2%).; Steven Richardson increased Food share to 61% (was 6%).",
-    "reasoning": "Comparison between last quarter and previous months.",
+    "answer": "Here are the unusual buying patterns observed in the last 3 months, based on significant shifts in category spending:\n\n*   **Dramatic increase in Food category share for new spenders:**\n    *   Bonnie Garrett's Food share increased to **14%** from a previous **0%**.\n    *   Joseph Noble's Food share increased to **46%** from a previous **0%**.\n    *   Steven Richardson's Food share increased to **61%** from a previous **6%**. (heuristic_answer)\n*   **Significant increase in Household category share for a new spender:**\n    *   Jack Williamson's Household share increased to **55%** from a previous **0%**. (heuristic_answer)\n*   **Notable increases in Food category share for existing customers:**\n    *   Lindsey Glass's Food share increased to **87%** from **22%**, representing a **4.02x change ratio**. (supporting_facts)\n    *   Diana Rojas's Food share increased to **48%** from **15%**, representing a **3.26x change ratio**. (supporting_facts)\n    *   David Collins's Food share increased to **67%** from **32%**, representing a **2.08x change ratio**. (supporting_facts)\n    *   Jorge Morris's Food share increased to **20%** from **3%**, representing a **6.64x change ratio**. (retrieved_records)\n*   **Significant increase in Household category share for an existing customer:**\n    *   Patrick Robinson's Household share increased to **34%** from **16%**, representing a **2.2x change ratio**. (supporting_facts)\n    *   Pamela Tran's Household share increased to **14%** from **3%**, representing a **5.35x change ratio**. (retrieved_records)\n*   **Significant increase in Beverage category share:**\n    *   Brian Turner's Beverage share increased to **24%** from **2%**. (heuristic_answer)\n    *   Thomas Williams's Beverage share increased to **18%** from **3%**, representing a **5.62x change ratio**. (retrieved_records)\n\n**Information Insufficiency and Next Steps:**\n\nThe provided context highlights specific customer-category shifts. However, to provide a more comprehensive analysis of \"unusual buying patterns,\" the following would be beneficial:\n\n*   **Definition of \"Unusual\":** A clear, quantitative definition of \"unusual\" (e.g., a specific percentage increase, a change ratio threshold, or a deviation from a historical average) would allow for more precise identification. Currently, the heuristic answer and supporting facts imply different thresholds.\n*   **Contextual Baselines:** For customers with a \"previous share\" of 0%, it's unclear if this represents a new customer, a customer who previously didn't buy in that category, or a data anomaly. Understanding this context would help interpret the significance of these 0% to >0% changes.\n*   **Order Frequency and Volume:** While share change is noted, understanding the absolute number of orders, average order value, and quantity purchased for these categories before and after the shift would provide more robust insights into the magnitude of the change.\n*   **Temporal Granularity:** \"Last 3 months\" is a broad period. Knowing if these changes were sudden spikes, gradual increases, or consistently high new purchasing would add depth.\n*   **Peer Group Comparison:** Comparing these customers' buying patterns against similar customer segments or the overall customer base would help determine if these shifts are truly anomalous or part of a broader trend.\n*   **Reasoning for Changes:** The current data identifies *what* changed, but not *why*. Investigating potential external factors (promotions, product availability, life events, etc.) would be valuable.",
+    "reasoning": "Comparison between last quarter and previous months. Narrative composed with Gemini.",
     "supporting_facts": [
       {
         "customer_id": "CUST_029",
@@ -122,12 +279,93 @@
         "previous_share": 0.22,
         "change_ratio": 4.02
       }
-    ]
+    ],
+    "retrieved_records": [
+      {
+        "record_id": "pair-PROD_003-PROD_008",
+        "similarity": 0.167,
+        "text": "Products Product 3 and Product 8 appear together in 1 orders. Categories: Food & Beverage.",
+        "metadata": {
+          "type": "product_pair",
+          "product_a": "PROD_003",
+          "product_b": "PROD_008",
+          "count": 1
+        }
+      },
+      {
+        "record_id": "cust-CUST_012",
+        "similarity": 0.136,
+        "text": "Customer Melissa Montgomery (CUST_012) spends $7,668 overall. Top categories: Beverage ($3,684), Household ($3,176), Food ($808). Average ticket $404.",
+        "metadata": {
+          "type": "customer_profile",
+          "customer_id": "CUST_012",
+          "customer_name": "Melissa Montgomery"
+        }
+      },
+      {
+        "record_id": "unusual-CUST_042-Food",
+        "similarity": 0.086,
+        "text": "Customer Jorge Morris (CUST_042) recently shifted towards Food with share 20% vs previous 3%.",
+        "metadata": {
+          "type": "unusual_pattern",
+          "customer_id": "CUST_042",
+          "customer_name": "Jorge Morris",
+          "category": "Food",
+          "recent_share": 0.2,
+          "previous_share": 0.03,
+          "change_ratio": 6.64
+        }
+      },
+      {
+        "record_id": "unusual-CUST_033-Beverage",
+        "similarity": 0.086,
+        "text": "Customer Thomas Williams (CUST_033) recently shifted towards Beverage with share 18% vs previous 3%.",
+        "metadata": {
+          "type": "unusual_pattern",
+          "customer_id": "CUST_033",
+          "customer_name": "Thomas Williams",
+          "category": "Beverage",
+          "recent_share": 0.18,
+          "previous_share": 0.03,
+          "change_ratio": 5.62
+        }
+      },
+      {
+        "record_id": "unusual-CUST_001-Household",
+        "similarity": 0.086,
+        "text": "Customer Pamela Tran (CUST_001) recently shifted towards Household with share 14% vs previous 3%.",
+        "metadata": {
+          "type": "unusual_pattern",
+          "customer_id": "CUST_001",
+          "customer_name": "Pamela Tran",
+          "category": "Household",
+          "recent_share": 0.14,
+          "previous_share": 0.03,
+          "change_ratio": 5.35
+        }
+      }
+    ],
+    "analysis_trace": [
+      {
+        "step": "intent_classification",
+        "intent": "unusual"
+      },
+      {
+        "step": "retrieval",
+        "hits": 5
+      },
+      {
+        "step": "llm_synthesis",
+        "model": "gemini-2.5-flash"
+      }
+    ],
+    "answer_raw": "Recent anomalies: Bonnie Garrett increased Food share to 14% (was 0%).; Joseph Noble increased Food share to 46% (was 0%).; Jack Williamson increased Household share to 55% (was 0%).; Brian Turner increased Beverage share to 24% (was 2%).; Steven Richardson increased Food share to 61% (was 6%).",
+    "llm_model": "gemini-2.5-flash"
   },
   {
     "question": "What are the top categories for Customer_001?",
-    "answer": "Customer Pamela Tran (CUST_001) spends $8,938 overall. Top categories: Food ($4,404), Beverage ($3,765), Household ($769). Average ticket $358.",
-    "reasoning": "Retrieved top fact with cosine similarity 0.30.",
+    "answer": "The top categories for Customer_001 (Pamela Tran) are:\n\n*   **Food** with **$4,404** in spending.\n*   **Beverage** with **$3,765** in spending.\n*   **Household** with **$769** in spending.\n\nCustomer_001 has an overall spending of **$8,938** and an average ticket of **$358**.",
+    "reasoning": "Retrieved top fact with cosine similarity 0.30. Narrative composed with Gemini.",
     "supporting_facts": [
       {
         "record_id": "cust-CUST_001",
@@ -141,6 +379,126 @@
         "record_id": "cust-CUST_005",
         "similarity": 0.23145502494313788
       }
-    ]
+    ],
+    "retrieved_records": [
+      {
+        "record_id": "cust-CUST_001",
+        "similarity": 0.302,
+        "text": "Customer Pamela Tran (CUST_001) spends $8,938 overall. Top categories: Food ($4,404), Beverage ($3,765), Household ($769). Average ticket $358.",
+        "metadata": {
+          "type": "customer_profile",
+          "customer_id": "CUST_001",
+          "customer_name": "Pamela Tran"
+        }
+      },
+      {
+        "record_id": "cust-CUST_025",
+        "similarity": 0.237,
+        "text": "Customer John Guerra (CUST_025) spends $3,867 overall. Top categories: Food ($2,028), Household ($1,838). Average ticket $322.",
+        "metadata": {
+          "type": "customer_profile",
+          "customer_id": "CUST_025",
+          "customer_name": "John Guerra"
+        }
+      },
+      {
+        "record_id": "cust-CUST_005",
+        "similarity": 0.231,
+        "text": "Customer Anthony Brown (CUST_005) spends $4,115 overall. Top categories: Food ($2,514), Beverage ($933), Household ($669). Average ticket $274.",
+        "metadata": {
+          "type": "customer_profile",
+          "customer_id": "CUST_005",
+          "customer_name": "Anthony Brown"
+        }
+      },
+      {
+        "record_id": "cust-CUST_048",
+        "similarity": 0.226,
+        "text": "Customer William Fritz (CUST_048) spends $4,024 overall. Top categories: Household ($2,200), Beverage ($1,160), Food ($664). Average ticket $268.",
+        "metadata": {
+          "type": "customer_profile",
+          "customer_id": "CUST_048",
+          "customer_name": "William Fritz"
+        }
+      },
+      {
+        "record_id": "cust-CUST_030",
+        "similarity": 0.226,
+        "text": "Customer Daniel Taylor (CUST_030) spends $4,116 overall. Top categories: Household ($2,547), Food ($1,092), Beverage ($477). Average ticket $317.",
+        "metadata": {
+          "type": "customer_profile",
+          "customer_id": "CUST_030",
+          "customer_name": "Daniel Taylor"
+        }
+      }
+    ],
+    "analysis_trace": [
+      {
+        "step": "intent_classification",
+        "intent": "retrieval"
+      },
+      {
+        "step": "retrieval",
+        "hits": 5
+      },
+      {
+        "step": "llm_synthesis",
+        "model": "gemini-2.5-flash"
+      }
+    ],
+    "answer_raw": "Customer Pamela Tran (CUST_001) spends $8,938 overall. Top categories: Food ($4,404), Beverage ($3,765), Household ($769). Average ticket $358.",
+    "llm_model": "gemini-2.5-flash"
+  },
+  {
+    "question": "who purchase the most",
+    "answer": "Based on the provided context, the customer who purchases the most in terms of total revenue is **Melissa Montgomery**, with a total spend of **$6,187.15**. This is supported by the `top_customers` data.\n\nOther relevant quantitative insights:\n*   Melissa Montgomery also has the highest total quantity purchased among the top customers, with **96 units**.\n*   The heuristic answer mentions \"Jorge Morris\" with a total spend of \"$3,332 across 20 orders,\" but this customer is not present in the detailed `top_customers` list, which suggests they are not among the highest purchasers by revenue.\n*   The dataset contains information on **50 unique customers**.",
+    "reasoning": "Data aggregated from customer purchase history. Narrative composed with Gemini.",
+    "supporting_facts": [
+      {
+        "category_counts": {
+          "Household": 8,
+          "Beverage": 7,
+          "Food": 5
+        },
+        "top_products": [
+          [
+            "Product 40",
+            14
+          ],
+          [
+            "Product 31",
+            10
+          ],
+          [
+            "Product 35",
+            10
+          ],
+          [
+            "Product 26",
+            9
+          ],
+          [
+            "Product 29",
+            8
+          ]
+        ]
+      }
+    ],
+    "analysis_trace": [
+      {
+        "step": "intent_classification",
+        "intent": "frequent_purchase"
+      },
+      {
+        "step": "retrieval",
+        "hits": 0
+      },
+      {
+        "step": "llm_synthesis",
+        "model": "gemini-2.5-flash"
+      }
+    ],
+    "answer_raw": "Jorge Morris frequently buys Household items. Top picks: Product 40 (14), Product 31 (10), Product 35 (10). Total spend $3,332 across 20 orders (avg ticket $167).",
+    "llm_model": "gemini-2.5-flash"
   }
 ]

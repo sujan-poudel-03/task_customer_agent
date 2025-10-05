@@ -2036,7 +2036,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 78,
       "total_revenue": 3829.99,
-      "avg_price": 47.77
+      "avg_price": 47.77,
+      "unique_customers": 13
     },
     "PROD_019": {
       "product_id": "PROD_019",
@@ -2046,7 +2047,8 @@
       "broad_category": "Grocery",
       "total_quantity": 41,
       "total_revenue": 2524.02,
-      "avg_price": 62.87
+      "avg_price": 62.87,
+      "unique_customers": 6
     },
     "PROD_023": {
       "product_id": "PROD_023",
@@ -2056,7 +2058,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 48,
       "total_revenue": 2252.48,
-      "avg_price": 52.24
+      "avg_price": 52.24,
+      "unique_customers": 10
     },
     "PROD_052": {
       "product_id": "PROD_052",
@@ -2066,7 +2069,8 @@
       "broad_category": "Grocery",
       "total_quantity": 91,
       "total_revenue": 3441.55,
-      "avg_price": 40.38
+      "avg_price": 40.38,
+      "unique_customers": 14
     },
     "PROD_087": {
       "product_id": "PROD_087",
@@ -2076,7 +2080,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 33,
       "total_revenue": 1308.28,
-      "avg_price": 52.74
+      "avg_price": 52.74,
+      "unique_customers": 7
     },
     "PROD_057": {
       "product_id": "PROD_057",
@@ -2086,7 +2091,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 62,
       "total_revenue": 3399.85,
-      "avg_price": 51.58
+      "avg_price": 51.58,
+      "unique_customers": 10
     },
     "PROD_081": {
       "product_id": "PROD_081",
@@ -2096,7 +2102,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 77,
       "total_revenue": 3926.84,
-      "avg_price": 50.24
+      "avg_price": 50.24,
+      "unique_customers": 11
     },
     "PROD_001": {
       "product_id": "PROD_001",
@@ -2106,7 +2113,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 57,
       "total_revenue": 2594.26,
-      "avg_price": 45.42
+      "avg_price": 45.42,
+      "unique_customers": 9
     },
     "PROD_050": {
       "product_id": "PROD_050",
@@ -2116,7 +2124,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 58,
       "total_revenue": 2340.64,
-      "avg_price": 46.77
+      "avg_price": 46.77,
+      "unique_customers": 9
     },
     "PROD_002": {
       "product_id": "PROD_002",
@@ -2126,7 +2135,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 50,
       "total_revenue": 1520.37,
-      "avg_price": 36.94
+      "avg_price": 36.94,
+      "unique_customers": 8
     },
     "PROD_096": {
       "product_id": "PROD_096",
@@ -2136,7 +2146,8 @@
       "broad_category": "Grocery",
       "total_quantity": 42,
       "total_revenue": 2257.19,
-      "avg_price": 60.92
+      "avg_price": 60.92,
+      "unique_customers": 9
     },
     "PROD_066": {
       "product_id": "PROD_066",
@@ -2146,7 +2157,8 @@
       "broad_category": "Grocery",
       "total_quantity": 64,
       "total_revenue": 2291.17,
-      "avg_price": 43.43
+      "avg_price": 43.43,
+      "unique_customers": 11
     },
     "PROD_015": {
       "product_id": "PROD_015",
@@ -2156,7 +2168,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 54,
       "total_revenue": 2024.73,
-      "avg_price": 42.45
+      "avg_price": 42.45,
+      "unique_customers": 11
     },
     "PROD_042": {
       "product_id": "PROD_042",
@@ -2166,7 +2179,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 34,
       "total_revenue": 1651.13,
-      "avg_price": 52.9
+      "avg_price": 52.9,
+      "unique_customers": 7
     },
     "PROD_043": {
       "product_id": "PROD_043",
@@ -2176,7 +2190,8 @@
       "broad_category": "Grocery",
       "total_quantity": 73,
       "total_revenue": 3356.44,
-      "avg_price": 48.9
+      "avg_price": 48.9,
+      "unique_customers": 14
     },
     "PROD_027": {
       "product_id": "PROD_027",
@@ -2186,7 +2201,8 @@
       "broad_category": "Grocery",
       "total_quantity": 120,
       "total_revenue": 7461.9,
-      "avg_price": 61.3
+      "avg_price": 61.3,
+      "unique_customers": 17
     },
     "PROD_008": {
       "product_id": "PROD_008",
@@ -2196,7 +2212,8 @@
       "broad_category": "Grocery",
       "total_quantity": 62,
       "total_revenue": 2789.67,
-      "avg_price": 49.32
+      "avg_price": 49.32,
+      "unique_customers": 9
     },
     "PROD_044": {
       "product_id": "PROD_044",
@@ -2206,7 +2223,8 @@
       "broad_category": "Grocery",
       "total_quantity": 39,
       "total_revenue": 1267.32,
-      "avg_price": 35.65
+      "avg_price": 35.65,
+      "unique_customers": 9
     },
     "PROD_093": {
       "product_id": "PROD_093",
@@ -2216,7 +2234,8 @@
       "broad_category": "Grocery",
       "total_quantity": 58,
       "total_revenue": 2996.42,
-      "avg_price": 47.21
+      "avg_price": 47.21,
+      "unique_customers": 10
     },
     "PROD_029": {
       "product_id": "PROD_029",
@@ -2226,7 +2245,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 67,
       "total_revenue": 2554.31,
-      "avg_price": 39.53
+      "avg_price": 39.53,
+      "unique_customers": 9
     },
     "PROD_003": {
       "product_id": "PROD_003",
@@ -2236,7 +2256,8 @@
       "broad_category": "Grocery",
       "total_quantity": 41,
       "total_revenue": 1394.19,
-      "avg_price": 32.16
+      "avg_price": 32.16,
+      "unique_customers": 8
     },
     "PROD_014": {
       "product_id": "PROD_014",
@@ -2246,7 +2267,8 @@
       "broad_category": "Grocery",
       "total_quantity": 36,
       "total_revenue": 2160.16,
-      "avg_price": 66.25
+      "avg_price": 66.25,
+      "unique_customers": 4
     },
     "PROD_089": {
       "product_id": "PROD_089",
@@ -2256,7 +2278,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 66,
       "total_revenue": 3642.25,
-      "avg_price": 50.7
+      "avg_price": 50.7,
+      "unique_customers": 11
     },
     "PROD_040": {
       "product_id": "PROD_040",
@@ -2266,7 +2289,8 @@
       "broad_category": "Grocery",
       "total_quantity": 84,
       "total_revenue": 3556.12,
-      "avg_price": 44.28
+      "avg_price": 44.28,
+      "unique_customers": 13
     },
     "PROD_009": {
       "product_id": "PROD_009",
@@ -2276,7 +2300,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 52,
       "total_revenue": 1850.43,
-      "avg_price": 39.62
+      "avg_price": 39.62,
+      "unique_customers": 10
     },
     "PROD_086": {
       "product_id": "PROD_086",
@@ -2286,7 +2311,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 51,
       "total_revenue": 3045.08,
-      "avg_price": 56.75
+      "avg_price": 56.75,
+      "unique_customers": 13
     },
     "PROD_032": {
       "product_id": "PROD_032",
@@ -2296,7 +2322,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 43,
       "total_revenue": 2724.44,
-      "avg_price": 60.87
+      "avg_price": 60.87,
+      "unique_customers": 11
     },
     "PROD_039": {
       "product_id": "PROD_039",
@@ -2306,7 +2333,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 52,
       "total_revenue": 3124.87,
-      "avg_price": 56.15
+      "avg_price": 56.15,
+      "unique_customers": 9
     },
     "PROD_063": {
       "product_id": "PROD_063",
@@ -2316,7 +2344,8 @@
       "broad_category": "Grocery",
       "total_quantity": 30,
       "total_revenue": 1138.06,
-      "avg_price": 45.39
+      "avg_price": 45.39,
+      "unique_customers": 7
     },
     "PROD_041": {
       "product_id": "PROD_041",
@@ -2326,7 +2355,8 @@
       "broad_category": "Grocery",
       "total_quantity": 53,
       "total_revenue": 2999.05,
-      "avg_price": 62.07
+      "avg_price": 62.07,
+      "unique_customers": 10
     },
     "PROD_055": {
       "product_id": "PROD_055",
@@ -2336,7 +2366,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 79,
       "total_revenue": 4255.28,
-      "avg_price": 54.68
+      "avg_price": 54.68,
+      "unique_customers": 15
     },
     "PROD_018": {
       "product_id": "PROD_018",
@@ -2346,7 +2377,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 60,
       "total_revenue": 2805.83,
-      "avg_price": 50.89
+      "avg_price": 50.89,
+      "unique_customers": 11
     },
     "PROD_100": {
       "product_id": "PROD_100",
@@ -2356,7 +2388,8 @@
       "broad_category": "Grocery",
       "total_quantity": 78,
       "total_revenue": 4046.67,
-      "avg_price": 51.83
+      "avg_price": 51.83,
+      "unique_customers": 13
     },
     "PROD_038": {
       "product_id": "PROD_038",
@@ -2366,7 +2399,8 @@
       "broad_category": "Grocery",
       "total_quantity": 58,
       "total_revenue": 2996.85,
-      "avg_price": 45.72
+      "avg_price": 45.72,
+      "unique_customers": 11
     },
     "PROD_004": {
       "product_id": "PROD_004",
@@ -2376,7 +2410,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 96,
       "total_revenue": 4741.55,
-      "avg_price": 45.83
+      "avg_price": 45.83,
+      "unique_customers": 13
     },
     "PROD_070": {
       "product_id": "PROD_070",
@@ -2386,7 +2421,8 @@
       "broad_category": "Grocery",
       "total_quantity": 81,
       "total_revenue": 5191.71,
-      "avg_price": 59.45
+      "avg_price": 59.45,
+      "unique_customers": 11
     },
     "PROD_075": {
       "product_id": "PROD_075",
@@ -2396,7 +2432,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 71,
       "total_revenue": 3258.47,
-      "avg_price": 44.06
+      "avg_price": 44.06,
+      "unique_customers": 13
     },
     "PROD_091": {
       "product_id": "PROD_091",
@@ -2406,7 +2443,8 @@
       "broad_category": "Grocery",
       "total_quantity": 72,
       "total_revenue": 3770.29,
-      "avg_price": 48.82
+      "avg_price": 48.82,
+      "unique_customers": 12
     },
     "PROD_037": {
       "product_id": "PROD_037",
@@ -2416,7 +2454,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 37,
       "total_revenue": 1612.45,
-      "avg_price": 35.85
+      "avg_price": 35.85,
+      "unique_customers": 9
     },
     "PROD_021": {
       "product_id": "PROD_021",
@@ -2426,7 +2465,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 67,
       "total_revenue": 3274.42,
-      "avg_price": 51.39
+      "avg_price": 51.39,
+      "unique_customers": 11
     },
     "PROD_056": {
       "product_id": "PROD_056",
@@ -2436,7 +2476,8 @@
       "broad_category": "Grocery",
       "total_quantity": 17,
       "total_revenue": 804.3,
-      "avg_price": 62.58
+      "avg_price": 62.58,
+      "unique_customers": 4
     },
     "PROD_094": {
       "product_id": "PROD_094",
@@ -2446,7 +2487,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 59,
       "total_revenue": 3162.78,
-      "avg_price": 56.19
+      "avg_price": 56.19,
+      "unique_customers": 10
     },
     "PROD_026": {
       "product_id": "PROD_026",
@@ -2456,7 +2498,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 21,
       "total_revenue": 1100.11,
-      "avg_price": 35.55
+      "avg_price": 35.55,
+      "unique_customers": 4
     },
     "PROD_031": {
       "product_id": "PROD_031",
@@ -2466,7 +2509,8 @@
       "broad_category": "Grocery",
       "total_quantity": 60,
       "total_revenue": 2013.4,
-      "avg_price": 42.89
+      "avg_price": 42.89,
+      "unique_customers": 10
     },
     "PROD_085": {
       "product_id": "PROD_085",
@@ -2476,7 +2520,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 67,
       "total_revenue": 4234.41,
-      "avg_price": 63.4
+      "avg_price": 63.4,
+      "unique_customers": 12
     },
     "PROD_083": {
       "product_id": "PROD_083",
@@ -2486,7 +2531,8 @@
       "broad_category": "Grocery",
       "total_quantity": 68,
       "total_revenue": 3284.35,
-      "avg_price": 48.09
+      "avg_price": 48.09,
+      "unique_customers": 12
     },
     "PROD_028": {
       "product_id": "PROD_028",
@@ -2496,7 +2542,8 @@
       "broad_category": "Grocery",
       "total_quantity": 66,
       "total_revenue": 4884.08,
-      "avg_price": 70.33
+      "avg_price": 70.33,
+      "unique_customers": 9
     },
     "PROD_067": {
       "product_id": "PROD_067",
@@ -2506,7 +2553,8 @@
       "broad_category": "Grocery",
       "total_quantity": 75,
       "total_revenue": 5277.28,
-      "avg_price": 65.59
+      "avg_price": 65.59,
+      "unique_customers": 9
     },
     "PROD_095": {
       "product_id": "PROD_095",
@@ -2516,7 +2564,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 43,
       "total_revenue": 2458.19,
-      "avg_price": 57.44
+      "avg_price": 57.44,
+      "unique_customers": 7
     },
     "PROD_033": {
       "product_id": "PROD_033",
@@ -2526,7 +2575,8 @@
       "broad_category": "Grocery",
       "total_quantity": 55,
       "total_revenue": 2055.8,
-      "avg_price": 37.79
+      "avg_price": 37.79,
+      "unique_customers": 7
     },
     "PROD_069": {
       "product_id": "PROD_069",
@@ -2536,7 +2586,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 59,
       "total_revenue": 2282.21,
-      "avg_price": 35.5
+      "avg_price": 35.5,
+      "unique_customers": 10
     },
     "PROD_061": {
       "product_id": "PROD_061",
@@ -2546,7 +2597,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 66,
       "total_revenue": 2736.31,
-      "avg_price": 48.55
+      "avg_price": 48.55,
+      "unique_customers": 11
     },
     "PROD_064": {
       "product_id": "PROD_064",
@@ -2556,7 +2608,8 @@
       "broad_category": "Grocery",
       "total_quantity": 60,
       "total_revenue": 3898.0,
-      "avg_price": 61.8
+      "avg_price": 61.8,
+      "unique_customers": 9
     },
     "PROD_068": {
       "product_id": "PROD_068",
@@ -2566,7 +2619,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 66,
       "total_revenue": 2902.94,
-      "avg_price": 44.32
+      "avg_price": 44.32,
+      "unique_customers": 11
     },
     "PROD_097": {
       "product_id": "PROD_097",
@@ -2576,7 +2630,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 64,
       "total_revenue": 2763.1,
-      "avg_price": 47.13
+      "avg_price": 47.13,
+      "unique_customers": 14
     },
     "PROD_022": {
       "product_id": "PROD_022",
@@ -2586,7 +2641,8 @@
       "broad_category": "Grocery",
       "total_quantity": 75,
       "total_revenue": 4428.29,
-      "avg_price": 62.4
+      "avg_price": 62.4,
+      "unique_customers": 8
     },
     "PROD_060": {
       "product_id": "PROD_060",
@@ -2596,7 +2652,8 @@
       "broad_category": "Grocery",
       "total_quantity": 39,
       "total_revenue": 2601.25,
-      "avg_price": 60.01
+      "avg_price": 60.01,
+      "unique_customers": 7
     },
     "PROD_005": {
       "product_id": "PROD_005",
@@ -2606,7 +2663,8 @@
       "broad_category": "Grocery",
       "total_quantity": 44,
       "total_revenue": 2417.12,
-      "avg_price": 60.25
+      "avg_price": 60.25,
+      "unique_customers": 10
     },
     "PROD_024": {
       "product_id": "PROD_024",
@@ -2616,7 +2674,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 63,
       "total_revenue": 3396.81,
-      "avg_price": 48.1
+      "avg_price": 48.1,
+      "unique_customers": 10
     },
     "PROD_053": {
       "product_id": "PROD_053",
@@ -2626,7 +2685,8 @@
       "broad_category": "Grocery",
       "total_quantity": 46,
       "total_revenue": 2482.69,
-      "avg_price": 58.67
+      "avg_price": 58.67,
+      "unique_customers": 7
     },
     "PROD_080": {
       "product_id": "PROD_080",
@@ -2636,7 +2696,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 50,
       "total_revenue": 2102.34,
-      "avg_price": 42.24
+      "avg_price": 42.24,
+      "unique_customers": 7
     },
     "PROD_073": {
       "product_id": "PROD_073",
@@ -2646,7 +2707,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 60,
       "total_revenue": 3054.78,
-      "avg_price": 48.54
+      "avg_price": 48.54,
+      "unique_customers": 9
     },
     "PROD_007": {
       "product_id": "PROD_007",
@@ -2656,7 +2718,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 30,
       "total_revenue": 1629.2,
-      "avg_price": 68.3
+      "avg_price": 68.3,
+      "unique_customers": 6
     },
     "PROD_047": {
       "product_id": "PROD_047",
@@ -2666,7 +2729,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 64,
       "total_revenue": 4083.1,
-      "avg_price": 54.2
+      "avg_price": 54.2,
+      "unique_customers": 10
     },
     "PROD_036": {
       "product_id": "PROD_036",
@@ -2676,7 +2740,8 @@
       "broad_category": "Grocery",
       "total_quantity": 58,
       "total_revenue": 2303.15,
-      "avg_price": 37.22
+      "avg_price": 37.22,
+      "unique_customers": 8
     },
     "PROD_059": {
       "product_id": "PROD_059",
@@ -2686,7 +2751,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 45,
       "total_revenue": 2228.76,
-      "avg_price": 50.94
+      "avg_price": 50.94,
+      "unique_customers": 5
     },
     "PROD_054": {
       "product_id": "PROD_054",
@@ -2696,7 +2762,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 20,
       "total_revenue": 1360.73,
-      "avg_price": 57.41
+      "avg_price": 57.41,
+      "unique_customers": 5
     },
     "PROD_082": {
       "product_id": "PROD_082",
@@ -2706,7 +2773,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 76,
       "total_revenue": 3912.53,
-      "avg_price": 51.4
+      "avg_price": 51.4,
+      "unique_customers": 12
     },
     "PROD_011": {
       "product_id": "PROD_011",
@@ -2716,7 +2784,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 40,
       "total_revenue": 3168.25,
-      "avg_price": 76.13
+      "avg_price": 76.13,
+      "unique_customers": 8
     },
     "PROD_071": {
       "product_id": "PROD_071",
@@ -2726,7 +2795,8 @@
       "broad_category": "Grocery",
       "total_quantity": 38,
       "total_revenue": 3009.91,
-      "avg_price": 72.47
+      "avg_price": 72.47,
+      "unique_customers": 9
     },
     "PROD_092": {
       "product_id": "PROD_092",
@@ -2736,7 +2806,8 @@
       "broad_category": "Grocery",
       "total_quantity": 32,
       "total_revenue": 1420.35,
-      "avg_price": 46.06
+      "avg_price": 46.06,
+      "unique_customers": 10
     },
     "PROD_084": {
       "product_id": "PROD_084",
@@ -2746,7 +2817,8 @@
       "broad_category": "Grocery",
       "total_quantity": 36,
       "total_revenue": 2680.4,
-      "avg_price": 70.45
+      "avg_price": 70.45,
+      "unique_customers": 6
     },
     "PROD_076": {
       "product_id": "PROD_076",
@@ -2756,7 +2828,8 @@
       "broad_category": "Grocery",
       "total_quantity": 60,
       "total_revenue": 2225.57,
-      "avg_price": 42.58
+      "avg_price": 42.58,
+      "unique_customers": 9
     },
     "PROD_051": {
       "product_id": "PROD_051",
@@ -2766,7 +2839,8 @@
       "broad_category": "Grocery",
       "total_quantity": 52,
       "total_revenue": 2103.79,
-      "avg_price": 43.6
+      "avg_price": 43.6,
+      "unique_customers": 10
     },
     "PROD_025": {
       "product_id": "PROD_025",
@@ -2776,7 +2850,8 @@
       "broad_category": "Grocery",
       "total_quantity": 31,
       "total_revenue": 1344.12,
-      "avg_price": 52.96
+      "avg_price": 52.96,
+      "unique_customers": 6
     },
     "PROD_062": {
       "product_id": "PROD_062",
@@ -2786,7 +2861,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 16,
       "total_revenue": 1113.61,
-      "avg_price": 60.29
+      "avg_price": 60.29,
+      "unique_customers": 5
     },
     "PROD_099": {
       "product_id": "PROD_099",
@@ -2796,7 +2872,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 51,
       "total_revenue": 1588.65,
-      "avg_price": 31.19
+      "avg_price": 31.19,
+      "unique_customers": 8
     },
     "PROD_034": {
       "product_id": "PROD_034",
@@ -2806,7 +2883,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 68,
       "total_revenue": 4418.06,
-      "avg_price": 63.82
+      "avg_price": 63.82,
+      "unique_customers": 10
     },
     "PROD_079": {
       "product_id": "PROD_079",
@@ -2816,7 +2894,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 37,
       "total_revenue": 1162.68,
-      "avg_price": 33.45
+      "avg_price": 33.45,
+      "unique_customers": 6
     },
     "PROD_088": {
       "product_id": "PROD_088",
@@ -2826,7 +2905,8 @@
       "broad_category": "Grocery",
       "total_quantity": 37,
       "total_revenue": 2451.95,
-      "avg_price": 63.53
+      "avg_price": 63.53,
+      "unique_customers": 8
     },
     "PROD_006": {
       "product_id": "PROD_006",
@@ -2836,7 +2916,8 @@
       "broad_category": "Grocery",
       "total_quantity": 47,
       "total_revenue": 2045.48,
-      "avg_price": 43.18
+      "avg_price": 43.18,
+      "unique_customers": 8
     },
     "PROD_020": {
       "product_id": "PROD_020",
@@ -2846,7 +2927,8 @@
       "broad_category": "Grocery",
       "total_quantity": 62,
       "total_revenue": 3644.31,
-      "avg_price": 58.24
+      "avg_price": 58.24,
+      "unique_customers": 9
     },
     "PROD_074": {
       "product_id": "PROD_074",
@@ -2856,7 +2938,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 59,
       "total_revenue": 2457.61,
-      "avg_price": 45.9
+      "avg_price": 45.9,
+      "unique_customers": 9
     },
     "PROD_013": {
       "product_id": "PROD_013",
@@ -2866,7 +2949,8 @@
       "broad_category": "Grocery",
       "total_quantity": 44,
       "total_revenue": 2593.32,
-      "avg_price": 55.45
+      "avg_price": 55.45,
+      "unique_customers": 9
     },
     "PROD_077": {
       "product_id": "PROD_077",
@@ -2876,7 +2960,8 @@
       "broad_category": "Grocery",
       "total_quantity": 57,
       "total_revenue": 2483.13,
-      "avg_price": 42.63
+      "avg_price": 42.63,
+      "unique_customers": 9
     },
     "PROD_010": {
       "product_id": "PROD_010",
@@ -2886,7 +2971,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 57,
       "total_revenue": 3459.22,
-      "avg_price": 57.85
+      "avg_price": 57.85,
+      "unique_customers": 7
     },
     "PROD_045": {
       "product_id": "PROD_045",
@@ -2896,7 +2982,8 @@
       "broad_category": "Grocery",
       "total_quantity": 71,
       "total_revenue": 3000.29,
-      "avg_price": 44.36
+      "avg_price": 44.36,
+      "unique_customers": 11
     },
     "PROD_012": {
       "product_id": "PROD_012",
@@ -2906,7 +2993,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 56,
       "total_revenue": 3211.31,
-      "avg_price": 55.47
+      "avg_price": 55.47,
+      "unique_customers": 10
     },
     "PROD_035": {
       "product_id": "PROD_035",
@@ -2916,7 +3004,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 56,
       "total_revenue": 2155.93,
-      "avg_price": 41.07
+      "avg_price": 41.07,
+      "unique_customers": 8
     },
     "PROD_048": {
       "product_id": "PROD_048",
@@ -2926,7 +3015,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 63,
       "total_revenue": 2175.2,
-      "avg_price": 36.0
+      "avg_price": 36.0,
+      "unique_customers": 12
     },
     "PROD_030": {
       "product_id": "PROD_030",
@@ -2936,7 +3026,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 58,
       "total_revenue": 3700.9,
-      "avg_price": 65.14
+      "avg_price": 65.14,
+      "unique_customers": 9
     },
     "PROD_016": {
       "product_id": "PROD_016",
@@ -2946,7 +3037,8 @@
       "broad_category": "Grocery",
       "total_quantity": 44,
       "total_revenue": 2945.73,
-      "avg_price": 67.62
+      "avg_price": 67.62,
+      "unique_customers": 6
     },
     "PROD_072": {
       "product_id": "PROD_072",
@@ -2956,7 +3048,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 27,
       "total_revenue": 1739.17,
-      "avg_price": 53.4
+      "avg_price": 53.4,
+      "unique_customers": 7
     },
     "PROD_058": {
       "product_id": "PROD_058",
@@ -2966,7 +3059,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 25,
       "total_revenue": 1109.06,
-      "avg_price": 37.33
+      "avg_price": 37.33,
+      "unique_customers": 6
     },
     "PROD_065": {
       "product_id": "PROD_065",
@@ -2976,7 +3070,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 48,
       "total_revenue": 2508.06,
-      "avg_price": 48.51
+      "avg_price": 48.51,
+      "unique_customers": 8
     },
     "PROD_049": {
       "product_id": "PROD_049",
@@ -2986,7 +3081,8 @@
       "broad_category": "Grocery",
       "total_quantity": 21,
       "total_revenue": 1095.21,
-      "avg_price": 47.99
+      "avg_price": 47.99,
+      "unique_customers": 5
     },
     "PROD_046": {
       "product_id": "PROD_046",
@@ -2996,7 +3092,8 @@
       "broad_category": "Grocery",
       "total_quantity": 66,
       "total_revenue": 2723.97,
-      "avg_price": 45.59
+      "avg_price": 45.59,
+      "unique_customers": 12
     },
     "PROD_090": {
       "product_id": "PROD_090",
@@ -3006,7 +3103,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 49,
       "total_revenue": 1620.31,
-      "avg_price": 34.73
+      "avg_price": 34.73,
+      "unique_customers": 6
     },
     "PROD_017": {
       "product_id": "PROD_017",
@@ -3016,7 +3114,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 48,
       "total_revenue": 1934.85,
-      "avg_price": 44.52
+      "avg_price": 44.52,
+      "unique_customers": 9
     },
     "PROD_098": {
       "product_id": "PROD_098",
@@ -3026,7 +3125,8 @@
       "broad_category": "Home Essentials",
       "total_quantity": 63,
       "total_revenue": 3192.74,
-      "avg_price": 53.31
+      "avg_price": 53.31,
+      "unique_customers": 12
     }
   },
   "segments": {
@@ -3339,5 +3439,1590 @@
       "previous_share": 0.16,
       "change_ratio": 4.02
     }
-  ]
+  ],
+  "eda_alignment": {
+    "overview": {
+      "rows": 1000,
+      "columns": 15,
+      "date_range": {
+        "min": "2025-02-18",
+        "max": "2025-08-19"
+      },
+      "unique_customers": 50,
+      "unique_products": 100,
+      "broad_categories": 2,
+      "pricelists": [
+        "Retail",
+        "Wholesale"
+      ]
+    },
+    "numeric_summary": {
+      "Order_Lines_Unit_Price": {
+        "min": 1.08,
+        "max": 99.95,
+        "mean": 50.48,
+        "median": 50.24,
+        "p10": 10.73,
+        "p25": 25.86,
+        "p50": 50.24,
+        "p75": 75.83,
+        "p90": 90.8,
+        "p95": 95.45
+      },
+      "Order_Quantity": {
+        "min": 1.0,
+        "max": 10.0,
+        "mean": 5.45,
+        "median": 5.0,
+        "p10": 1.0,
+        "p25": 3.0,
+        "p50": 5.0,
+        "p75": 8.0,
+        "p90": 10.0,
+        "p95": 10.0
+      },
+      "Subtotal": {
+        "min": 1.08,
+        "max": 992.5,
+        "mean": 273.72,
+        "median": 210.5,
+        "p10": 34.82,
+        "p25": 85.95,
+        "p50": 210.5,
+        "p75": 398.16,
+        "p90": 645.97,
+        "p95": 744.04
+      },
+      "Total_OrderQuantity": {
+        "min": 1.0,
+        "max": 24.0,
+        "mean": 6.19,
+        "median": 6.0,
+        "p10": 2.0,
+        "p25": 3.0,
+        "p50": 6.0,
+        "p75": 9.0,
+        "p90": 10.0,
+        "p95": 12.0
+      },
+      "Total_Subtotal": {
+        "min": 1.08,
+        "max": 1655.33,
+        "mean": 311.61,
+        "median": 245.76,
+        "p10": 38.08,
+        "p25": 94.59,
+        "p50": 245.76,
+        "p75": 456.84,
+        "p90": 682.89,
+        "p95": 821.27
+      }
+    },
+    "broad_category_summary": [
+      {
+        "broad_category": "Grocery",
+        "total_revenue": 142268.57,
+        "revenue_pct": 0.5198,
+        "total_quantity": 2728,
+        "unique_products": 100
+      },
+      {
+        "broad_category": "Home Essentials",
+        "total_revenue": 131449.31,
+        "revenue_pct": 0.4802,
+        "total_quantity": 2722,
+        "unique_products": 99
+      }
+    ],
+    "category_summary_top15": [
+      {
+        "broad_category": "Grocery",
+        "product_category": "Household",
+        "total_revenue": 51523.3,
+        "total_quantity": 1048,
+        "unique_products": 81
+      },
+      {
+        "broad_category": "Grocery",
+        "product_category": "Food",
+        "total_revenue": 48350.9,
+        "total_quantity": 855,
+        "unique_products": 79
+      },
+      {
+        "broad_category": "Home Essentials",
+        "product_category": "Beverage",
+        "total_revenue": 45838.01,
+        "total_quantity": 954,
+        "unique_products": 82
+      },
+      {
+        "broad_category": "Home Essentials",
+        "product_category": "Household",
+        "total_revenue": 44759.13,
+        "total_quantity": 954,
+        "unique_products": 85
+      },
+      {
+        "broad_category": "Grocery",
+        "product_category": "Beverage",
+        "total_revenue": 42394.37,
+        "total_quantity": 825,
+        "unique_products": 79
+      },
+      {
+        "broad_category": "Home Essentials",
+        "product_category": "Food",
+        "total_revenue": 40852.17,
+        "total_quantity": 814,
+        "unique_products": 85
+      }
+    ],
+    "product_rollup_top15": [
+      {
+        "product_id": "PROD_027",
+        "product_name": "Product 27",
+        "product_category": "Food",
+        "product_sub_category": "Vegetables",
+        "broad_category": "Grocery",
+        "total_revenue": 7461.9,
+        "total_quantity": 120,
+        "average_unit_price": 61.3,
+        "unique_customers": 17
+      },
+      {
+        "product_id": "PROD_067",
+        "product_name": "Product 67",
+        "product_category": "Food",
+        "product_sub_category": "Vegetables",
+        "broad_category": "Grocery",
+        "total_revenue": 5277.28,
+        "total_quantity": 75,
+        "average_unit_price": 65.59,
+        "unique_customers": 9
+      },
+      {
+        "product_id": "PROD_070",
+        "product_name": "Product 70",
+        "product_category": "Food",
+        "product_sub_category": "Fruits",
+        "broad_category": "Grocery",
+        "total_revenue": 5191.71,
+        "total_quantity": 81,
+        "average_unit_price": 59.45,
+        "unique_customers": 11
+      },
+      {
+        "product_id": "PROD_028",
+        "product_name": "Product 28",
+        "product_category": "Beverage",
+        "product_sub_category": "Beverages",
+        "broad_category": "Grocery",
+        "total_revenue": 4884.08,
+        "total_quantity": 66,
+        "average_unit_price": 70.33,
+        "unique_customers": 9
+      },
+      {
+        "product_id": "PROD_004",
+        "product_name": "Product 4",
+        "product_category": "Household",
+        "product_sub_category": "Bakery",
+        "broad_category": "Home Essentials",
+        "total_revenue": 4741.55,
+        "total_quantity": 96,
+        "average_unit_price": 45.83,
+        "unique_customers": 13
+      },
+      {
+        "product_id": "PROD_022",
+        "product_name": "Product 22",
+        "product_category": "Beverage",
+        "product_sub_category": "Dairy",
+        "broad_category": "Grocery",
+        "total_revenue": 4428.29,
+        "total_quantity": 75,
+        "average_unit_price": 62.4,
+        "unique_customers": 8
+      },
+      {
+        "product_id": "PROD_034",
+        "product_name": "Product 34",
+        "product_category": "Beverage",
+        "product_sub_category": "Beverages",
+        "broad_category": "Home Essentials",
+        "total_revenue": 4418.06,
+        "total_quantity": 68,
+        "average_unit_price": 63.82,
+        "unique_customers": 10
+      },
+      {
+        "product_id": "PROD_055",
+        "product_name": "Product 55",
+        "product_category": "Household",
+        "product_sub_category": "Dairy",
+        "broad_category": "Home Essentials",
+        "total_revenue": 4255.28,
+        "total_quantity": 79,
+        "average_unit_price": 54.68,
+        "unique_customers": 15
+      },
+      {
+        "product_id": "PROD_085",
+        "product_name": "Product 85",
+        "product_category": "Beverage",
+        "product_sub_category": "Beverages",
+        "broad_category": "Home Essentials",
+        "total_revenue": 4234.41,
+        "total_quantity": 67,
+        "average_unit_price": 63.4,
+        "unique_customers": 12
+      },
+      {
+        "product_id": "PROD_047",
+        "product_name": "Product 47",
+        "product_category": "Beverage",
+        "product_sub_category": "Dairy",
+        "broad_category": "Home Essentials",
+        "total_revenue": 4083.1,
+        "total_quantity": 64,
+        "average_unit_price": 54.2,
+        "unique_customers": 10
+      },
+      {
+        "product_id": "PROD_100",
+        "product_name": "Product 100",
+        "product_category": "Food",
+        "product_sub_category": "Vegetables",
+        "broad_category": "Grocery",
+        "total_revenue": 4046.67,
+        "total_quantity": 78,
+        "average_unit_price": 51.83,
+        "unique_customers": 13
+      },
+      {
+        "product_id": "PROD_081",
+        "product_name": "Product 81",
+        "product_category": "Beverage",
+        "product_sub_category": "Vegetables",
+        "broad_category": "Home Essentials",
+        "total_revenue": 3926.84,
+        "total_quantity": 77,
+        "average_unit_price": 50.24,
+        "unique_customers": 11
+      },
+      {
+        "product_id": "PROD_082",
+        "product_name": "Product 82",
+        "product_category": "Beverage",
+        "product_sub_category": "Fruits",
+        "broad_category": "Home Essentials",
+        "total_revenue": 3912.53,
+        "total_quantity": 76,
+        "average_unit_price": 51.4,
+        "unique_customers": 12
+      },
+      {
+        "product_id": "PROD_064",
+        "product_name": "Product 64",
+        "product_category": "Food",
+        "product_sub_category": "Bakery",
+        "broad_category": "Grocery",
+        "total_revenue": 3898.0,
+        "total_quantity": 60,
+        "average_unit_price": 61.8,
+        "unique_customers": 9
+      },
+      {
+        "product_id": "PROD_078",
+        "product_name": "Product 78",
+        "product_category": "Food",
+        "product_sub_category": "Vegetables",
+        "broad_category": "Home Essentials",
+        "total_revenue": 3829.99,
+        "total_quantity": 78,
+        "average_unit_price": 47.77,
+        "unique_customers": 13
+      }
+    ],
+    "customer_rollup_top15": [
+      {
+        "customer_id": "CUST_012",
+        "customer_name": "Melissa Montgomery",
+        "pricelist": "Retail",
+        "total_revenue": 6187.15,
+        "total_quantity": 96,
+        "unique_products": 12,
+        "first_purchase": "2025-02-18",
+        "last_purchase": "2025-08-05",
+        "tenure_days": 168
+      },
+      {
+        "customer_id": "CUST_015",
+        "customer_name": "Lindsey Glass",
+        "pricelist": "Retail",
+        "total_revenue": 5755.33,
+        "total_quantity": 77,
+        "unique_products": 10,
+        "first_purchase": "2025-03-05",
+        "last_purchase": "2025-08-09",
+        "tenure_days": 157
+      },
+      {
+        "customer_id": "CUST_027",
+        "customer_name": "Wesley Hart",
+        "pricelist": "Wholesale",
+        "total_revenue": 5338.33,
+        "total_quantity": 92,
+        "unique_products": 13,
+        "first_purchase": "2025-02-24",
+        "last_purchase": "2025-08-07",
+        "tenure_days": 164
+      },
+      {
+        "customer_id": "CUST_017",
+        "customer_name": "Kimberly Rose",
+        "pricelist": "Retail",
+        "total_revenue": 4922.78,
+        "total_quantity": 71,
+        "unique_products": 10,
+        "first_purchase": "2025-02-24",
+        "last_purchase": "2025-08-11",
+        "tenure_days": 168
+      },
+      {
+        "customer_id": "CUST_036",
+        "customer_name": "Leslie Murray",
+        "pricelist": "Wholesale",
+        "total_revenue": 4834.29,
+        "total_quantity": 81,
+        "unique_products": 14,
+        "first_purchase": "2025-02-23",
+        "last_purchase": "2025-07-24",
+        "tenure_days": 151
+      },
+      {
+        "customer_id": "CUST_026",
+        "customer_name": "Adam Johnson",
+        "pricelist": "Wholesale",
+        "total_revenue": 4796.87,
+        "total_quantity": 99,
+        "unique_products": 13,
+        "first_purchase": "2025-03-15",
+        "last_purchase": "2025-08-17",
+        "tenure_days": 155
+      },
+      {
+        "customer_id": "CUST_039",
+        "customer_name": "Shannon Green",
+        "pricelist": "Retail",
+        "total_revenue": 4754.46,
+        "total_quantity": 91,
+        "unique_products": 16,
+        "first_purchase": "2025-02-26",
+        "last_purchase": "2025-08-18",
+        "tenure_days": 173
+      },
+      {
+        "customer_id": "CUST_001",
+        "customer_name": "Pamela Tran",
+        "pricelist": "Wholesale",
+        "total_revenue": 4707.01,
+        "total_quantity": 88,
+        "unique_products": 13,
+        "first_purchase": "2025-03-01",
+        "last_purchase": "2025-08-05",
+        "tenure_days": 157
+      },
+      {
+        "customer_id": "CUST_049",
+        "customer_name": "Elizabeth Bailey",
+        "pricelist": "Retail",
+        "total_revenue": 4701.51,
+        "total_quantity": 92,
+        "unique_products": 16,
+        "first_purchase": "2025-03-08",
+        "last_purchase": "2025-08-14",
+        "tenure_days": 159
+      },
+      {
+        "customer_id": "CUST_029",
+        "customer_name": "Diana Rojas",
+        "pricelist": "Wholesale",
+        "total_revenue": 4447.45,
+        "total_quantity": 75,
+        "unique_products": 11,
+        "first_purchase": "2025-02-19",
+        "last_purchase": "2025-08-17",
+        "tenure_days": 179
+      },
+      {
+        "customer_id": "CUST_032",
+        "customer_name": "Kyle Rogers",
+        "pricelist": "Wholesale",
+        "total_revenue": 4446.72,
+        "total_quantity": 82,
+        "unique_products": 15,
+        "first_purchase": "2025-03-15",
+        "last_purchase": "2025-08-16",
+        "tenure_days": 154
+      },
+      {
+        "customer_id": "CUST_001",
+        "customer_name": "Pamela Tran",
+        "pricelist": "Retail",
+        "total_revenue": 4231.44,
+        "total_quantity": 75,
+        "unique_products": 9,
+        "first_purchase": "2025-02-27",
+        "last_purchase": "2025-08-18",
+        "tenure_days": 172
+      },
+      {
+        "customer_id": "CUST_002",
+        "customer_name": "Jonathon Thomas",
+        "pricelist": "Wholesale",
+        "total_revenue": 4040.06,
+        "total_quantity": 74,
+        "unique_products": 11,
+        "first_purchase": "2025-02-23",
+        "last_purchase": "2025-07-02",
+        "tenure_days": 129
+      },
+      {
+        "customer_id": "CUST_035",
+        "customer_name": "Kelsey Shaw",
+        "pricelist": "Retail",
+        "total_revenue": 4035.34,
+        "total_quantity": 81,
+        "unique_products": 13,
+        "first_purchase": "2025-03-16",
+        "last_purchase": "2025-07-27",
+        "tenure_days": 133
+      },
+      {
+        "customer_id": "CUST_023",
+        "customer_name": "Miss Patricia Huff",
+        "pricelist": "Wholesale",
+        "total_revenue": 4031.86,
+        "total_quantity": 75,
+        "unique_products": 11,
+        "first_purchase": "2025-02-22",
+        "last_purchase": "2025-07-26",
+        "tenure_days": 154
+      }
+    ],
+    "pricelist_summary": {
+      "Retail": {
+        "customers": 50,
+        "total_revenue": 133927.5,
+        "total_quantity": 2637,
+        "avg_revenue_per_customer": 2678.55,
+        "median_revenue_per_customer": 2502.01
+      },
+      "Wholesale": {
+        "customers": 50,
+        "total_revenue": 139790.38,
+        "total_quantity": 2813,
+        "avg_revenue_per_customer": 2795.81,
+        "median_revenue_per_customer": 2679.57
+      }
+    },
+    "daily_revenue_series": [
+      {
+        "date": "2025-02-18",
+        "revenue": 1545.58,
+        "rolling_7d": 1545.58
+      },
+      {
+        "date": "2025-02-19",
+        "revenue": 1173.17,
+        "rolling_7d": 1359.38
+      },
+      {
+        "date": "2025-02-20",
+        "revenue": 599.72,
+        "rolling_7d": 1106.16
+      },
+      {
+        "date": "2025-02-21",
+        "revenue": 1128.36,
+        "rolling_7d": 1111.71
+      },
+      {
+        "date": "2025-02-22",
+        "revenue": 1329.9,
+        "rolling_7d": 1155.35
+      },
+      {
+        "date": "2025-02-23",
+        "revenue": 1544.69,
+        "rolling_7d": 1220.24
+      },
+      {
+        "date": "2025-02-24",
+        "revenue": 2758.57,
+        "rolling_7d": 1440.0
+      },
+      {
+        "date": "2025-02-25",
+        "revenue": 319.55,
+        "rolling_7d": 1264.85
+      },
+      {
+        "date": "2025-02-26",
+        "revenue": 1212.7,
+        "rolling_7d": 1270.5
+      },
+      {
+        "date": "2025-02-27",
+        "revenue": 1498.41,
+        "rolling_7d": 1398.88
+      },
+      {
+        "date": "2025-02-28",
+        "revenue": 3445.83,
+        "rolling_7d": 1729.95
+      },
+      {
+        "date": "2025-03-01",
+        "revenue": 2576.57,
+        "rolling_7d": 1908.05
+      },
+      {
+        "date": "2025-03-02",
+        "revenue": 1103.5,
+        "rolling_7d": 1845.02
+      },
+      {
+        "date": "2025-03-03",
+        "revenue": 273.66,
+        "rolling_7d": 1490.03
+      },
+      {
+        "date": "2025-03-04",
+        "revenue": 927.58,
+        "rolling_7d": 1576.89
+      },
+      {
+        "date": "2025-03-05",
+        "revenue": 788.13,
+        "rolling_7d": 1516.24
+      },
+      {
+        "date": "2025-03-06",
+        "revenue": 2252.32,
+        "rolling_7d": 1623.94
+      },
+      {
+        "date": "2025-03-07",
+        "revenue": 797.95,
+        "rolling_7d": 1245.67
+      },
+      {
+        "date": "2025-03-08",
+        "revenue": 1608.41,
+        "rolling_7d": 1107.36
+      },
+      {
+        "date": "2025-03-09",
+        "revenue": 1618.12,
+        "rolling_7d": 1180.88
+      },
+      {
+        "date": "2025-03-10",
+        "revenue": 1365.34,
+        "rolling_7d": 1336.84
+      },
+      {
+        "date": "2025-03-11",
+        "revenue": 175.04,
+        "rolling_7d": 1229.33
+      },
+      {
+        "date": "2025-03-12",
+        "revenue": 1343.26,
+        "rolling_7d": 1308.63
+      },
+      {
+        "date": "2025-03-13",
+        "revenue": 358.69,
+        "rolling_7d": 1038.12
+      },
+      {
+        "date": "2025-03-14",
+        "revenue": 875.43,
+        "rolling_7d": 1049.18
+      },
+      {
+        "date": "2025-03-15",
+        "revenue": 1967.68,
+        "rolling_7d": 1100.51
+      },
+      {
+        "date": "2025-03-16",
+        "revenue": 1011.69,
+        "rolling_7d": 1013.88
+      },
+      {
+        "date": "2025-03-17",
+        "revenue": 2422.46,
+        "rolling_7d": 1164.89
+      },
+      {
+        "date": "2025-03-18",
+        "revenue": 1705.74,
+        "rolling_7d": 1383.56
+      },
+      {
+        "date": "2025-03-19",
+        "revenue": 3045.89,
+        "rolling_7d": 1626.8
+      },
+      {
+        "date": "2025-03-20",
+        "revenue": 926.7,
+        "rolling_7d": 1707.94
+      },
+      {
+        "date": "2025-03-21",
+        "revenue": 1224.35,
+        "rolling_7d": 1757.79
+      },
+      {
+        "date": "2025-03-22",
+        "revenue": 2784.02,
+        "rolling_7d": 1874.41
+      },
+      {
+        "date": "2025-03-23",
+        "revenue": 1457.42,
+        "rolling_7d": 1938.08
+      },
+      {
+        "date": "2025-03-24",
+        "revenue": 2029.24,
+        "rolling_7d": 1881.91
+      },
+      {
+        "date": "2025-03-25",
+        "revenue": 2632.29,
+        "rolling_7d": 2014.27
+      },
+      {
+        "date": "2025-03-26",
+        "revenue": 3140.64,
+        "rolling_7d": 2027.81
+      },
+      {
+        "date": "2025-03-27",
+        "revenue": 2016.4,
+        "rolling_7d": 2183.48
+      },
+      {
+        "date": "2025-03-28",
+        "revenue": 976.22,
+        "rolling_7d": 2148.03
+      },
+      {
+        "date": "2025-03-29",
+        "revenue": 2082.25,
+        "rolling_7d": 2047.78
+      },
+      {
+        "date": "2025-03-30",
+        "revenue": 1610.18,
+        "rolling_7d": 2069.6
+      },
+      {
+        "date": "2025-03-31",
+        "revenue": 1482.58,
+        "rolling_7d": 1991.51
+      },
+      {
+        "date": "2025-04-01",
+        "revenue": 3266.31,
+        "rolling_7d": 2082.08
+      },
+      {
+        "date": "2025-04-02",
+        "revenue": 2725.77,
+        "rolling_7d": 2022.82
+      },
+      {
+        "date": "2025-04-03",
+        "revenue": 1211.99,
+        "rolling_7d": 1907.9
+      },
+      {
+        "date": "2025-04-04",
+        "revenue": 499.4,
+        "rolling_7d": 1839.78
+      },
+      {
+        "date": "2025-04-05",
+        "revenue": 3121.38,
+        "rolling_7d": 1988.23
+      },
+      {
+        "date": "2025-04-06",
+        "revenue": 708.92,
+        "rolling_7d": 1859.48
+      },
+      {
+        "date": "2025-04-07",
+        "revenue": 217.5,
+        "rolling_7d": 1678.75
+      },
+      {
+        "date": "2025-04-08",
+        "revenue": 417.15,
+        "rolling_7d": 1271.73
+      },
+      {
+        "date": "2025-04-09",
+        "revenue": 2096.93,
+        "rolling_7d": 1181.9
+      },
+      {
+        "date": "2025-04-10",
+        "revenue": 2060.12,
+        "rolling_7d": 1303.06
+      },
+      {
+        "date": "2025-04-11",
+        "revenue": 2879.9,
+        "rolling_7d": 1643.13
+      },
+      {
+        "date": "2025-04-12",
+        "revenue": 1486.59,
+        "rolling_7d": 1409.59
+      },
+      {
+        "date": "2025-04-13",
+        "revenue": 1613.48,
+        "rolling_7d": 1538.81
+      },
+      {
+        "date": "2025-04-14",
+        "revenue": 621.67,
+        "rolling_7d": 1596.55
+      },
+      {
+        "date": "2025-04-15",
+        "revenue": 2178.17,
+        "rolling_7d": 1848.12
+      },
+      {
+        "date": "2025-04-16",
+        "revenue": 1169.57,
+        "rolling_7d": 1715.64
+      },
+      {
+        "date": "2025-04-17",
+        "revenue": 836.72,
+        "rolling_7d": 1540.87
+      },
+      {
+        "date": "2025-04-18",
+        "revenue": 1557.13,
+        "rolling_7d": 1351.9
+      },
+      {
+        "date": "2025-04-19",
+        "revenue": 2219.44,
+        "rolling_7d": 1456.6
+      },
+      {
+        "date": "2025-04-20",
+        "revenue": 290.11,
+        "rolling_7d": 1267.54
+      },
+      {
+        "date": "2025-04-21",
+        "revenue": 1122.35,
+        "rolling_7d": 1339.07
+      },
+      {
+        "date": "2025-04-22",
+        "revenue": 2357.48,
+        "rolling_7d": 1364.69
+      },
+      {
+        "date": "2025-04-23",
+        "revenue": 1904.62,
+        "rolling_7d": 1469.69
+      },
+      {
+        "date": "2025-04-24",
+        "revenue": 1692.56,
+        "rolling_7d": 1591.96
+      },
+      {
+        "date": "2025-04-25",
+        "revenue": 1884.94,
+        "rolling_7d": 1638.79
+      },
+      {
+        "date": "2025-04-26",
+        "revenue": 258.58,
+        "rolling_7d": 1358.66
+      },
+      {
+        "date": "2025-04-27",
+        "revenue": 1304.15,
+        "rolling_7d": 1503.53
+      },
+      {
+        "date": "2025-04-28",
+        "revenue": 1008.21,
+        "rolling_7d": 1487.22
+      },
+      {
+        "date": "2025-04-29",
+        "revenue": 741.0,
+        "rolling_7d": 1256.29
+      },
+      {
+        "date": "2025-04-30",
+        "revenue": 1953.01,
+        "rolling_7d": 1263.21
+      },
+      {
+        "date": "2025-05-01",
+        "revenue": 1903.71,
+        "rolling_7d": 1293.37
+      },
+      {
+        "date": "2025-05-02",
+        "revenue": 899.22,
+        "rolling_7d": 1152.55
+      },
+      {
+        "date": "2025-05-03",
+        "revenue": 992.99,
+        "rolling_7d": 1257.47
+      },
+      {
+        "date": "2025-05-04",
+        "revenue": 1839.29,
+        "rolling_7d": 1333.92
+      },
+      {
+        "date": "2025-05-05",
+        "revenue": 937.9,
+        "rolling_7d": 1323.87
+      },
+      {
+        "date": "2025-05-06",
+        "revenue": 338.7,
+        "rolling_7d": 1266.4
+      },
+      {
+        "date": "2025-05-07",
+        "revenue": 1808.16,
+        "rolling_7d": 1245.71
+      },
+      {
+        "date": "2025-05-08",
+        "revenue": 2871.5,
+        "rolling_7d": 1383.97
+      },
+      {
+        "date": "2025-05-09",
+        "revenue": 2281.01,
+        "rolling_7d": 1581.36
+      },
+      {
+        "date": "2025-05-10",
+        "revenue": 2594.56,
+        "rolling_7d": 1810.16
+      },
+      {
+        "date": "2025-05-11",
+        "revenue": 1113.57,
+        "rolling_7d": 1706.49
+      },
+      {
+        "date": "2025-05-12",
+        "revenue": 2353.75,
+        "rolling_7d": 1908.75
+      },
+      {
+        "date": "2025-05-13",
+        "revenue": 1997.3,
+        "rolling_7d": 2145.69
+      },
+      {
+        "date": "2025-05-14",
+        "revenue": 2293.01,
+        "rolling_7d": 2214.96
+      },
+      {
+        "date": "2025-05-15",
+        "revenue": 509.36,
+        "rolling_7d": 1877.51
+      },
+      {
+        "date": "2025-05-16",
+        "revenue": 807.92,
+        "rolling_7d": 1667.07
+      },
+      {
+        "date": "2025-05-17",
+        "revenue": 1469.83,
+        "rolling_7d": 1506.39
+      },
+      {
+        "date": "2025-05-18",
+        "revenue": 2614.25,
+        "rolling_7d": 1720.77
+      },
+      {
+        "date": "2025-05-19",
+        "revenue": 2893.98,
+        "rolling_7d": 1797.95
+      },
+      {
+        "date": "2025-05-20",
+        "revenue": 1005.75,
+        "rolling_7d": 1656.3
+      },
+      {
+        "date": "2025-05-21",
+        "revenue": 1154.69,
+        "rolling_7d": 1493.68
+      },
+      {
+        "date": "2025-05-22",
+        "revenue": 634.53,
+        "rolling_7d": 1511.56
+      },
+      {
+        "date": "2025-05-23",
+        "revenue": 1602.15,
+        "rolling_7d": 1625.03
+      },
+      {
+        "date": "2025-05-24",
+        "revenue": 2152.03,
+        "rolling_7d": 1722.48
+      },
+      {
+        "date": "2025-05-25",
+        "revenue": 355.06,
+        "rolling_7d": 1399.74
+      },
+      {
+        "date": "2025-05-26",
+        "revenue": 488.81,
+        "rolling_7d": 1056.15
+      },
+      {
+        "date": "2025-05-27",
+        "revenue": 193.5,
+        "rolling_7d": 940.11
+      },
+      {
+        "date": "2025-05-28",
+        "revenue": 2656.55,
+        "rolling_7d": 1154.66
+      },
+      {
+        "date": "2025-05-29",
+        "revenue": 1954.4,
+        "rolling_7d": 1343.21
+      },
+      {
+        "date": "2025-05-30",
+        "revenue": 1868.88,
+        "rolling_7d": 1381.32
+      },
+      {
+        "date": "2025-05-31",
+        "revenue": 1258.43,
+        "rolling_7d": 1253.66
+      },
+      {
+        "date": "2025-06-01",
+        "revenue": 1483.6,
+        "rolling_7d": 1414.88
+      },
+      {
+        "date": "2025-06-02",
+        "revenue": 1595.6,
+        "rolling_7d": 1572.99
+      },
+      {
+        "date": "2025-06-03",
+        "revenue": 553.08,
+        "rolling_7d": 1624.36
+      },
+      {
+        "date": "2025-06-04",
+        "revenue": 1504.81,
+        "rolling_7d": 1459.83
+      },
+      {
+        "date": "2025-06-05",
+        "revenue": 960.5,
+        "rolling_7d": 1317.84
+      },
+      {
+        "date": "2025-06-06",
+        "revenue": 1427.4,
+        "rolling_7d": 1254.77
+      },
+      {
+        "date": "2025-06-07",
+        "revenue": 2574.07,
+        "rolling_7d": 1442.72
+      },
+      {
+        "date": "2025-06-08",
+        "revenue": 1710.64,
+        "rolling_7d": 1475.16
+      },
+      {
+        "date": "2025-06-09",
+        "revenue": 135.86,
+        "rolling_7d": 1266.62
+      },
+      {
+        "date": "2025-06-10",
+        "revenue": 1789.02,
+        "rolling_7d": 1443.19
+      },
+      {
+        "date": "2025-06-11",
+        "revenue": 1389.93,
+        "rolling_7d": 1426.77
+      },
+      {
+        "date": "2025-06-12",
+        "revenue": 896.64,
+        "rolling_7d": 1417.65
+      },
+      {
+        "date": "2025-06-13",
+        "revenue": 1602.95,
+        "rolling_7d": 1442.73
+      },
+      {
+        "date": "2025-06-14",
+        "revenue": 1731.62,
+        "rolling_7d": 1322.38
+      },
+      {
+        "date": "2025-06-15",
+        "revenue": 665.37,
+        "rolling_7d": 1173.06
+      },
+      {
+        "date": "2025-06-16",
+        "revenue": 777.41,
+        "rolling_7d": 1264.71
+      },
+      {
+        "date": "2025-06-17",
+        "revenue": 1958.33,
+        "rolling_7d": 1288.89
+      },
+      {
+        "date": "2025-06-18",
+        "revenue": 1000.17,
+        "rolling_7d": 1233.21
+      },
+      {
+        "date": "2025-06-19",
+        "revenue": 2718.0,
+        "rolling_7d": 1493.41
+      },
+      {
+        "date": "2025-06-20",
+        "revenue": 924.72,
+        "rolling_7d": 1396.52
+      },
+      {
+        "date": "2025-06-21",
+        "revenue": 1985.48,
+        "rolling_7d": 1432.78
+      },
+      {
+        "date": "2025-06-22",
+        "revenue": 805.9,
+        "rolling_7d": 1452.86
+      },
+      {
+        "date": "2025-06-23",
+        "revenue": 295.32,
+        "rolling_7d": 1383.99
+      },
+      {
+        "date": "2025-06-24",
+        "revenue": 1399.01,
+        "rolling_7d": 1304.09
+      },
+      {
+        "date": "2025-06-25",
+        "revenue": 1610.03,
+        "rolling_7d": 1391.21
+      },
+      {
+        "date": "2025-06-26",
+        "revenue": 1463.08,
+        "rolling_7d": 1211.93
+      },
+      {
+        "date": "2025-06-27",
+        "revenue": 2490.82,
+        "rolling_7d": 1435.66
+      },
+      {
+        "date": "2025-06-28",
+        "revenue": 756.94,
+        "rolling_7d": 1260.16
+      },
+      {
+        "date": "2025-06-29",
+        "revenue": 961.47,
+        "rolling_7d": 1282.38
+      },
+      {
+        "date": "2025-06-30",
+        "revenue": 1305.74,
+        "rolling_7d": 1426.73
+      },
+      {
+        "date": "2025-07-01",
+        "revenue": 500.34,
+        "rolling_7d": 1298.35
+      },
+      {
+        "date": "2025-07-02",
+        "revenue": 2272.72,
+        "rolling_7d": 1393.02
+      },
+      {
+        "date": "2025-07-03",
+        "revenue": 1635.48,
+        "rolling_7d": 1417.64
+      },
+      {
+        "date": "2025-07-04",
+        "revenue": 606.97,
+        "rolling_7d": 1148.52
+      },
+      {
+        "date": "2025-07-05",
+        "revenue": 2918.29,
+        "rolling_7d": 1457.29
+      },
+      {
+        "date": "2025-07-06",
+        "revenue": 1241.33,
+        "rolling_7d": 1497.27
+      },
+      {
+        "date": "2025-07-07",
+        "revenue": 1652.38,
+        "rolling_7d": 1546.79
+      },
+      {
+        "date": "2025-07-08",
+        "revenue": 2444.43,
+        "rolling_7d": 1824.51
+      },
+      {
+        "date": "2025-07-09",
+        "revenue": 1987.94,
+        "rolling_7d": 1783.83
+      },
+      {
+        "date": "2025-07-10",
+        "revenue": 1730.54,
+        "rolling_7d": 1797.41
+      },
+      {
+        "date": "2025-07-11",
+        "revenue": 1598.82,
+        "rolling_7d": 1939.1
+      },
+      {
+        "date": "2025-07-12",
+        "revenue": 212.18,
+        "rolling_7d": 1552.52
+      },
+      {
+        "date": "2025-07-13",
+        "revenue": 2163.92,
+        "rolling_7d": 1684.32
+      },
+      {
+        "date": "2025-07-14",
+        "revenue": 988.09,
+        "rolling_7d": 1589.42
+      },
+      {
+        "date": "2025-07-15",
+        "revenue": 2462.94,
+        "rolling_7d": 1592.06
+      },
+      {
+        "date": "2025-07-16",
+        "revenue": 1530.4,
+        "rolling_7d": 1526.7
+      },
+      {
+        "date": "2025-07-17",
+        "revenue": 1751.93,
+        "rolling_7d": 1529.75
+      },
+      {
+        "date": "2025-07-18",
+        "revenue": 2141.44,
+        "rolling_7d": 1607.27
+      },
+      {
+        "date": "2025-07-19",
+        "revenue": 3066.97,
+        "rolling_7d": 2015.1
+      },
+      {
+        "date": "2025-07-20",
+        "revenue": 1445.89,
+        "rolling_7d": 1912.52
+      },
+      {
+        "date": "2025-07-21",
+        "revenue": 1596.42,
+        "rolling_7d": 1999.43
+      },
+      {
+        "date": "2025-07-22",
+        "revenue": 843.07,
+        "rolling_7d": 1768.02
+      },
+      {
+        "date": "2025-07-23",
+        "revenue": 2130.78,
+        "rolling_7d": 1853.79
+      },
+      {
+        "date": "2025-07-24",
+        "revenue": 2692.3,
+        "rolling_7d": 1988.12
+      },
+      {
+        "date": "2025-07-25",
+        "revenue": 34.56,
+        "rolling_7d": 1687.14
+      },
+      {
+        "date": "2025-07-26",
+        "revenue": 805.75,
+        "rolling_7d": 1364.11
+      },
+      {
+        "date": "2025-07-27",
+        "revenue": 940.94,
+        "rolling_7d": 1291.97
+      },
+      {
+        "date": "2025-07-28",
+        "revenue": 1287.96,
+        "rolling_7d": 1247.91
+      },
+      {
+        "date": "2025-07-29",
+        "revenue": 1065.06,
+        "rolling_7d": 1279.62
+      },
+      {
+        "date": "2025-07-30",
+        "revenue": 2523.18,
+        "rolling_7d": 1335.68
+      },
+      {
+        "date": "2025-07-31",
+        "revenue": 552.65,
+        "rolling_7d": 1030.01
+      },
+      {
+        "date": "2025-08-01",
+        "revenue": 1491.78,
+        "rolling_7d": 1238.19
+      },
+      {
+        "date": "2025-08-02",
+        "revenue": 723.41,
+        "rolling_7d": 1226.43
+      },
+      {
+        "date": "2025-08-03",
+        "revenue": 834.16,
+        "rolling_7d": 1211.17
+      },
+      {
+        "date": "2025-08-04",
+        "revenue": 1913.44,
+        "rolling_7d": 1300.53
+      },
+      {
+        "date": "2025-08-05",
+        "revenue": 1278.85,
+        "rolling_7d": 1331.07
+      },
+      {
+        "date": "2025-08-06",
+        "revenue": 1010.38,
+        "rolling_7d": 1114.95
+      },
+      {
+        "date": "2025-08-07",
+        "revenue": 2241.06,
+        "rolling_7d": 1356.15
+      },
+      {
+        "date": "2025-08-08",
+        "revenue": 407.69,
+        "rolling_7d": 1201.28
+      },
+      {
+        "date": "2025-08-09",
+        "revenue": 1493.51,
+        "rolling_7d": 1311.3
+      },
+      {
+        "date": "2025-08-10",
+        "revenue": 1896.69,
+        "rolling_7d": 1463.09
+      },
+      {
+        "date": "2025-08-11",
+        "revenue": 1565.34,
+        "rolling_7d": 1413.36
+      },
+      {
+        "date": "2025-08-12",
+        "revenue": 1467.8,
+        "rolling_7d": 1440.35
+      },
+      {
+        "date": "2025-08-13",
+        "revenue": 1132.02,
+        "rolling_7d": 1457.73
+      },
+      {
+        "date": "2025-08-14",
+        "revenue": 1683.27,
+        "rolling_7d": 1378.05
+      },
+      {
+        "date": "2025-08-15",
+        "revenue": 506.94,
+        "rolling_7d": 1392.22
+      },
+      {
+        "date": "2025-08-16",
+        "revenue": 2505.96,
+        "rolling_7d": 1536.86
+      },
+      {
+        "date": "2025-08-17",
+        "revenue": 1992.83,
+        "rolling_7d": 1550.59
+      },
+      {
+        "date": "2025-08-18",
+        "revenue": 1249.73,
+        "rolling_7d": 1505.51
+      },
+      {
+        "date": "2025-08-19",
+        "revenue": 637.67,
+        "rolling_7d": 1386.92
+      }
+    ],
+    "monthly_category_series": [
+      {
+        "month": "2025-02-01",
+        "broad_category": "Grocery",
+        "revenue": 10220.46
+      },
+      {
+        "month": "2025-02-01",
+        "broad_category": "Home Essentials",
+        "revenue": 6336.02
+      },
+      {
+        "month": "2025-03-01",
+        "broad_category": "Home Essentials",
+        "revenue": 23544.75
+      },
+      {
+        "month": "2025-03-01",
+        "broad_category": "Grocery",
+        "revenue": 25035.0
+      },
+      {
+        "month": "2025-04-01",
+        "broad_category": "Grocery",
+        "revenue": 23468.47
+      },
+      {
+        "month": "2025-04-01",
+        "broad_category": "Home Essentials",
+        "revenue": 21936.68
+      },
+      {
+        "month": "2025-05-01",
+        "broad_category": "Home Essentials",
+        "revenue": 27745.77
+      },
+      {
+        "month": "2025-05-01",
+        "broad_category": "Grocery",
+        "revenue": 20099.02
+      },
+      {
+        "month": "2025-06-01",
+        "broad_category": "Grocery",
+        "revenue": 19555.4
+      },
+      {
+        "month": "2025-06-01",
+        "broad_category": "Home Essentials",
+        "revenue": 20918.11
+      },
+      {
+        "month": "2025-07-01",
+        "broad_category": "Home Essentials",
+        "revenue": 20733.5
+      },
+      {
+        "month": "2025-07-01",
+        "broad_category": "Grocery",
+        "revenue": 28092.17
+      },
+      {
+        "month": "2025-08-01",
+        "broad_category": "Home Essentials",
+        "revenue": 10234.48
+      },
+      {
+        "month": "2025-08-01",
+        "broad_category": "Grocery",
+        "revenue": 15798.05
+      }
+    ],
+    "top_cooccurrences": [
+      {
+        "product_a_id": "PROD_077",
+        "product_a_name": "Product 77",
+        "product_b_id": "PROD_094",
+        "product_b_name": "Product 94",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_020",
+        "product_a_name": "Product 20",
+        "product_b_id": "PROD_029",
+        "product_b_name": "Product 29",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_007",
+        "product_a_name": "Product 7",
+        "product_b_id": "PROD_015",
+        "product_b_name": "Product 15",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_048",
+        "product_a_name": "Product 48",
+        "product_b_id": "PROD_054",
+        "product_b_name": "Product 54",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_085",
+        "product_a_name": "Product 85",
+        "product_b_id": "PROD_093",
+        "product_b_name": "Product 93",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_064",
+        "product_a_name": "Product 64",
+        "product_b_id": "PROD_084",
+        "product_b_name": "Product 84",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_068",
+        "product_a_name": "Product 68",
+        "product_b_id": "PROD_097",
+        "product_b_name": "Product 97",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_067",
+        "product_a_name": "Product 67",
+        "product_b_id": "PROD_069",
+        "product_b_name": "Product 69",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_009",
+        "product_a_name": "Product 9",
+        "product_b_id": "PROD_054",
+        "product_b_name": "Product 54",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_012",
+        "product_a_name": "Product 12",
+        "product_b_id": "PROD_091",
+        "product_b_name": "Product 91",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_042",
+        "product_a_name": "Product 42",
+        "product_b_id": "PROD_063",
+        "product_b_name": "Product 63",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_009",
+        "product_a_name": "Product 9",
+        "product_b_id": "PROD_094",
+        "product_b_name": "Product 94",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_024",
+        "product_a_name": "Product 24",
+        "product_b_id": "PROD_084",
+        "product_b_name": "Product 84",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_050",
+        "product_a_name": "Product 50",
+        "product_b_id": "PROD_076",
+        "product_b_name": "Product 76",
+        "cooccurrences": 1
+      },
+      {
+        "product_a_id": "PROD_030",
+        "product_a_name": "Product 30",
+        "product_b_id": "PROD_083",
+        "product_b_name": "Product 83",
+        "cooccurrences": 1
+      }
+    ]
+  }
 }

@@ -7,16 +7,16 @@
 
 ## LLM-Powered Query System
 - Build an AI agent capable of answering complex customer-related queries, such as:
-    - “Which products does Customer_X frequently purchase in the Beverages category?”
-    - “Suggest products that are usually bought together by high-value customers.”
-    - “Identify unusual or unique buying patterns in the last 3 months.”
+    - "Which products does Customer_X frequently purchase in the Beverages category?"
+    - "Suggest products that are usually bought together by high-value customers."
+    - "Identify unusual or unique buying patterns in the last 3 months."
 - Use LLMs for natural language understanding and integrate with the dataset to generate accurate responses.
 - Implement retrieval-augmented generation (RAG) or vector database search for structured data interaction.
 
 ## Advanced Features (Challenge)
 - Implement reasoning across multiple dimensions:
     - Temporal patterns (seasonality, recency of purchases)
-    - Category hierarchies (Broad_Category → Product_Category → Product_Sub_Category)
+    - Category hierarchies (Broad_Category -> Product_Category -> Product_Sub_Category)
     - Customer segmentation insights
 - Allow the system to answer questions in natural language using these insights.
 
@@ -27,7 +27,7 @@
 
 ## Deliverables
 - A Jupyter Notebook or Python script demonstrating the LLM-powered query system.
-- A 2–3-page report summarizing:
+- A 2-3-page report summarizing:
     - Data preprocessing and embedding strategies
     - Model architecture and approach for query handling
     - Evaluation results and system capabilities

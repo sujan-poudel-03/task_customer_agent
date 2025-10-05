@@ -60,13 +60,20 @@ Customer names and IDs are matched via token overlap. Category detection scans a
 - **Category hierarchy** ensures recommendations respect the multi-level taxonomy, helpful for future expansion (e.g., grouping by Broad Category first when subcategory granularity is sparse).
 - **Customer segmentation** influences which baskets feed the recommendation engine and forms the basis for premium-customer summaries.
 
+### 4.4 Streamlit Front-End
+- `streamlit_app.py` loads the precomputed analytics once and exposes a text box for ad-hoc questions.
+- Users can toggle between full answers (with Gemini narration when available) and a retrieval-only view that lists the highest-similarity knowledge records.
+- The sidebar surfaces dataset overview stats and ready-made prompts so that analysts can explore without memorising question templates.
+- A simple line chart of monthly revenue offers immediate temporal context alongside the textual response.
+
 ## 5. Evaluation and Example Interactions
 ### 5.1 Functional Validation
 Running `python customer_query_agent.py` generates artifacts and prints exemplar dialogues (also stored in `artifacts/sample_responses.json`). Key outputs:
-- **Frequent purchase** -> "Lindsey Glass frequently buys Beverages items. Top picks: Product 47 (19), Product 93 (10), Product 21 (10). Total spend $8,068 across 21 orders (avg ticket $384)."
+- **Frequent purchase (Gemini-polished)** -> "Customer CUST_015 (Lindsey Glass) frequently purchases Product 47 (19), Product 93 (10), Product 21 (10). Total Beverage spend: $2,059."
 - **High-value bundles** -> "High-value customers tend to bundle: Product 77 (Beverage) with Product 94 (Beverage) - 1 joint orders; ..."
 - **Anomaly detection** -> "Recent anomalies: Bonnie Garrett increased Food share to 14% (was 0%); Brian Turner increased Beverage share to 24% (was 2%); ..."
 - **Open query via retrieval** -> e.g., "What are the top categories for Customer_001?" retrieves the relevant customer profile fact with cosine similarity approx. 0.30.
+- **Streamlit workflow** -> The UI mirrors these cases and optionally reveals the raw retrieval hits when analysts toggle "Show Retrieval Only".
 
 ### 5.2 Accuracy Considerations
 - The absence of explicit order IDs introduces a mild risk of merging same-day repeat orders. For the available data this approximation still produced coherent frequency and co-occurrence patterns, but additional order keys would improve fidelity.
@@ -75,6 +82,9 @@ Running `python customer_query_agent.py` generates artifacts and prints exemplar
 
 ### 5.3 Retrieval Quality
 Manual spot checks confirm that the highest-similarity records generally align with query topics. Because the vocabulary is sourced from factual statements, cosine scores are well-calibrated for the limited domain. However, the agent currently caps the output to single retrieved facts; multi-hop reasoning could aggregate several supporting facts in future iterations.
+
+### 5.4 Benchmarking
+A retrieval benchmark (see `artifacts/benchmark_results.json`) evaluates three labeled queries covering customer profiles, product bundles, and anomaly alerts. Precision@1 reached **1.00** (3/3 hits), confirming that the bag-of-words embeddings surface the expected fact types for those intents.
 
 ## 6. System Capabilities and Limitations
 ### 6.1 Strengths
@@ -85,7 +95,7 @@ Manual spot checks confirm that the highest-similarity records generally align w
 ### 6.2 Limitations
 - Rule-based NLP may miss intents that rely on paraphrase or implicit context.
 - High-value co-occurrence counts are sparse (many pairs occur once). Bootstrapping with broader baskets or collaborative filtering would improve recommendation strength.
-- No live LLM integration is present due to offline constraints; responses are template-driven albeit data-grounded.
+- LLM synthesis relies on the Gemini API; when the `GEMINI_API_KEY` is missing or invalid the agent falls back to rule-based narratives.
 
 ### 6.3 Risk Mitigations
 - All outputs include compact reasoning snippets and supporting facts to aid auditing.
