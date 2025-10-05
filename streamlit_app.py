@@ -1,9 +1,11 @@
 """Minimal Streamlit front-end for exploring the customer query agent."""
 from typing import Any, Dict, List
 
+import pandas as pd
+
 import streamlit as st
 
-from customer_query_agent import BENCHMARK_CASES, build_agent, load_env_from_file
+from customer_query_agent import BENCHMARK_CASES, GeminiClient, build_agent, load_env_from_file
 
 
 def ensure_agent() -> Any:
@@ -43,6 +45,10 @@ def main() -> None:
     st.title("Customer Query Explorer")
 
     agent = ensure_agent()
+    if agent.llm_client is None:
+        refreshed_client = GeminiClient.from_env()
+        if refreshed_client:
+            agent.llm_client = refreshed_client
     analytics = agent.analytics
 
     with st.sidebar:
@@ -115,7 +121,9 @@ def main() -> None:
 
         if analytics.monthly_revenue:
             st.markdown("---")
-            st.line_chart(analytics.monthly_revenue, width=0, height=320)
+            revenue_points = sorted(analytics.monthly_revenue.items())
+            revenue_df = pd.DataFrame(revenue_points, columns=["month", "revenue"]).set_index("month")
+            st.line_chart(revenue_df)
 
     st.markdown("---")
     st.caption("Streamlit UI backed by retrieval-augmented customer analytics.")

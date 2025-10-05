@@ -20,8 +20,12 @@ try:
     from google import genai as google_genai
     from google.genai import types as google_genai_types
 except ImportError:
-    google_genai = None
-    google_genai_types = None
+    try:
+        import google_genai as google_genai
+        from google_genai import types as google_genai_types
+    except ImportError:
+        google_genai = None
+        google_genai_types = None
 
 try:
     import google.generativeai as genai_legacy
@@ -47,7 +51,7 @@ def load_env_from_file(path: str = ".env") -> None:
                 key, value = line.split("=", 1)
                 key = key.strip()
                 value = value.strip().strip('"').strip("'")
-                if key and key not in os.environ:
+                if key:
                     os.environ[key] = value
     except OSError:
         return
