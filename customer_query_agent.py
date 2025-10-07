@@ -14,6 +14,7 @@ import difflib
 from collections import Counter, defaultdict, deque
 from dataclasses import dataclass
 from datetime import date, datetime
+from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
 
 try:
@@ -38,10 +39,21 @@ ARTIFACT_DIR = "artifacts"
 
 def load_env_from_file(path: str = ".env") -> None:
     """Load environment variables from a local .env file if present."""
-    if not os.path.exists(path):
+    env_path = Path(path)
+    candidates = []
+    if env_path.is_absolute():
+        candidates.append(env_path)
+    else:
+        candidates.append(Path.cwd() / env_path)
+        candidates.append(Path(__file__).resolve().parent / env_path)
+    for candidate in candidates:
+        if candidate.exists():
+            env_path = candidate
+            break
+    else:
         return
     try:
-        with open(path, "r", encoding="utf-8") as handle:
+        with env_path.open("r", encoding="utf-8") as handle:
             for raw_line in handle:
                 line = raw_line.strip()
                 if not line or line.startswith("#"):
@@ -55,6 +67,7 @@ def load_env_from_file(path: str = ".env") -> None:
                     os.environ[key] = value
     except OSError:
         return
+
 
 BENCHMARK_CASES = [
     {
