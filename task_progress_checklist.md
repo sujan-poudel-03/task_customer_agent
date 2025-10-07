@@ -34,8 +34,8 @@
     - [x] Example interactions (questions and answers) to showcase system performance.
 
 ## Optional Bonus Challenge
-- [ ] Allow the system to generate product recommendations dynamically based on query context.
-- [ ] Integrate reasoning across multiple customers or categories to answer more complex queries.
+- [x] Allow the system to generate product recommendations dynamically based on query context.
+- [x] Integrate reasoning across multiple customers or categories to answer more complex queries.
 
 ---
 

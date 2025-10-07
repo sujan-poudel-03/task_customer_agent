@@ -1,116 +1,80 @@
 # LLM-Assisted Customer Intelligence System
 
-## 1. Objectives and Dataset Context
-The project combines lightweight natural language understanding with structured analytics to answer customer-buying questions over `Dataset_product_orders.csv`. The dataset spans **1,000 order line items** between **18 Feb 2025 and 19 Aug 2025**, covering **50 customers** and **100 products** across the hierarchical taxonomy *Broad Category -> Product Category -> Product Sub-Category*. Purchase contexts capture list price (`Retail` vs `Wholesale`), per-line revenue, and order-level totals, enabling temporal, categorical, and value-based reasoning.
+## 1. Why This Project Exists
+`Dataset_product_orders.csv` serves as the company’s collective memory: **1,000 order lines**, **50 customers**, and **100 products** purchased between **18 Feb 2025 and 19 Aug 2025**. The engagement aimed to give teams a helpful companion that can answer natural-language questions about this data without spinning up heavy infrastructure. Along the way the project team:
+- cleaned and organised the dataset so customer and product stories are easy to read
+- built lightweight embeddings and structured facts for retrieval
+- wrapped everything in an agent that speaks plain English while staying grounded in the numbers
 
-Primary goals were:
-- Build reusable preprocessing pipelines that expose per-customer, per-product, and temporal signals.
-- Create compact embeddings/structured representations to support retrieval-augmented question answering.
-- Implement an agent that can resolve natural-language prompts about frequent purchases, co-purchase bundles, and anomalous behaviour.
-- Document evaluation, limitations, and opportunities for richer LLM integration.
+## 2. How the Data Was Prepared
+### 2.1 Making the rows trustworthy
+Python’s built-in `csv` module ingests the file and converts numeric columns to the right types. Dates come through as real `datetime.date` objects, and the pipeline derives a `Month` field (first day of every month) to speed up time-based summaries.
 
-## 2. Data Preparation and Feature Engineering
-### 2.1 Cleansing and Type Normalisation
-Records were ingested with Python's `csv` library to avoid third-party dependencies. All numeric columns were converted to `int`/`float`; order dates were parsed into `datetime.date` objects. Each row carries a derived `Month` attribute (first day of month) to accelerate temporal grouping.
+### 2.2 Bringing customers and products to life
+- **Customer profiles** stitch together total spend, orders, items, average ticket size, and favourite categories. Unique orders are approximated by pairing each `(customer_id, date, pricelist)` trio.
+- **Product profiles** summarise quantity, revenue, typical price, and taxonomy labels. These snapshots later power recommendations and narrative answers.
 
-### 2.2 Entity Profiles
-Two profile layers drive downstream reasoning:
-- **Customer profiles** capture spend, item volume, ticket size, first/last purchase, category frequency, category spend, and product quantity distributions. The average ticket metric (mean order subtotal) is computed by counting unique `(customer_id, date, pricelist)` tuples as proxy order IDs.
-- **Product profiles** consolidate overall quantity, revenue, and average unit price alongside taxonomy labels. These profiles underpin recommendation explanations and category hierarchies.
+### 2.3 Segmenting customers for perspective
+Quartiles on total spend reveal tiers around **$5,101** (mid) and **$6,674** (high). These cutoffs describe shopper behaviour and limit certain analyses—like “bought together” facts—to the highest-value group when it makes sense.
 
-### 2.3 Segmentation and Thresholds
-Customer spend distributions yielded quartile-based cutoffs: `mid approx. $5,101` and `high approx. $6,674`. These thresholds define segments for high-value basket mining and allow the agent to adapt answers (e.g., restrict co-occurrence analysis to high-tier shoppers).
+### 2.4 Tracking time and hierarchy
+Monthly revenue is tallied so trends are obvious (for example, `2025-03` ≈ **$48.6K**, `2025-04` ≈ **$45.4K**, `2025-07` ≈ **$48.8K**). The taxonomy becomes a nested dictionary that mirrors *Broad Category → Product Category → Product Sub-Category*. That way the agent can climb up or down the ladder without recomputing anything.
 
-### 2.4 Temporal and Hierarchical Signals
-Monthly revenue totals are available for seasonality checks, e.g., `{2025-03: $48.6K, 2025-04: $45.4K, 2025-07: $48.8K}`. Category hierarchies were materialised as nested dictionaries so the agent can reason across `Broad_Category -> Product_Category -> Product_Sub_Category` levels without additional lookups.
+### 2.5 Finding products that travel together
+Without explicit order IDs, the implementation treats each `(Customer_ID, Date, Pricelist)` as a purchase session. Unique product combos feed a co-occurrence counter, which later answers “what else did people buy with this?” in both global and high-value contexts.
 
-### 2.5 Co-occurrence Graph
-Because explicit order IDs are absent, orders are approximated by the triplet `(Customer_ID, Date, Pricelist)`. Unique product combinations per order feed a co-occurrence counter. These counts drive the "bought together" recommendations both globally and within the high-value cohort.
+### 2.6 Spotting behaviour shifts
+The workflow compares the latest three months (Jun–Aug 2025) against the earlier period. When a category jumps more than 2× or goes from zero to meaningful share, it raises a flag. That lens surfaced stories like Bonnie Garrett suddenly investing 14% of spend in Food or Brian Turner tripling his Beverage share.
 
-### 2.6 Change Detection for Anomalies
-Behaviour shifts are flagged by comparing category spend share in the most recent three months (Jun-Aug 2025) against prior months. Ratios >= 2x or previously zero baseline are tagged as unusual. Example: *Bonnie Garrett* moved from 0% to 14% of spend in Food (ratio -> treated as 999x), while *Brian Turner* tripled Beverage share.
+## 3. Storing Knowledge for the Agent
+- `artifacts/knowledge_base.json` holds narrative-friendly records about customers, product bundles, and anomalies.
+- Each fact is tokenised, lowercased, and stored as a normalised bag-of-words vector. Incoming questions get the same treatment, and cosine similarity picks the best match.
+- `artifacts/preprocessed_data.json` keeps all structured profiles, segment thresholds, category hierarchies, monthly revenue, and anomaly markers so other tools can reuse the prep work.
 
-## 3. Embedding and Retrieval Strategy
-### 3.1 Knowledge Records
-The system serialises structured facts into `artifacts/knowledge_base.json`. Records cover:
-- Customer summaries with top categories and spend.
-- High-signal product bundle facts from the co-occurrence graph.
-- Detected anomalous category shifts.
+## 4. How the Agent Answers Questions
+### 4.1 Orchestrating responses
+`QueryAgent` (defined in `customer_query_agent.py`) layers simple pattern recognisers with retrieval. It first checks for phrases that hint at known intents—frequent purchases, bundles, or anomalies—and runs the matching handler. If nothing fits, it falls back to the similarity search over the knowledge base.
 
-### 3.2 Token-Based Embeddings
-Each record text is tokenised (alphanumeric lowercasing) and transformed into l2-normalised bag-of-words vectors. The same pipeline is applied to user questions. Cosine similarity provides lightweight retrieval without external libraries, allowing the agent to surface the most relevant fact for broad queries outside the dedicated heuristics.
+### 4.2 Matching people and categories gracefully
+Names and IDs are fuzzy-matched so typos don’t derail the experience. Category lookups lean on the prebuilt hierarchy, letting the agent explain answers at whatever level the user referenced.
 
-### 3.3 Stored Preprocessed Data
-A companion artifact, `artifacts/preprocessed_data.json`, stores customer/product profiles, segmentation bins, category hierarchies, monthly revenue, and anomaly metadata. This enables re-use by notebooks, dashboards, or future LLM-powered services without recomputation.
+### 4.3 Using the Gemini API when available
+When the environment variable `GEMINI_API_KEY` is set, the agent calls the modern `google-genai` client (`gemini-2.5-flash` by default) to polish responses or return structured JSON. Without the key, it still shares plain-language narratives assembled from the structured data.
 
-## 4. Query Agent Architecture
-### 4.1 Rule-Orchestrated Workflow
-`customer_query_agent.py` exposes `QueryAgent`, which sits atop `OrderAnalytics`. Question handling follows a cascading strategy:
-1. **Pattern-specific handlers** trigger when key phrases appear:
-   - *"frequently/often"* -> frequent purchase summariser that pinpoints the requested customer and category.
-   - *"bought/buy together"* -> co-occurrence recommender scoped to high-value customers.
-   - *"unusual/unique/anomaly"* -> change detection reporter using the recent-window metrics.
-2. **Retrieval fallback** leverages cosine-similarity scoring over the knowledge base facts for more open-ended questions.
+## 5. How Well It Works Today
+### 5.1 Manual checks
+Test queries about customer spend, bundle facts, and anomalies pulled back the right entries from the knowledge base. Because the vocabulary is small and factual, cosine similarity behaves predictably.
 
-### 4.2 Customer and Category Resolution
-Customer names and IDs are matched via token overlap. Category detection scans across broad, core, and subcategory labels, ensuring prompts like "Beverages" or "Bakery" can map to the correct slice. The frequent-purchase answer includes spend context and the top contributing products as evidence.
+### 5.2 Benchmark snapshot
+The evaluation covers six labelled questions spanning customer profiles, basket bundles, and anomaly detection (`artifacts/benchmark_results.json`). Precision@1 remains **1.00** (6/6 hits), showing that each intent still maps cleanly to the expected knowledge record.
 
-### 4.3 Advanced Insight Hooks
-- **Temporal reasoning** uses the month-level aggregates to cite revenue trends (exposed through artifacts for downstream reporting).
-- **Category hierarchy** ensures recommendations respect the multi-level taxonomy, helpful for future expansion (e.g., grouping by Broad Category first when subcategory granularity is sparse).
-- **Customer segmentation** influences which baskets feed the recommendation engine and forms the basis for premium-customer summaries.
+### 5.3 Honest limitations
+- Token-based intent detection is fast yet literal; nuanced phrasing may slip through.
+- The anomaly detector uses simple share ratios and ignores variance. More statistical treatment (rolling z-scores or Bayesian changepoints) would make flags sturdier.
+- Co-occurrence counts are thin because many product pairs appear once. Association rules or collaborative filtering would create richer recommendations.
 
-### 4.4 Streamlit Front-End
-- `streamlit_app.py` loads the precomputed analytics once and exposes a text box for ad-hoc questions.
-- Users can toggle between full answers (with Gemini narration when available) and a retrieval-only view that lists the highest-similarity knowledge records.
-- The sidebar surfaces dataset overview stats and ready-made prompts so that analysts can explore without memorising question templates.
-- A simple line chart of monthly revenue offers immediate temporal context alongside the textual response.
+## 6. Strengths, Safeguards, and Open Questions
+- Keeps dependencies light for easy deployment, yet produces JSON artifacts anyone can audit.
+- Every answer quotes the underlying metrics so reviewers can trace the logic.
+- Future upgrades could add semantic embeddings, multi-fact aggregation, or external vector stores without rewriting the foundation.
 
-## 5. Evaluation and Example Interactions
-### 5.1 Functional Validation
-Running `python customer_query_agent.py` generates artifacts and prints exemplar dialogues (also stored in `artifacts/sample_responses.json`). Key outputs:
-- **Frequent purchase (Gemini-polished)** -> "Customer CUST_015 (Lindsey Glass) frequently purchases Product 47 (19), Product 93 (10), Product 21 (10). Total Beverage spend: $2,059."
-- **High-value bundles** -> "High-value customers tend to bundle: Product 77 (Beverage) with Product 94 (Beverage) - 1 joint orders; ..."
-- **Anomaly detection** -> "Recent anomalies: Bonnie Garrett increased Food share to 14% (was 0%); Brian Turner increased Beverage share to 24% (was 2%); ..."
-- **Open query via retrieval** -> e.g., "What are the top categories for Customer_001?" retrieves the relevant customer profile fact with cosine similarity approx. 0.30.
-- **Streamlit workflow** -> The UI mirrors these cases and optionally reveals the raw retrieval hits when analysts toggle "Show Retrieval Only".
+## 7. Where to Take It Next
+1. Introduce sentence-level embeddings or a lightweight intent classifier for better paraphrase handling.
+2. Extend the co-occurrence graph with lift/confidence and explore full association-rule mining.
+3. Turn the monthly revenue and anomaly feeds into dashboards for business teams.
+4. Generate customer journey briefs by weaving together segmentation, anomalies, and frequent purchases.
 
-### 5.2 Accuracy Considerations
-- The absence of explicit order IDs introduces a mild risk of merging same-day repeat orders. For the available data this approximation still produced coherent frequency and co-occurrence patterns, but additional order keys would improve fidelity.
-- Token-based intent detection is deterministic and fast but lacks the linguistic nuance of a full LLM. Expanding the knowledge base and incorporating semantic embeddings (e.g., from sentence transformers) would increase recall for varied phrasings.
-- The anomaly detector uses a simple share-ratio threshold and ignores statistical variance. Incorporating rolling z-scores or Bayesian changepoint methods would better calibrate "unusual" signals.
+## 8. Bonus Challenge Outcomes
+The bonus deliverable ships as `bonus_challenge.py`, a self-contained helper that reuses the analytics layer. Two capabilities stood out:
+- **Context-aware recommendations**: `BonusAdvisor.recommend_products()` extracts customer IDs, categories, and sub-categories from natural-language prompts. When the scope is specific it filters rows accordingly; otherwise it falls back to global best sellers. Outputs include the rationale context and a machine-consumable recommendation list.
+- **Cross-customer reasoning**: `BonusAdvisor.multi_customer_reasoning()` compares spend across multiple customers or categories, filling gaps with top-spending customers when the prompt is sparse. It returns a narrative headline plus structured breakdowns for downstream dashboards.
 
-### 5.3 Retrieval Quality
-Manual spot checks confirm that the highest-similarity records generally align with query topics. Because the vocabulary is sourced from factual statements, cosine scores are well-calibrated for the limited domain. However, the agent currently caps the output to single retrieved facts; multi-hop reasoning could aggregate several supporting facts in future iterations.
+The script exposes a CLI (`python bonus_challenge.py --mode recommend|compare`) that accepts inline questions or prompts interactively if none are supplied, keeping analysis quick for ad-hoc requests.
 
-### 5.4 Benchmarking
-A retrieval benchmark (see `artifacts/benchmark_results.json`) evaluates three labeled queries covering customer profiles, product bundles, and anomaly alerts. Precision@1 reached **1.00** (3/3 hits), confirming that the bag-of-words embeddings surface the expected fact types for those intents.
+## 9. Running the Project
+- **Process the data and print sample conversations**: `python customer_query_agent.py`
+- **Reuse the agent in other code**: `from customer_query_agent import build_agent`
+- **Explore the UI**: `streamlit run streamlit_app.py`
+- **Inspect generated artifacts**: open `artifacts/preprocessed_data.json`, `artifacts/knowledge_base.json`, and `artifacts/sample_responses.json`
 
-## 6. System Capabilities and Limitations
-### 6.1 Strengths
-- Entire pipeline is dependency-light and executable in constrained environments.
-- Artifacts expose both raw metrics and natural-language-ready facts, enabling downstream reuse.
-- Modular design separates analytics (data prep) from interaction (query agent), simplifying future upgrades.
-
-### 6.2 Limitations
-- Rule-based NLP may miss intents that rely on paraphrase or implicit context.
-- High-value co-occurrence counts are sparse (many pairs occur once). Bootstrapping with broader baskets or collaborative filtering would improve recommendation strength.
-- LLM synthesis relies on the Gemini API; when the `GEMINI_API_KEY` is missing or invalid the agent falls back to rule-based narratives.
-
-### 6.3 Risk Mitigations
-- All outputs include compact reasoning snippets and supporting facts to aid auditing.
-- JSON artifacts can be inspected or versioned to verify consistency across runs.
-
-## 7. Extension Opportunities
-1. **Embed real LLMs** (e.g., local or API-backed) to paraphrase retrieved facts, perform intent classification, and chain-of-thought reasoning.
-2. **Vector database integration** for scalable similarity search once embeddings expand beyond bag-of-words.
-3. **Temporal dashboards** using the stored monthly revenue and anomaly feeds to visualise trends.
-4. **Recommendation uplift** by enriching the co-occurrence graph with lift/confidence metrics or deploying association-rule mining.
-5. **Customer journeys** that combine segmentation, anomalies, and frequent purchases into automatically generated account briefings.
-
-## 8. Execution Guide
-- **Run preprocessing and demo**: `python customer_query_agent.py`
-- **Reuse components**: import `build_agent()` to obtain a ready-to-query `QueryAgent` instance.
-- **Inspect results**: review `artifacts/preprocessed_data.json`, `artifacts/knowledge_base.json`, and `artifacts/sample_responses.json` for structured outputs and QA logs.
-
-The deliverables collectively demonstrate how structured analytics, light embeddings, and rule-based orchestration can mimic a constrained LLM workflow, providing explainable answers for typical customer intelligence questions without external dependencies.
+Together these pieces deliver a helpful assistant that stays grounded in the dataset while giving teams clear, human-ready answers.

@@ -15,23 +15,14 @@ from collections import Counter, defaultdict, deque
 from dataclasses import dataclass
 from datetime import date, datetime
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Tuple
+from typing import Dict, Iterable, List, Optional, Set, Tuple
 
 try:
     from google import genai as google_genai
     from google.genai import types as google_genai_types
 except ImportError:
-    try:
-        import google_genai as google_genai
-        from google_genai import types as google_genai_types
-    except ImportError:
-        google_genai = None
-        google_genai_types = None
-
-try:
-    import google.generativeai as genai_legacy
-except ImportError:
-    genai_legacy = None
+    google_genai = None
+    google_genai_types = None
 
 DATA_PATH = "Dataset_product_orders.csv"
 ARTIFACT_DIR = "artifacts"
@@ -83,6 +74,21 @@ BENCHMARK_CASES = [
     {
         "question": "Who recently shifted category spend patterns?",
         "expected_prefix": "unusual-",
+        "description": "Anomaly fact retrieval",
+    },
+    {
+        "question": "What is the overall spend and top categories for CUST_015?",
+        "expected_prefix": "cust-CUST_015",
+        "description": "Customer profile retrieval",
+    },
+    {
+        "question": "Which products do high-value shoppers bundle with Product 77?",
+        "expected_prefix": "pair-",
+        "description": "Product pair retrieval",
+    },
+    {
+        "question": "Call out any unusual shift for Bonnie Garrett.",
+        "expected_prefix": "unusual-CUST_004",
         "description": "Anomaly fact retrieval",
     },
 ]
@@ -180,32 +186,21 @@ class KnowledgeRecord:
 
 
 class GeminiClient:
-    """Thin wrapper around the Google Gemini API with graceful fallbacks."""
+    """Thin wrapper around the modern Google Gemini API client."""
 
     def __init__(self, api_key: str, model: str = "gemini-2.5-flash") -> None:
+        if google_genai is None:
+            raise ImportError("The google-genai client library is not available.")
         self.model_name = model
         self._logger = logging.getLogger(__name__)
-        self._mode: Optional[str] = None
-        self._client = None
-        self._model = None
-        if google_genai is not None:
-            self._client = google_genai.Client(api_key=api_key)
-            self._mode = "modern"
-        elif genai_legacy is not None:
-            genai_legacy.configure(api_key=api_key)
-            self._model = genai_legacy.GenerativeModel(model_name=model)
-            self._mode = "legacy"
-        else:
-            raise ImportError(
-                "No Gemini client libraries available. Install google-genai or google-generativeai."
-            )
+        self._client = google_genai.Client(api_key=api_key)
 
     @classmethod
     def from_env(cls) -> Optional["GeminiClient"]:
         api_key = os.getenv("GEMINI_API_KEY")
         if not api_key:
             return None
-        if google_genai is None and genai_legacy is None:
+        if google_genai is None:
             return None
         try:
             return cls(api_key=api_key)
@@ -214,7 +209,7 @@ class GeminiClient:
             return None
 
     def _build_config(self, response_mime_type: Optional[str]) -> Optional[object]:
-        if self._mode != "modern" or google_genai_types is None:
+        if google_genai_types is None:
             return None
         cfg_kwargs = {}
         if response_mime_type:
@@ -251,23 +246,15 @@ class GeminiClient:
         return None
 
     def generate(self, prompt: str, response_mime_type: Optional[str] = None) -> Optional[str]:
-        if self._mode is None:
-            return None
         try:
-            if self._mode == "modern":
-                kwargs = {
-                    "model": self.model_name,
-                    "contents": prompt,
-                }
-                config = self._build_config(response_mime_type)
-                if config is not None:
-                    kwargs["config"] = config
-                response = self._client.models.generate_content(**kwargs)
-            else:
-                generation_config = {}
-                if response_mime_type:
-                    generation_config["response_mime_type"] = response_mime_type
-                response = self._model.generate_content(prompt, generation_config=generation_config)
+            kwargs = {
+                "model": self.model_name,
+                "contents": prompt,
+            }
+            config = self._build_config(response_mime_type)
+            if config is not None:
+                kwargs["config"] = config
+            response = self._client.models.generate_content(**kwargs)
         except Exception as exc:  # pragma: no cover - network/runtime issues
             self._logger.warning("Gemini generation failed: %s", exc)
             return None
@@ -417,16 +404,24 @@ class OrderAnalytics:
         if not self.rows:
             return
         latest_date = max(r["Date"] for r in self.rows)
-        cutoff = date(latest_date.year, latest_date.month, 1)
-        last_quarter_start = date(cutoff.year, cutoff.month - 2 if cutoff.month > 2 else 1 if cutoff.month == 3 else 1, 1)
-        # Build baseline and recent category allocations per customer
-        recent_window = {"Jun": 6, "Jul": 7, "Aug": 8}
-        recent_months = { (latest_date.month - i - 1) % 12 + 1 for i in range(3) }
+
+        def _previous_months(anchor: date, count: int) -> Set[Tuple[int, int]]:
+            year, month = anchor.year, anchor.month
+            results: Set[Tuple[int, int]] = set()
+            for _ in range(count):
+                results.add((year, month))
+                month -= 1
+                if month == 0:
+                    month = 12
+                    year -= 1
+            return results
+
+        recent_months = _previous_months(latest_date, 3)
         customer_recent = defaultdict(lambda: defaultdict(float))
         customer_baseline = defaultdict(lambda: defaultdict(float))
         for row in self.rows:
-            month = row["Date"].month
-            bucket = customer_recent if month in recent_months else customer_baseline
+            month_key = (row["Date"].year, row["Date"].month)
+            bucket = customer_recent if month_key in recent_months else customer_baseline
             bucket[row["Customer_ID"]][row["Product_Category"]] += row["Subtotal"]
         events = []
         for cust_id, profile in self.customer_profiles.items():
@@ -1038,11 +1033,12 @@ class QueryAgent:
         context = json.dumps(payload, indent=2, default=str)
         prompt = (
             "You are an analytical assistant. Use ONLY the provided context to answer the question.\n"
-            "Highlight the most relevant quantitative insights and cite supporting facts when possible.\n"
-            "If information is insufficient, acknowledge the gap and suggest next steps.\n"
+            "Your job is to refine the heuristic answer without contradicting the provided metrics or supporting facts.\n"
+            "Never invent numbers, and prefer saying what is known over speculation.\n"
+            "If data is missing, acknowledge the gap and suggest next steps based on the context.\n"
             f"Question: {question}\n"
             f"Context:\n{context}\n"
-            "Craft a concise, well-structured answer grounded in the numbers."
+            "Craft a concise, well-structured answer grounded in these numbers."
         )
         return self.llm_client.generate(prompt)
 
