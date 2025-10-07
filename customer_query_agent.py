@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Customer query agent for Dataset_product_orders.csv.
 Performs preprocessing, builds lightweight embeddings, and answers natural language queries.
